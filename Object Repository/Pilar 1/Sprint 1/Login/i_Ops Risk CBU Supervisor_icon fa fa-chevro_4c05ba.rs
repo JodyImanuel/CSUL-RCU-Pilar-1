@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Ops Risk CBU Supervisor_icon fa fa-chevro_4c05ba</name>
+   <tag></tag>
+   <elementGuidId>b869b94e-df53-4424-be4c-bbf821497171</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-$b2']/div/div[4]/div/div/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icon.fa.fa-chevron-circle-down.fa-2x</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>bc554780-d650-4465-b30d-e30259c49694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon fa fa-chevron-circle-down fa-2x</value>
+      <webElementGuid>fcabe9a6-b3eb-4801-bdaf-b47f150eb269</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-$b2&quot;)/div[@class=&quot;user-info-new&quot;]/div[@class=&quot;content-info&quot;]/div[@class=&quot;popover custom-popover&quot;]/div[@class=&quot;popover-top&quot;]/i[@class=&quot;icon fa fa-chevron-circle-down fa-2x&quot;]</value>
+      <webElementGuid>4c50a2cf-e83e-491a-8801-1b8ed28b8e49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-$b2']/div/div[4]/div/div/i</value>
+      <webElementGuid>59307919-5e61-4b2f-ac9c-14c1bbdbc192</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/i</value>
+      <webElementGuid>ea200d04-fb59-42cf-aecd-a93ca9f19934</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

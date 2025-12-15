@@ -17,3 +17,37 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+TestData data = findTestData('Login')
+
+int totalRow = data.getRowNumbers()
+
+WebUI.openBrowser('')
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(
+	'https://sakti-sandbox.csulfinance.com/CSULFoundation_Login/Login?RedirectURL=https%3A%2F%2Fsakti-sandbox.csulfinance.com%2FCSUL_RCU%2FMasterDokumen'
+)
+
+for (int i = 1; i <= totalRow; i++) {
+
+    String username = data.getValue('Username', i)
+
+    WebUI.setText(
+        findTestObject('Object Repository/Pilar 1/Sprint 1/Login/input_Username_Input_UsernameVal'),
+        username
+    )
+
+    WebUI.setEncryptedText(
+        findTestObject('Object Repository/Pilar 1/Sprint 1/Login/input_Password_Input_PasswordVal'),
+        'DKZg8gTnVzw='
+    )
+
+    WebUI.click(findTestObject('Object Repository/Pilar 1/Sprint 1/Login/button_Login'))
+
+    // === logout ===
+    WebUI.click(findTestObject('Object Repository/Pilar 1/Sprint 1/Login/i_Ops Risk CBU Supervisor_icon fa fa-chevro_4c05ba'))
+    WebUI.click(findTestObject('Object Repository/Pilar 1/Sprint 1/Login/a_Sign Out'))
+
+}
+
+WebUI.closeBrowser()

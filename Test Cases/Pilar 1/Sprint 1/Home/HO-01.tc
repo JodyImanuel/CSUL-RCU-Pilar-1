@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Home / Dashboard</description>
+   <name>HO-01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c7f8417b-885d-4681-b3c4-0f54d9c93322</testCaseGuid>
+</TestCaseEntity>

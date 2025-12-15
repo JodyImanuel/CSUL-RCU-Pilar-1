@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>zError or Wait Screen</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26d10d51-f41a-4390-9d86-0e79156c0c2a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39ac0168-5630-4360-8ec8-14d44f4c333b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>39ac0168-5630-4360-8ec8-14d44f4c333b</id>
+      <masked>false</masked>
+      <name>waitElement</name>
+   </variable>
+</TestCaseEntity>

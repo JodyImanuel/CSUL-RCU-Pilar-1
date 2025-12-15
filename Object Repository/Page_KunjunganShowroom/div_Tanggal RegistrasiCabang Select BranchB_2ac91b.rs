@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Tanggal RegistrasiCabang Select BranchB_2ac91b</name>
+   <tag></tag>
+   <elementGuidId>c9d3d492-4061-40ee-b0bc-e6df1130f8c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#b1-MainContentWrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b1-MainContentWrapper']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>75f63bb1-a838-4cb1-8009-91c8a3f8b500</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-content ThemeGrid_Container</value>
+      <webElementGuid>8131bb1d-6605-4480-9e49-0eea0f6d8844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>main</value>
+      <webElementGuid>a48d114a-810d-4134-9d50-42d881126d3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b1-MainContentWrapper</value>
+      <webElementGuid>64b71c8d-5beb-4d67-a832-90aea9e83a79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tanggal Registrasi:ーCabang :Select Branch&#xd;
+BANDUNG ABU 1SURABAYA ABU 1SEMARANG RBU 1JAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3PALEMBANG ABU 1JAKARTA ABU 4PEKANBARU ABU 1TANGERANG ABU 1BALI ABU 1JAMBI ABU 1NDF BANDUNGNDF KALIMALANGNDF ALAM SUTRANDF DENPASARNDF JOGLOMALANG RBU 1BANJARMASIN RBU 1KARAWANG RBU 1PONTIANAK RBUPALANGKARAYA RBUMAKASAR ABU 1SAMPIT RBUBATAM RBUStatusSelect StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUIPencarian : Search ByNama SupplierKategori SupplierJenis SupplierCariSilakan gunakan filter untuk menampilkan data.</value>
+      <webElementGuid>b0866e44-cd55-4b32-910c-38823dae6a08</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b1-MainContentWrapper&quot;)</value>
+      <webElementGuid>369d9f6a-be4c-485b-9299-76ece0128dd9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='b1-MainContentWrapper']</value>
+      <webElementGuid>af59f728-3b19-4f98-8b5a-412107ba5b1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b1-Content']/div</value>
+      <webElementGuid>f645bc86-097d-4730-8793-8ec0b4fb23c2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ops Risk RBU Supervisor'])[1]/following::div[5]</value>
+      <webElementGuid>5844ea2e-f45c-4d0a-a432-ce4b0a106234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TAUFAN MINANGGA NASUTION'])[1]/following::div[6]</value>
+      <webElementGuid>1dc46e6d-3fae-4292-9454-525a809416db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div</value>
+      <webElementGuid>de7ff24d-79ec-415f-8be3-2403b907ea1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b1-MainContentWrapper' and (text() = 'Tanggal Registrasi:ーCabang :Select Branch&#xd;
+BANDUNG ABU 1SURABAYA ABU 1SEMARANG RBU 1JAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3PALEMBANG ABU 1JAKARTA ABU 4PEKANBARU ABU 1TANGERANG ABU 1BALI ABU 1JAMBI ABU 1NDF BANDUNGNDF KALIMALANGNDF ALAM SUTRANDF DENPASARNDF JOGLOMALANG RBU 1BANJARMASIN RBU 1KARAWANG RBU 1PONTIANAK RBUPALANGKARAYA RBUMAKASAR ABU 1SAMPIT RBUBATAM RBUStatusSelect StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUIPencarian : Search ByNama SupplierKategori SupplierJenis SupplierCariSilakan gunakan filter untuk menampilkan data.' or . = 'Tanggal Registrasi:ーCabang :Select Branch&#xd;
+BANDUNG ABU 1SURABAYA ABU 1SEMARANG RBU 1JAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3PALEMBANG ABU 1JAKARTA ABU 4PEKANBARU ABU 1TANGERANG ABU 1BALI ABU 1JAMBI ABU 1NDF BANDUNGNDF KALIMALANGNDF ALAM SUTRANDF DENPASARNDF JOGLOMALANG RBU 1BANJARMASIN RBU 1KARAWANG RBU 1PONTIANAK RBUPALANGKARAYA RBUMAKASAR ABU 1SAMPIT RBUBATAM RBUStatusSelect StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUIPencarian : Search ByNama SupplierKategori SupplierJenis SupplierCariSilakan gunakan filter untuk menampilkan data.')]</value>
+      <webElementGuid>e44dff43-c729-48bd-9a65-47ff1d1406a3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

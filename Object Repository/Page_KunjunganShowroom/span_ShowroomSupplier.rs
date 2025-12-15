@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_ShowroomSupplier</name>
+   <tag></tag>
+   <elementGuidId>3c06a4be-d3a3-4b22-9f59-eaf0995c7da3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.last-sub-menu-link.OSFillParent.active > span.ThemeGrid_MarginGutter</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Contract'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>78a2f89d-af12-4321-b999-a85d3619b72d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ThemeGrid_MarginGutter</value>
+      <webElementGuid>9a0b38d3-0440-47a4-bb6a-3dde875e97e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showroom/Supplier</value>
+      <webElementGuid>5a23367a-3c58-4d76-b8e8-9f35b784e7bc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b2-l1-28_7-b4-l1-41_4-$b2&quot;)/div[@class=&quot;list list-group OSFillParent&quot;]/a[@class=&quot;last-sub-menu-link OSFillParent active&quot;]/span[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
+      <webElementGuid>05d54b23-06ae-4be6-9628-8b6ce6d16615</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b2-l1-28_7-b4-l1-41_4-$b2']/div/a[3]/span</value>
+      <webElementGuid>3a210a76-71a5-4136-af78-d6a51bde4862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Contract'])[1]/following::span[1]</value>
+      <webElementGuid>f758e8e0-97d8-49b7-b7ae-c2456643df82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Golive'])[1]/following::span[2]</value>
+      <webElementGuid>fb06d69d-fcb8-4a79-983b-c1a3980524b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operasional Cabang'])[1]/preceding::span[2]</value>
+      <webElementGuid>dee0f001-e944-4d28-b95f-3f987c717616</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemeriksaan Petty Cash'])[1]/preceding::span[4]</value>
+      <webElementGuid>a1622293-6757-471d-a2c6-12fb4dc3d4c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Showroom/Supplier']/parent::*</value>
+      <webElementGuid>5127dbbb-59d8-4b1f-8fdb-c220a4fdc6e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/span</value>
+      <webElementGuid>e4ad00bb-901f-4c1a-87fa-8bbf82751cd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Showroom/Supplier' or . = 'Showroom/Supplier')]</value>
+      <webElementGuid>9f982c12-1002-449c-a23f-41995d07d776</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

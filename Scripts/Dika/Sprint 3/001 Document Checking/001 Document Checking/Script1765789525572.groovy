@@ -17,3 +17,26 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Dika/Login Web/001 Login Web'), [('urlWeb') : urlWeb, ('usernameSpv') : usernameSpv, ('passwordSpv') : passwordSpv], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_ApplicationsCatalog/span_Risk Control Unit Application'))
+
+WebUI.click(findTestObject('Object Repository/Page_KunjunganShowroom/span_Monitoring  Review'))
+
+WebUI.click(findTestObject('Object Repository/Page_KunjunganShowroom/span_Akuisisi'))
+
+WebUI.click(findTestObject('Object Repository/Page_KunjunganShowroom/span_ShowroomSupplier'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_KunjunganShowroom/span_Silakan gunakan filter untuk menampilkan data'), 
+    'Silakan gunakan filter untuk menampilkan data.')
+
+WebUI.click(findTestObject('Object Repository/Page_KunjunganShowroom/button_Cari'))
+
+WebUI.rightClick(findTestObject('Object Repository/Page_KunjunganShowroom/input_Tanggal Registrasi_b3-b1-b1-Input_StartDate'))
+
+WebUI.rightClick(findTestObject('Object Repository/Page_KunjunganShowroom/input__b3-b1-b1-Input_StartDate2'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_KunjunganShowroom/div_Tanggal mulai tidak boleh lebih besar d_26e6d1'), 
+    'Tanggal mulai tidak boleh lebih besar dari tanggal akhir')
+

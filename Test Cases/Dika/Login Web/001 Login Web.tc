@@ -1,48 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>001 Document Checking</name>
+   <name>001 Login Web</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>d558be32-2ea5-43be-995f-24d1c29bbbad</testCaseGuid>
+   <testCaseGuid>a16eec66-aaa7-4ff4-afc6-08e757197154</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3a18abd8-824f-4967-8f12-37b116f77a25</variableId>
+      <variableId>a568b23f-dfe9-4dd2-8891-248ba601e59f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8e1db6d4-41bc-4b3f-a0d7-2b89bd5d55bc</variableId>
+      <variableId>3d261761-ea62-444a-8315-1aebe902dbf9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>08825708-e41a-4f5a-89bd-1eb28fa56142</variableId>
+      <variableId>8f967030-018a-4aca-ae9c-e70b8106ccd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b5d56ce-e443-4fd5-876c-359a83b9cab8</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://sakti-sandbox.csulfinance.com/'</defaultValue>
       <description></description>
-      <id>3a18abd8-824f-4967-8f12-37b116f77a25</id>
+      <id>a568b23f-dfe9-4dd2-8891-248ba601e59f</id>
       <masked>false</masked>
       <name>urlWeb</name>
    </variable>
    <variable>
       <defaultValue>'taufan.minangga'</defaultValue>
       <description></description>
-      <id>8e1db6d4-41bc-4b3f-a0d7-2b89bd5d55bc</id>
+      <id>3d261761-ea62-444a-8315-1aebe902dbf9</id>
       <masked>false</masked>
       <name>usernameSpv</name>
    </variable>
    <variable>
       <defaultValue>'jakarta'</defaultValue>
       <description></description>
-      <id>08825708-e41a-4f5a-89bd-1eb28fa56142</id>
+      <id>8f967030-018a-4aca-ae9c-e70b8106ccd6</id>
       <masked>false</masked>
       <name>passwordSpv</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6b5d56ce-e443-4fd5-876c-359a83b9cab8</id>
+      <masked>false</masked>
+      <name>waitElement</name>
    </variable>
 </TestCaseEntity>

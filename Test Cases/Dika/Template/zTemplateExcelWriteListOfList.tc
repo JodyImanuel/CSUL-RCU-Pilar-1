@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>zTemplateExcelWriteListOfList</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>51504163-e888-4b09-877d-630be6ef0b3c</testCaseGuid>
+</TestCaseEntity>

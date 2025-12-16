@@ -24,6 +24,24 @@
       <value></value>
       <variableId>08825708-e41a-4f5a-89bd-1eb28fa56142</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>60f99d97-ef59-4580-b7f0-fb99cce84aa5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ca959bb6-5bdf-4f3e-bd4c-550735ba80b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>56a4bf65-2f2e-4876-8164-e33e7ccb95fb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'https://sakti-sandbox.csulfinance.com/'</defaultValue>
       <description></description>
@@ -44,5 +62,26 @@
       <id>08825708-e41a-4f5a-89bd-1eb28fa56142</id>
       <masked>false</masked>
       <name>passwordSpv</name>
+   </variable>
+   <variable>
+      <defaultValue>'BANDUNG ABU 1'</defaultValue>
+      <description></description>
+      <id>60f99d97-ef59-4580-b7f0-fb99cce84aa5</id>
+      <masked>false</masked>
+      <name>filterDropdownCabangKunjunganShowroom</name>
+   </variable>
+   <variable>
+      <defaultValue>'01011900'</defaultValue>
+      <description></description>
+      <id>ca959bb6-5bdf-4f3e-bd4c-550735ba80b4</id>
+      <masked>false</masked>
+      <name>filterStartDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'01011900'</defaultValue>
+      <description></description>
+      <id>56a4bf65-2f2e-4876-8164-e33e7ccb95fb</id>
+      <masked>false</masked>
+      <name>filterEndDate</name>
    </variable>
 </TestCaseEntity>

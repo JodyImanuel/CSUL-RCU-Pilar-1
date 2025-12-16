@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>809300b6-1a0f-4f14-9af9-461ce97dcd45</webElementGuid>
+      <webElementGuid>c3e330e4-3d22-4aca-a382-02cddfe4aec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ThemeGrid_MarginGutter</value>
-      <webElementGuid>10acc440-9247-4a96-a5e5-e6ab84aedfd9</webElementGuid>
+      <webElementGuid>67616ff5-088d-4709-a7d1-ee6d01fe34de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Monitoring &amp; Review</value>
-      <webElementGuid>470060c5-8136-472c-a4b7-8a3da8b9a96d</webElementGuid>
+      <webElementGuid>7ddf8def-f448-4b64-b5df-625257827877</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-l1-28_7-b3-Menu&quot;)/span[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>84bbd440-2f13-4b29-b679-eb9c3b59b99d</webElementGuid>
+      <webElementGuid>35129746-a0dc-475b-ac83-ec605a4d876e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-l1-28_7-b3-Menu']/span</value>
-      <webElementGuid>5a89c182-900e-4421-bfe3-14e89657d127</webElementGuid>
+      <webElementGuid>acf5a953-a798-412d-824d-dc5367aa24b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[3]</value>
-      <webElementGuid>efdf3dce-958a-4951-bb7d-0eb7db2b56b6</webElementGuid>
+      <webElementGuid>11e3313c-0e35-482f-8c7e-5210c0326af6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Akuisisi'])[1]/preceding::span[2]</value>
-      <webElementGuid>a7adb391-1dc1-495c-a1a5-222830f60609</webElementGuid>
+      <webElementGuid>0738400b-6a1a-4b7c-bb7b-030e13ac1abc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Golive'])[1]/preceding::span[4]</value>
-      <webElementGuid>92b7ef1d-f846-4b21-b5be-a66fb7b16fdd</webElementGuid>
+      <webElementGuid>26db0eef-7c63-4767-ad4a-bd189b95122e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Monitoring &amp; Review']/parent::*</value>
-      <webElementGuid>9bd15834-68e0-4196-99bc-7e6f5f2a2b51</webElementGuid>
+      <webElementGuid>7214ad89-5ae9-4b8d-b14a-4314465049fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/span</value>
-      <webElementGuid>25eda5bd-7325-4ac6-9b4d-5b46d82b98f5</webElementGuid>
+      <webElementGuid>17cbee73-0ab4-403e-9b59-254203dbaee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Monitoring &amp; Review' or . = 'Monitoring &amp; Review')]</value>
-      <webElementGuid>f09e5585-9273-42f5-a15f-54790eca76eb</webElementGuid>
+      <webElementGuid>bea80eba-20e6-4957-a947-dd377739ee3f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

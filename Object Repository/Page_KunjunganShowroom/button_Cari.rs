@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c697f859-2eef-4838-b5ca-e8f4e0815034</webElementGuid>
+      <webElementGuid>e881d3c5-00e8-4c7c-be5f-98ac7a1ffca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-rounded btn-limegreen</value>
-      <webElementGuid>32ea87c3-3f1e-401b-8de4-d3633acc1d19</webElementGuid>
+      <webElementGuid>2837cee3-4cf5-45d7-bf97-e12519befb93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e1d3c1be-62bb-44bd-9b46-7cfaf4a0b202</webElementGuid>
+      <webElementGuid>cc34960e-674e-4c1d-9551-a9d1ba66ccbb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari</value>
-      <webElementGuid>05f7af34-0dec-49a1-afa5-9d7a862efb41</webElementGuid>
+      <webElementGuid>120a45b4-bcf7-4e15-be1f-863cd6665683</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b3-b1-$b1&quot;)/div[@class=&quot;card-filter&quot;]/div[@class=&quot;display-flex align-items-center&quot;]/div[@class=&quot;display-flex justify-content-space-between align-items-center OSInline&quot;]/div[2]/button[@class=&quot;btn btn-rounded btn-limegreen&quot;]</value>
-      <webElementGuid>3284f44c-495f-4be4-9b07-b74486b2fa8a</webElementGuid>
+      <webElementGuid>463f9223-b0ca-4210-9aea-be4c53b179d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>8a0e948a-4956-4eec-a004-518c1aaab381</webElementGuid>
+      <webElementGuid>93d52f2c-9347-4493-9750-cad051eb766b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-b1-$b1']/div/div[4]/div[2]/div[2]/button</value>
-      <webElementGuid>b22c3f6c-6792-4518-9898-84e2b64c9259</webElementGuid>
+      <webElementGuid>0381c17d-fbc9-427a-8bf5-f4f3c5d53aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::button[1]</value>
-      <webElementGuid>121523b9-3cc3-4a4a-87ea-9ca9b4289dcf</webElementGuid>
+      <webElementGuid>734bb52e-ac4e-424a-b03a-a868ae943569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Silakan gunakan filter untuk menampilkan data.'])[1]/preceding::button[1]</value>
-      <webElementGuid>f01dc46d-6627-4c2d-994f-45b2e2a695f2</webElementGuid>
+      <webElementGuid>ed11b84a-f049-48e9-8f31-bb0422b0c487</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © Designed &amp; Developed by'])[1]/preceding::button[1]</value>
-      <webElementGuid>558797a4-bbf9-442f-b8b0-5599b78830c7</webElementGuid>
+      <webElementGuid>a81fe57d-0f51-4fd3-bdd9-58e39276f681</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Cari']/parent::*</value>
-      <webElementGuid>5b4cf374-8855-40e3-8fa5-4e7791b81049</webElementGuid>
+      <webElementGuid>32632e1e-84b5-4f08-be37-78b9226d367b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>43d7d10e-973f-47e2-932c-07410d3146bd</webElementGuid>
+      <webElementGuid>fff682ea-0708-4e99-84aa-6664e47e61ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cari' or . = 'Cari')]</value>
-      <webElementGuid>e91c271e-71e5-4930-ad42-d2a376461af6</webElementGuid>
+      <webElementGuid>0e63705a-38ae-410b-b882-2ebf1b18a7e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>78a2f89d-af12-4321-b999-a85d3619b72d</webElementGuid>
+      <webElementGuid>5438b6df-9666-421e-8271-e4a8fa962fef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ThemeGrid_MarginGutter</value>
-      <webElementGuid>9a0b38d3-0440-47a4-bb6a-3dde875e97e3</webElementGuid>
+      <webElementGuid>f46ce36e-f522-4f9e-9794-d16c81e11dca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Showroom/Supplier</value>
-      <webElementGuid>5a23367a-3c58-4d76-b8e8-9f35b784e7bc</webElementGuid>
+      <webElementGuid>84a9a812-7f36-4bcd-a4e1-8c096bb9e991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-l1-28_7-b4-l1-41_4-$b2&quot;)/div[@class=&quot;list list-group OSFillParent&quot;]/a[@class=&quot;last-sub-menu-link OSFillParent active&quot;]/span[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>05d54b23-06ae-4be6-9628-8b6ce6d16615</webElementGuid>
+      <webElementGuid>e286b591-4dc4-483b-b5fd-35b17a8c005d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-l1-28_7-b4-l1-41_4-$b2']/div/a[3]/span</value>
-      <webElementGuid>3a210a76-71a5-4136-af78-d6a51bde4862</webElementGuid>
+      <webElementGuid>48f0a0cf-b2c2-45a3-93a7-3f52960ce4fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Contract'])[1]/following::span[1]</value>
-      <webElementGuid>f758e8e0-97d8-49b7-b7ae-c2456643df82</webElementGuid>
+      <webElementGuid>74f780a2-1c55-434d-8668-0d1ac037e065</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Golive'])[1]/following::span[2]</value>
-      <webElementGuid>fb06d69d-fcb8-4a79-983b-c1a3980524b4</webElementGuid>
+      <webElementGuid>ebeeaecd-2c90-4c53-8daf-c302eab1c3ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Operasional Cabang'])[1]/preceding::span[2]</value>
-      <webElementGuid>dee0f001-e944-4d28-b95f-3f987c717616</webElementGuid>
+      <webElementGuid>dbcf2228-42b6-4bd3-b0ce-025866145946</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pemeriksaan Petty Cash'])[1]/preceding::span[4]</value>
-      <webElementGuid>a1622293-6757-471d-a2c6-12fb4dc3d4c6</webElementGuid>
+      <webElementGuid>f13de835-298a-42c1-b71d-af97f4018e0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Showroom/Supplier']/parent::*</value>
-      <webElementGuid>5127dbbb-59d8-4b1f-8fdb-c220a4fdc6e4</webElementGuid>
+      <webElementGuid>96c6dcf2-5298-4773-939c-2bc709e9e773</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//a[3]/span</value>
-      <webElementGuid>e4ad00bb-901f-4c1a-87fa-8bbf82751cd1</webElementGuid>
+      <webElementGuid>7ed4540a-bc9e-4295-aae2-a9b647a36bc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Showroom/Supplier' or . = 'Showroom/Supplier')]</value>
-      <webElementGuid>9f982c12-1002-449c-a23f-41995d07d776</webElementGuid>
+      <webElementGuid>58300447-8f7c-4227-ae5e-1ecaa0b6b65d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

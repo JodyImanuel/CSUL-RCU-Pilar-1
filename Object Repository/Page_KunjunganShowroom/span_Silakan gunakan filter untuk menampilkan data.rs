@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>bb1ae3dc-c154-4260-8b7d-950b637266be</webElementGuid>
+      <webElementGuid>abf19375-27ca-4665-a55b-0401a5cb7057</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>bold font-size-h2</value>
-      <webElementGuid>8f6fe600-8b81-4e04-9971-b2447f6c42ab</webElementGuid>
+      <webElementGuid>64ae9f56-b9a4-4ab8-b99e-2e0e23b9bbd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Silakan gunakan filter untuk menampilkan data.</value>
-      <webElementGuid>16da2dc5-cf01-4381-89f2-19596ab7ce6a</webElementGuid>
+      <webElementGuid>ab1ee8f2-4a43-4da5-8c85-3c68bd545b15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b3-b1-OverFlow&quot;)/div[@class=&quot;text-align-center&quot;]/span[@class=&quot;bold font-size-h2&quot;]</value>
-      <webElementGuid>91fdb227-9a4e-4d4c-b18d-ea05a909094d</webElementGuid>
+      <webElementGuid>3701dee3-309d-4d8c-92aa-2e298dba59f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b3-b1-OverFlow']/div/span</value>
-      <webElementGuid>77df19cc-c708-4d9e-8ff6-def6b6f11dc0</webElementGuid>
+      <webElementGuid>6590fc8e-0e9b-4743-a5a8-91dc0e2abba1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cari'])[1]/following::span[1]</value>
-      <webElementGuid>74ca3966-eb41-4279-ad1a-6490f9ef4149</webElementGuid>
+      <webElementGuid>503f7820-75f9-4da2-ba69-2bf8cbc272c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © Designed &amp; Developed by'])[1]/preceding::span[1]</value>
-      <webElementGuid>80863036-e186-44a7-b485-ffde075a0f4d</webElementGuid>
+      <webElementGuid>f0b857ce-7ff6-40dd-b797-68bb94fe981d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='IT Development CSULFinance'])[1]/preceding::span[2]</value>
-      <webElementGuid>ad3b18e2-82ce-4ff3-8200-222e625e2768</webElementGuid>
+      <webElementGuid>bc678c76-8e56-4cb7-aa73-c4f14486d6ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Silakan gunakan filter untuk menampilkan data.']/parent::*</value>
-      <webElementGuid>91d8c3e8-1e6a-4d88-b68c-21c4a43e8675</webElementGuid>
+      <webElementGuid>9d1ba2d6-98c1-44d4-a367-cf797ebc3c12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/div/div[2]/div/span</value>
-      <webElementGuid>2f9102b6-0ae4-4669-a72c-e25cf992b99f</webElementGuid>
+      <webElementGuid>abab392f-a686-4f7f-a3b4-06deb1d29112</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Silakan gunakan filter untuk menampilkan data.' or . = 'Silakan gunakan filter untuk menampilkan data.')]</value>
-      <webElementGuid>56041a19-8bbc-4634-bdea-e9a43e7d0b75</webElementGuid>
+      <webElementGuid>61518887-cebf-4658-97ef-60ec5ea4c689</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

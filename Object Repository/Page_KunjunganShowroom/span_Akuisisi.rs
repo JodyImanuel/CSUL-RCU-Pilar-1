@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>19564937-ac20-49be-85e6-b86d02a604db</webElementGuid>
+      <webElementGuid>21691a98-59a0-43c6-861c-7fe1fc19d9e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ThemeGrid_MarginGutter</value>
-      <webElementGuid>48c136da-d7f1-4d26-8d19-702cdccf331d</webElementGuid>
+      <webElementGuid>0d942c66-fbe6-4b98-88bf-c1ef2f8f9023</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Akuisisi</value>
-      <webElementGuid>db39091a-79ff-48ec-b771-1e3697ccd3f5</webElementGuid>
+      <webElementGuid>02910814-af55-4380-aa54-abfdb8522689</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;b2-l1-28_7-b4-l1-41_4-b1-Menu&quot;)/span[@class=&quot;ThemeGrid_MarginGutter&quot;]</value>
-      <webElementGuid>5d81617e-ca51-47d8-80be-dc53817f5cc6</webElementGuid>
+      <webElementGuid>9826fa82-7833-4dee-b2b7-ea3f97a73d86</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='b2-l1-28_7-b4-l1-41_4-b1-Menu']/span</value>
-      <webElementGuid>e51adf38-ab7b-4dbc-adcd-30c9b34b7a91</webElementGuid>
+      <webElementGuid>5a150b3b-51e1-45d3-be69-7a1304c05c9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Monitoring &amp; Review'])[1]/following::span[2]</value>
-      <webElementGuid>53243b63-c4ed-439e-9e97-b347d2790586</webElementGuid>
+      <webElementGuid>b2a03b56-f4cf-41c2-9720-77128a3173b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::span[5]</value>
-      <webElementGuid>b3a73f06-d655-4fd6-883b-c551c27589a1</webElementGuid>
+      <webElementGuid>f14fa200-944e-4feb-a499-340a9ee511a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Golive'])[1]/preceding::span[2]</value>
-      <webElementGuid>802ead7f-bff3-4b9d-aa9b-de4c5bcc097a</webElementGuid>
+      <webElementGuid>12423353-86fc-4cf0-b647-d644c68a8e89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy Contract'])[1]/preceding::span[3]</value>
-      <webElementGuid>d5384de8-7651-4fa3-bd26-2ac15a56a740</webElementGuid>
+      <webElementGuid>bc0f7de8-3325-4907-9609-abfcd29a8455</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Akuisisi']/parent::*</value>
-      <webElementGuid>1628bf18-f601-49f3-b817-d13b06e34908</webElementGuid>
+      <webElementGuid>7cef52cb-763e-4432-8e17-b1b512955839</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div/div/div/div/div/div/div/span</value>
-      <webElementGuid>6abb9a64-29e8-49a4-b749-1d06e9c19fd7</webElementGuid>
+      <webElementGuid>44051156-62c6-48b6-a9af-4770e9dbb884</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Akuisisi' or . = 'Akuisisi')]</value>
-      <webElementGuid>e534af3e-ed83-4018-a1c4-949cbcf57ddc</webElementGuid>
+      <webElementGuid>83e6793c-1c47-4f80-8f38-66370400eb31</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

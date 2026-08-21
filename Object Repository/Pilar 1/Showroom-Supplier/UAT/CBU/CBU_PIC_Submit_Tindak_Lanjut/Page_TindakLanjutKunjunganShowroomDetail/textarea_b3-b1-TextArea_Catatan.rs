@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_b3-b1-TextArea_Catatan</name>
+   <tag></tag>
+   <elementGuidId>e3a7a27b-b520-43eb-9b43-55ee8a090a47</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@required = '') and (@data-textarea = '')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[required=&quot;&quot;][data-textarea=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>d4e4eef2-6c75-49ab-aafc-343d1fe0cb88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-area-custom ThemeGrid_Width6</value>
+      <webElementGuid>b5f2f9dd-e60a-4ac5-8fc4-3d903262ff21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>bec19810-ea16-4ea2-8fc0-f1fe4c42dcfe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>36acb0e8-3259-4f44-8326-50d346d0279d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-TextArea_Catatan</value>
+      <webElementGuid>68f3ae73-33f0-4f0a-9bde-bfe8d8494ac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-df5bac67274d0fc31f2963edf1b520cb</value>
+      <webElementGuid>99823575-31a6-4795-adc1-27bcb88c0b94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@required = '') and (@data-textarea = '')]</value>
+      <webElementGuid>2175fe2a-3769-40ad-ac37-cef0f3738f1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@required = '') and (@data-textarea = '')]</value>
+      <webElementGuid>58b990ce-04d3-47da-b3ff-795e666c2d01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b3-b1-TextArea_Catatan']</value>
+      <webElementGuid>edd00668-43ec-42d1-950f-cd2e43750b98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

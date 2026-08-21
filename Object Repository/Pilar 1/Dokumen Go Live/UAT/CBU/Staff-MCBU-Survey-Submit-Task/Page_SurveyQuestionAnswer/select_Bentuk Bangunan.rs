@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Bentuk Bangunan</name>
+   <tag></tag>
+   <elementGuidId>ec9fd10a-69a7-48da-8c1c-0559c12196e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(5) .dropdown-display</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div/div[3]/div/div[2]/div/div/div[4]/div/form/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>26bae2d8-0af9-4f58-a912-1b79c029bb35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>85bf421e-06fc-4a63-9786-1ee21bc110da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>359f4c4f-8e1b-47e1-a461-489521031e10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-28_2-l2-46_3-b2-b5-Dropdown1</value>
+      <webElementGuid>f310ebd6-6f42-49ae-871c-708172a22f07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select OptionRumah TapakTown HouseClusterRusunKontrakanRukoApartemenRukanPerkantoranVirtual OfficeLainnya</value>
+      <webElementGuid>ac84e3aa-1897-4e8c-98f2-a4c90db7297b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-aecd5fee5c08d002f1f49c0120f6270f</value>
+      <webElementGuid>b6bb601b-fb13-4151-965b-ec0a5b05862a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>80501863-c4fb-4f4f-abba-a7f399d70bbf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 5)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>08b8b087-8b9a-406b-a955-b4a777593c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b4-l2-28_2-l2-46_3-b2-b5-Dropdown1' and (text() = 'Select OptionRumah TapakTown HouseClusterRusunKontrakanRukoApartemenRukanPerkantoranVirtual OfficeLainnya' or . = 'Select OptionRumah TapakTown HouseClusterRusunKontrakanRukoApartemenRukanPerkantoranVirtual OfficeLainnya')]</value>
+      <webElementGuid>45ea309d-9554-4ff0-906a-050d0e25d5eb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Apakah Anda yakin ingin mengirimkan tindak l</name>
+   <tag></tag>
+   <elementGuidId>b714676b-aaca-43f8-958e-a9950823f793</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup-notif ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.popup-notif</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2c3bdb1f-87ce-4dda-abcc-466df1d6952c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popup-dialog popup-dialog popup-notif</value>
+      <webElementGuid>3d85b3af-f29c-4e9d-9980-f5f300e4169c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>04aceab8-61ca-4c9e-b5f6-c809ce1d0185</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f3e5e664-de0f-43a3-bf90-ed43596a4657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Apakah Anda yakin ingin mengirimkan tindak lanjut kepada PIC terkait?Seluruh dokumen/kontrak yang telah dipilih akan dikirimkan kepada PIC yang telah Anda tentukan.BatalKirim Tindak Lanjut</value>
+      <webElementGuid>1df653e0-e26e-401a-b02d-9b1d0d883dbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-285a932bc0e711ae2c969166cca1e937</value>
+      <webElementGuid>60448cdf-0972-486e-813c-2bdd59654a1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup-notif ')]</value>
+      <webElementGuid>3ac7d1d5-1b87-4682-adaf-598183d65bae</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popup-notif ')]</value>
+      <webElementGuid>2096d26b-966d-404b-bd94-5fa418f63dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Apakah Anda yakin ingin mengirimkan tindak lanjut kepada PIC terkait?Seluruh dokumen/kontrak yang telah dipilih akan dikirimkan kepada PIC yang telah Anda tentukan.BatalKirim Tindak Lanjut' or . = 'Apakah Anda yakin ingin mengirimkan tindak lanjut kepada PIC terkait?Seluruh dokumen/kontrak yang telah dipilih akan dikirimkan kepada PIC yang telah Anda tentukan.BatalKirim Tindak Lanjut')]</value>
+      <webElementGuid>6d8e9543-7a96-41ea-a442-9cbf95c2de47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

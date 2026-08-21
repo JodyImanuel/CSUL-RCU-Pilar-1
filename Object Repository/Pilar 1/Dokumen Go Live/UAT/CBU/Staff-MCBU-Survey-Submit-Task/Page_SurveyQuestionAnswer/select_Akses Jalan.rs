@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Akses Jalan</name>
+   <tag></tag>
+   <elementGuidId>fa52b6d3-6b77-45cf-aa48-19701e4390af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(4) .dropdown-display</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div/div[3]/div/div[2]/div/div/div[3]/div/form/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>46bccc06-9c09-4f88-9c34-7446e99c9862</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>503503ad-5f7b-4fd7-9e55-61ce5c8d55e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>db93c0f2-72e6-4a71-8c34-f3f7ea5e3a4a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-28_2-l2-46_2-b2-b5-Dropdown1</value>
+      <webElementGuid>d2efc395-05da-408e-b7d1-323a2de766dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select OptionRODA 2RODA 4GANG</value>
+      <webElementGuid>c68a12f0-1475-4766-be3e-8af822700c1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-898fdc424594fd72e514ca33c807d9d2</value>
+      <webElementGuid>359c2240-9194-4d49-915e-521531e4e4f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>83644835-ca31-407e-ba89-6c90a4a6f1d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 4)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>6f8074b9-8180-4f04-920b-af9c0b18a4f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b4-l2-28_2-l2-46_2-b2-b5-Dropdown1' and (text() = 'Select OptionRODA 2RODA 4GANG' or . = 'Select OptionRODA 2RODA 4GANG')]</value>
+      <webElementGuid>8bc8dcd8-314f-4ae9-a5aa-ca053a98b679</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

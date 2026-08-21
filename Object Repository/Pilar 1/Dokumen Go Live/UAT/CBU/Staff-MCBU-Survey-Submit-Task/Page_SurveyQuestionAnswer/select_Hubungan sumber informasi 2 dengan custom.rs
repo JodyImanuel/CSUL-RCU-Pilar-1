@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Hubungan sumber informasi 2 dengan custom</name>
+   <tag></tag>
+   <elementGuidId>7ec257b2-d295-4e0c-b0da-33b3d19cb9a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(6) select.dropdown-display.dropdown[required=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div/div[1]/div/div[2]/div/div/div[5]/div/form/div/div/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8b5a154b-f069-48cf-b678-63188ea51526</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>470bc94e-e030-4bb2-8cb1-1288eb6f69e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>07b98efc-6c7c-4372-a730-a460a096d9e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-28_0-l2-29_4-b2-b5-Dropdown1</value>
+      <webElementGuid>f19bed17-f65b-40c5-ab7b-d03e154ef186</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select OptionOrang Tua/MertuaSaudara KandungFamily lainKetua RT/Ibu RTPejabat SetempatTetangga/WargaSecurityResepsionisStaff/KaryawanAtasanHRPemilik UsahaLainnya</value>
+      <webElementGuid>976baadd-14f4-4902-9a5d-b55456018752</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-45c2840ff0583dcd65887f7bc22fe683</value>
+      <webElementGuid>7a29914b-cf5c-437e-8864-16028c953c53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 6)]//select[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ') and (@required = '')]</value>
+      <webElementGuid>d968a16e-d389-4e8a-aa22-81b0a18b734f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 6)]//select[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ') and (@required = '')]</value>
+      <webElementGuid>5f1c5838-03d9-469f-8fe7-9d9edc560e6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b4-l2-28_0-l2-29_4-b2-b5-Dropdown1' and (text() = 'Select OptionOrang Tua/MertuaSaudara KandungFamily lainKetua RT/Ibu RTPejabat SetempatTetangga/WargaSecurityResepsionisStaff/KaryawanAtasanHRPemilik UsahaLainnya' or . = 'Select OptionOrang Tua/MertuaSaudara KandungFamily lainKetua RT/Ibu RTPejabat SetempatTetangga/WargaSecurityResepsionisStaff/KaryawanAtasanHRPemilik UsahaLainnya')]</value>
+      <webElementGuid>3947d326-62dd-478b-b5ff-024aeac5015a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Tas
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive'))
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown1'), 
     '2', false)
@@ -128,6 +128,26 @@ WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-177_3-b11-b2-l1-537_0-b1-l4_0-538_7'), 
     'testing')
+
+WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/select_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_8'), 
+    '0', false)
+
+WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/select_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_8_1'), 
+    '0', false)
+
+WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/textarea_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447'), 
+    'testing')
+
+WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/select_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_9'), 
+    '0', false)
+
+WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/select_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_9_1'), 
+    '0', false)
+
+WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/Page_DokumenChecking/textarea_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_1'), 
+    'testing')
+
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/Page_DokumenChecking/input_Survey Pengurus_Checkbox'))
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Perjanjian/Page_DokumenChecking/button_Draft'))
 

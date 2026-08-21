@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SPV_CBU_Assign_PIC</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f32ea220-53f9-48f9-bcc1-05a1cdb6a043</testCaseGuid>
+</TestCaseEntity>

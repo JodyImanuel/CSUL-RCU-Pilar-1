@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-b1-b1-Dropdown3</name>
+   <tag></tag>
+   <elementGuidId>97df457b-219a-4cc7-aa0c-77bb2d5d55e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(3) .dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f259f92a-933a-4909-9608-d42d8007419d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>41699d32-6aa3-474f-9f6d-aa87eac883d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>830132db-d8b4-4747-9c41-9c60b57847f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-b1-Dropdown3</value>
+      <webElementGuid>8d471f7e-1fc2-4408-a51f-1c030348453a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUI</value>
+      <webElementGuid>c64a2fb5-e976-4110-9b9b-5441fad34fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-caa5b6a20c8950d645d990a5949dc08a</value>
+      <webElementGuid>79ebd6a9-476c-4106-a738-e41e80958530</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>37dc6335-1ecd-4ec6-a637-8e2b6a00cc41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>92741778-52a7-494a-ae86-d5accc0808b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b1-b1-Dropdown3' and (text() = 'Select StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUI' or . = 'Select StatusBARUPENUGASANDALAM PROSESMENUNGGU PERSETUJUANDIKEMBALIKANDISETUJUI')]</value>
+      <webElementGuid>217a9065-8ab0-418d-af5a-1e965b1187e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

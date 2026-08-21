@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Browse</name>
+   <tag></tag>
+   <elementGuidId>98951f45-ec7e-445b-b2ec-d0726d317128</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div/div/div/div/div/div/div[2]/div/div[2]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\#&quot;] span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>890cb1f1-d729-4944-9f9e-38e052c2d344</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Browse</value>
+      <webElementGuid>4d0d36d4-22d6-4987-985c-8e9e51aab91f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ced7e6e16409f82b39b0c1905b9c8c7b</value>
+      <webElementGuid>6f0520cd-9797-4f57-9ad4-ac42f2804251</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '#']//span</value>
+      <webElementGuid>da49ad70-e8b9-4ed0-8ab3-e0fbdd6c7828</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '#']//span</value>
+      <webElementGuid>eee23642-0229-4020-96b0-9d65bf0a0f99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Browse' or . = 'Browse')]</value>
+      <webElementGuid>33f484a4-e70e-4ce8-8d94-dc8683bd9229</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

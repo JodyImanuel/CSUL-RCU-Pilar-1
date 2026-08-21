@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Dropdown_Kategori_Temuan</name>
+   <tag></tag>
+   <elementGuidId>fbd9499f-9036-4bd6-899e-6376f9fa5e09</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-align-center ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.text-align-center .dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>787ee7c4-c879-4d4c-bcb9-0bed7a7be425</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>edf97c88-5e01-4851-a577-5d98761f4177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>dd137ac6-2985-4dfc-879a-f3e9ec3be828</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-l3-274_1-l3_0-281_8-Dropdown1</value>
+      <webElementGuid>879985ca-68d9-42b5-b95c-fa771797d58a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a categoryRendahTinggiSedang</value>
+      <webElementGuid>f5ff2564-8315-4ef9-9549-4a50dfa1f4fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-d6f48d8f649f04888403f914714a0a64</value>
+      <webElementGuid>e3547ce5-b1fb-44f7-9fd5-cfb1694874ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-align-center ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>034f8c1b-c42b-4743-9762-e7d0374f0592</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-align-center ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>b1dd2c53-c91c-42a7-b034-172a31d8b247</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b2-l3-274_1-l3_0-281_8-Dropdown1' and (text() = 'Select a categoryRendahTinggiSedang' or . = 'Select a categoryRendahTinggiSedang')]</value>
+      <webElementGuid>c748b8be-991b-490a-9e69-29bd55a8ff6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

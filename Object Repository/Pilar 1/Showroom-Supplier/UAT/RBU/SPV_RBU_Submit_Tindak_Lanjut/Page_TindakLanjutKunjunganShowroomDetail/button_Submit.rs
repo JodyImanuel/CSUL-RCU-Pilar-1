@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Submit</name>
+   <tag></tag>
+   <elementGuidId>03114a6d-f396-48b7-9e86-18f7ac092f57</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div[3]/div[1]/div/div[3]/div[2]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-block=&quot;TindakLanjutShowroomVisit\.Component_SubmitCard&quot;]:nth-child(2) .btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9e62f450-c244-4fb9-917a-1faf1700a9e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-rounded btn-primary</value>
+      <webElementGuid>45e2dba6-70f3-4d61-8a1b-e3061292e3af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5bf52d85-7004-44d2-b5fa-13f6f147534f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit</value>
+      <webElementGuid>576716ec-093a-489a-a120-9123eac577d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5a7cf9043f4952f93d9874c882584a4f</value>
+      <webElementGuid>52c84177-91e6-482c-8597-5dbb257d0db6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
+      <webElementGuid>c0ad14dd-4b9c-405e-9793-bc69a9471afd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
+      <webElementGuid>b6c1021e-51e0-4f02-9c7e-55470459460c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Submit' or . = 'Submit')]</value>
+      <webElementGuid>f9938473-c66d-411a-9ad8-fe3c1b93091e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

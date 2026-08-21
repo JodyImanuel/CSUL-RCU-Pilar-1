@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Catatan_TAB_Survey</name>
+   <tag></tag>
+   <elementGuidId>423af2f4-c83f-4725-9949-de63181b6e17</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.jrlortrsmhb&quot;] [data-textarea=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div[3]/div/section/section/div/div/div[5]/article/div/div[2]/div/div/div[2]/form/div/div/div[1]/div/div[2]/div[2]/div/span/textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>9ae6ac93-c1fb-4a60-8af4-ddd89a5d6caa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control OSFillParent</value>
+      <webElementGuid>722eb747-6b41-4b34-a847-057dbe5d5e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>1</value>
+      <webElementGuid>72c06e5c-8363-4a4f-9253-6eb7f1ec5cf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>11aecfac-fd27-413b-a107-a2320de637e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-322_4-b11-TextArea_Catatan</value>
+      <webElementGuid>f43e0725-1fb2-4d13-8888-47073754b0db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b81fb06e2766116f996e1b93c597dd64</value>
+      <webElementGuid>c06c9e5e-0899-4add-b1a8-0f59e2029e0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.jrlortrsmhb']//*[@data-textarea = '']</value>
+      <webElementGuid>e99330d2-cd02-4deb-a0fc-96a16ac2e4ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.jrlortrsmhb']//*[@data-textarea = '']</value>
+      <webElementGuid>e570f91b-3136-4baf-8401-bb0a6d1c547f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b3-l2-322_4-b11-TextArea_Catatan']</value>
+      <webElementGuid>6b40f265-3f42-4f70-905b-ee514a672cc2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

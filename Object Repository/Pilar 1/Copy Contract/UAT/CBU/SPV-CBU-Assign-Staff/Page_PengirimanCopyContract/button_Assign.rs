@@ -6,16 +6,16 @@
    <elementGuidId>7c2543c2-7d53-4996-9f66-d97021c99af8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[4]/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>.btn-primary</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'button' and (text() = 'Assign' or . = 'Assign')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div/div[3]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -27,7 +27,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fa229483-ec55-4f91-8d8e-cdea79b92562</webElementGuid>
+      <webElementGuid>09deb678-15f0-463e-b001-6945d220de90</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -35,7 +35,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary</value>
-      <webElementGuid>597b1893-fe29-48c9-a3ff-7f0ac46a41c0</webElementGuid>
+      <webElementGuid>8b423b30-034f-4115-a45b-c4a27bad2b84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,7 +43,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8af9b44d-93a5-4a17-b833-89cfb388cdec</webElementGuid>
+      <webElementGuid>32989b02-c2ab-4551-a92a-7d900b94c0a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +51,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Assign</value>
-      <webElementGuid>f218b189-22ed-4219-aee0-e65ee94b8fdc</webElementGuid>
+      <webElementGuid>3cadb634-fc42-433f-92b8-2b0427d5371f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +59,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b980468a906289ecbca73a0eb82bac32</value>
-      <webElementGuid>5d444cc6-3d5c-4567-893a-e2cd6f2190bd</webElementGuid>
+      <webElementGuid>95435369-7808-4bf5-8fdc-f57f0eb20186</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +67,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>57a72a52-3950-4afb-a4c3-8766adf77126</webElementGuid>
+      <webElementGuid>e3c70beb-0f6e-4ada-896d-499e3e80bf69</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,7 +75,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>0e9fcc9a-a4ef-4842-8b0b-85b6f3b07dde</webElementGuid>
+      <webElementGuid>e82d397d-73e4-43a7-ab30-1c6613094c10</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,6 +83,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Assign' or . = 'Assign')]</value>
-      <webElementGuid>46ceae2a-dc4a-4b0e-9827-be50339106c9</webElementGuid>
+      <webElementGuid>b69bb713-75f1-46da-87b4-45c50d5240dc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

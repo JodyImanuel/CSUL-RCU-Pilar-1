@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Dokumen Golive</name>
+   <tag></tag>
+   <elementGuidId>d3b0cbcc-43a8-4178-9bc5-7efb036d80f8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/CSUL_RCU\/KelengkapanKredit&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/aside/div/div/nav/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b989b363-1c38-42ce-ae96-bb4844939ea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>last-sub-menu-link OSFillParent</value>
+      <webElementGuid>f911b85e-0cde-43cd-b179-088b6866a2e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/CSUL_RCU/KelengkapanKredit</value>
+      <webElementGuid>a02cdd3c-dc5a-4527-bb14-aefb2dd15917</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Dokumen Golive</value>
+      <webElementGuid>bcfcce9c-f010-47b7-841f-d83baf5a1ecd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e45f97bcab17235d2c575690e68f75a9</value>
+      <webElementGuid>c37ed359-4dbb-408c-b730-70962a58685b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/KelengkapanKredit']</value>
+      <webElementGuid>9457a567-b689-40d8-8a9e-13a444df0cac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/KelengkapanKredit']</value>
+      <webElementGuid>e3548994-96b0-4781-89d1-0815ae378401</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/CSUL_RCU/KelengkapanKredit' and (text() = 'Dokumen Golive' or . = 'Dokumen Golive')]</value>
+      <webElementGuid>b327c705-2e01-46d1-a709-ad3cb8a06150</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

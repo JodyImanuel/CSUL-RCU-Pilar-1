@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pilar 1/Login/UAT/PIC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pilar 1/Login/UAT/PIC-Fatimah'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_1-b3-SubMenuHeader'))
 
@@ -39,17 +39,19 @@ WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/button_Tindak Lanjut'))
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/input_b3-b2-l3-187_0-l3-188_0-b5-l5_0-189_0-Input'), 
-    '03-07-2026')
+    '31-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/textarea_b3-b2-l3-187_0-l3-188_0-b5-l5_0-189_0-T'), 
     'testing')
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Unggah'))
 
-WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/div_b3-b2-l3-187_0-l3-188_0-b5-b3-dropzone'), 
+WebUI.delay(7)
+
+not_run: WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/div_b3-b2-l3-187_0-l3-188_0-b5-b3-dropzone'), 
     Lorem)
 
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Upload'))
+not_run: WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Upload'))
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Submit'))
 

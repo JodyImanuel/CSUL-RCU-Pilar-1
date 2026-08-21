@@ -1,0 +1,130 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Copy Contract - RBU,Chrome 150.0.7871.128,,,21-07-2026 09:17:26,21-07-2026 09:23:38,6m - 12.550s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-Staff,Chrome 150.0.7871.128,,,21-07-2026 09:17:26,21-07-2026 09:18:17,50.722s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:17:26,21-07-2026 09:18:03,36.501s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:03,21-07-2026 09:18:07,3.507s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:07,21-07-2026 09:18:07,0.567s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:07,21-07-2026 09:18:07,0.331s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate""), ""10-10-2020"")",Chrome 150.0.7871.128,,,21-07-2026 09:18:07,21-07-2026 09:18:10,2.937s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate2""), ""10-12-2020"")",Chrome 150.0.7871.128,,,21-07-2026 09:18:10,21-07-2026 09:18:11,0.595s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownCabang""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:18:11,21-07-2026 09:18:12,0.578s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:18:12,21-07-2026 09:18:12,0.555s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:12,21-07-2026 09:18:12,0.310s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-l1_0-239_0-Checkbox2""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:12,21-07-2026 09:18:13,0.934s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:13,21-07-2026 09:18:14,0.324s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign_popup""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:14,21-07-2026 09:18:14,0.640s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus""), ""1"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:18:14,21-07-2026 09:18:16,2.191s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:16,21-07-2026 09:18:17,0.300s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/Staff-RBU-Submit-Task,Chrome 150.0.7871.128,,,21-07-2026 09:18:17,21-07-2026 09:19:33,1m - 16.034s,PASSED
+"DATA BINDING - {""(Default) Lorem"":""C:\\Users\\PPU\\Downloads\\Tester File\\Lorem1_PDF.pdf""}",,,,,,,
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/Staff-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:18:17,21-07-2026 09:18:56,38.833s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:56,21-07-2026 09:18:59,3.015s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:59,21-07-2026 09:18:59,0.545s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:18:59,21-07-2026 09:19:00,0.345s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:00,21-07-2026 09:19:03,2.786s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:03,21-07-2026 09:19:03,0.592s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:19:03,21-07-2026 09:19:04,0.559s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:04,21-07-2026 09:19:04,0.310s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Pemeriksaan""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:04,21-07-2026 09:19:05,0.673s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:05,21-07-2026 09:19:06,1.644s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-b16-Input_NamaKaryawan""), ""Fatimah AZ"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:06,21-07-2026 09:19:07,0.950s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:07,21-07-2026 09:19:08,0.307s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Pilih""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:08,21-07-2026 09:19:08,0.651s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2""), ""2"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:19:08,21-07-2026 09:19:09,0.580s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill""), ""testing@gmail.com"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:09,21-07-2026 09:19:09,0.639s,PASSED
+delay(6),Chrome 150.0.7871.128,,,21-07-2026 09:19:09,21-07-2026 09:19:15,6.009s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima""), ""testing"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:15,21-07-2026 09:19:16,0.596s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown3""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:19:16,21-07-2026 09:19:17,0.539s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/textarea_b3-b2-l4_0-194_0-TextArea_Remarks""), ""testing ya"")",Chrome 150.0.7871.128,,,21-07-2026 09:19:17,21-07-2026 09:19:17,0.643s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:17,21-07-2026 09:19:18,0.543s,PASSED
+delay(7),Chrome 150.0.7871.128,,,21-07-2026 09:19:18,21-07-2026 09:19:25,7.004s,PASSED
+"uploadFile(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone""), Lorem)",Chrome 150.0.7871.128,,,21-07-2026 09:19:25,21-07-2026 09:19:25,0.000s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:25,21-07-2026 09:19:25,0.010s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:25,21-07-2026 09:19:25,0.000s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:25,21-07-2026 09:19:25,0.316s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit_popup""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:25,21-07-2026 09:19:26,0.558s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3""), ""2"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:19:26,21-07-2026 09:19:32,6.758s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:19:32,21-07-2026 09:19:33,0.418s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Persetujuan,Chrome 150.0.7871.128,,,21-07-2026 09:19:33,21-07-2026 09:20:38,1m - 5.494s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:19:33,21-07-2026 09:20:14,40.850s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:14,21-07-2026 09:20:17,3.581s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:17,21-07-2026 09:20:18,0.551s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:18,21-07-2026 09:20:18,0.302s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:20:18,21-07-2026 09:20:21,2.838s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:20:21,21-07-2026 09:20:22,0.586s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:20:22,21-07-2026 09:20:22,0.545s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:20:22,21-07-2026 09:20:23,0.527s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:23,21-07-2026 09:20:23,0.313s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:23,21-07-2026 09:20:24,0.733s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/Page_ApprovalCopyContractDetail/button_Lihat Dokumen""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:24,21-07-2026 09:20:26,2.317s,PASSED
+delay(3),Chrome 150.0.7871.128,,,21-07-2026 09:20:26,21-07-2026 09:20:29,3.011s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:20:29,21-07-2026 09:20:30,0.543s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/textarea_b3-b9-TextArea_Catatan""), ""testing ya"")",Chrome 150.0.7871.128,,,21-07-2026 09:20:30,21-07-2026 09:20:30,0.632s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/button_Submit""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:30,21-07-2026 09:20:31,0.529s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3""), ""2"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:20:31,21-07-2026 09:20:38,7.178s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:20:38,21-07-2026 09:20:38,0.302s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-PIC,Chrome 150.0.7871.128,,,21-07-2026 09:20:38,21-07-2026 09:21:37,59.117s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:20:38,21-07-2026 09:21:18,39.983s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:18,21-07-2026 09:21:24,5.789s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:24,21-07-2026 09:21:25,0.561s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:25,21-07-2026 09:21:25,0.333s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:21:25,21-07-2026 09:21:29,3.521s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:21:29,21-07-2026 09:21:29,0.566s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:21:29,21-07-2026 09:21:30,0.545s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:21:30,21-07-2026 09:21:30,0.522s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:30,21-07-2026 09:21:31,0.296s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:31,21-07-2026 09:21:31,0.702s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-l2_0-611_0-Checkbox2""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:31,21-07-2026 09:21:34,2.417s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Kirim Tindak Lanjut_1""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:34,21-07-2026 09:21:34,0.311s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-NamaKaryawan""), ""Fatimah AZ"")",Chrome 150.0.7871.128,,,21-07-2026 09:21:34,21-07-2026 09:21:35,0.826s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-Jabatan""), ""IT Business Partner"")",Chrome 150.0.7871.128,,,21-07-2026 09:21:35,21-07-2026 09:21:35,0.620s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Cari_PIC""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:35,21-07-2026 09:21:36,0.288s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-l1_0-365_0-IsPICUtama""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:36,21-07-2026 09:21:36,0.640s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut_popup""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:36,21-07-2026 09:21:37,0.581s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut""))",Chrome 150.0.7871.128,,,21-07-2026 09:21:37,21-07-2026 09:21:37,0.528s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut,Chrome 150.0.7871.128,,,21-07-2026 09:21:37,21-07-2026 09:22:38,1m - 0.587s,PASSED
+"DATA BINDING - {""(Default) Lorem"":""C:\\Users\\PPU\\Downloads\\Tester File\\Lorem1_PDF.pdf""}",,,,,,,
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/PIC-Fatimah""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:21:38,21-07-2026 09:22:13,35.157s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:13,21-07-2026 09:22:17,4.589s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:17,21-07-2026 09:22:18,0.544s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:18,21-07-2026 09:22:18,0.319s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-BisnisUnit""), ""1"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:18,21-07-2026 09:22:21,3.099s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:21,21-07-2026 09:22:22,0.838s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:22,21-07-2026 09:22:23,0.520s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:23,21-07-2026 09:22:23,0.307s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles""), ""31-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:22:23,21-07-2026 09:22:24,1.154s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut""), ""sudah bisa dilanjut ya"")",Chrome 150.0.7871.128,,,21-07-2026 09:22:24,21-07-2026 09:22:25,0.667s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:25,21-07-2026 09:22:25,0.556s,PASSED
+delay(5),Chrome 150.0.7871.128,,,21-07-2026 09:22:25,21-07-2026 09:22:30,5.015s,PASSED
+"uploadFile(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone""), Lorem)",Chrome 150.0.7871.128,,,21-07-2026 09:22:30,21-07-2026 09:22:30,0.000s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:30,21-07-2026 09:22:30,0.010s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:30,21-07-2026 09:22:31,1.074s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:31,21-07-2026 09:22:37,5.777s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3""), ""2"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:37,21-07-2026 09:22:38,0.559s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:22:38,21-07-2026 09:22:38,0.004s,NOT_RUN
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian""), ""11102003404"")",Chrome 150.0.7871.128,,,21-07-2026 09:22:38,21-07-2026 09:22:38,0.001s,NOT_RUN
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:22:38,21-07-2026 09:22:38,0.304s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut,Chrome 150.0.7871.128,,,21-07-2026 09:22:38,21-07-2026 09:23:38,59.994s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.128,,,21-07-2026 09:22:38,21-07-2026 09:23:11,33.190s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:11,21-07-2026 09:23:15,3.927s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:15,21-07-2026 09:23:16,0.551s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:16,21-07-2026 09:23:16,0.328s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:23:16,21-07-2026 09:23:19,3.259s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4""), ""21-07-2026"")",Chrome 150.0.7871.128,,,21-07-2026 09:23:19,21-07-2026 09:23:20,0.586s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2""), ""4"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:23:20,21-07-2026 09:23:21,0.554s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5""), ""2"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:23:21,21-07-2026 09:23:21,0.533s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:21,21-07-2026 09:23:21,0.322s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:21,21-07-2026 09:23:22,0.724s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:22,21-07-2026 09:23:25,2.383s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/Page_TindakLanjutDocumentDetailCopyContract/button_Lihat Dokumen""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:25,21-07-2026 09:23:28,3.188s,PASSED
+delay(3),Chrome 150.0.7871.128,,,21-07-2026 09:23:28,21-07-2026 09:23:31,3.009s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus""), ""0"", false)",Chrome 150.0.7871.128,,,21-07-2026 09:23:31,21-07-2026 09:23:31,0.554s,PASSED
+"setText(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/textarea_b3-l1-378_0-b2-TextArea_HasilCatatan""), ""selesai ya"")",Chrome 150.0.7871.128,,,21-07-2026 09:23:31,21-07-2026 09:23:32,0.617s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/button_Submit""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:32,21-07-2026 09:23:32,0.526s,PASSED
+"click(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut""))",Chrome 150.0.7871.128,,,21-07-2026 09:23:32,21-07-2026 09:23:38,5.647s,PASSED

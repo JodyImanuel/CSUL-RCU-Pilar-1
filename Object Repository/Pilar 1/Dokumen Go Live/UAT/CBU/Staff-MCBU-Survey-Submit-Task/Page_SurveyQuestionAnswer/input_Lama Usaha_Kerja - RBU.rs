@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Lama Usaha_Kerja - RBU</name>
+   <tag></tag>
+   <elementGuidId>73241bf5-92c5-4f66-9cbd-d45ad3ca74bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@value = '') and (@aria-required = 'true')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[value=&quot;&quot;][aria-required=&quot;true&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>691ea4d8-b90a-4411-a23e-a08a4aea2875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control OSFillParent</value>
+      <webElementGuid>2645f37c-3e01-493d-98f1-c808135d18ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>0b50996d-113e-4615-bd01-dafe1c653868</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>e7103b03-4313-4360-a02f-3497a98bbad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>2000</value>
+      <webElementGuid>97f74f9b-e494-4d45-a452-927941801926</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-33_2-l2-51_7-b2-b1-Input_QuestionAnswerValue</value>
+      <webElementGuid>9e5c50fb-0261-4aa1-a45a-18de9e969d9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-37db4708e5d90791419189632e26a63d</value>
+      <webElementGuid>3724a8ff-5152-43ab-ad3b-ce1555931c44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@value = '') and (@aria-required = 'true')]</value>
+      <webElementGuid>812a43c5-d2be-4a73-9aa8-0a1610c155a7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@value = '') and (@aria-required = 'true')]</value>
+      <webElementGuid>1d583406-5a6c-4e66-9863-6d686f94d2f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'b4-l2-33_2-l2-51_7-b2-b1-Input_QuestionAnswerValue']</value>
+      <webElementGuid>673a41e0-62c9-42f1-a150-496ecb74c968</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Tindak lanjut_Header</name>
+   <tag></tag>
+   <elementGuidId>40858386-80fe-4899-a0b0-a91a1d0121bd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div[2]/div[1]/table/tbody/tr/td[15]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn-orange</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a1b37936-1fe6-4924-97a4-bc7552a1a762</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-orange</value>
+      <webElementGuid>60c86c1a-6d47-4ab9-a92b-0e423d4130fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b647818a-90e7-4e9b-881f-7f5e60f4f732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tindak lanjut</value>
+      <webElementGuid>95ad49b9-7989-4122-ac22-243a49dd2bcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e0c41e4a315311f4060112bec3d5ad4a</value>
+      <webElementGuid>a3f8549c-09d6-40c0-b30c-e98991082113</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-orange ')]</value>
+      <webElementGuid>d7c16804-e68d-4240-b960-07eaa1d18c15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-orange ')]</value>
+      <webElementGuid>057c0467-89bf-41ac-9cbb-35834666aa76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Tindak lanjut' or . = 'Tindak lanjut')]</value>
+      <webElementGuid>47402322-7bbf-4ad6-b0c8-31b6741067d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

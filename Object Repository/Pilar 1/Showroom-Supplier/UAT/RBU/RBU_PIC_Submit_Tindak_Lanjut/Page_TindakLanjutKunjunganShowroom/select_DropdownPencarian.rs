@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DropdownPencarian</name>
+   <tag></tag>
+   <elementGuidId>a337af87-e984-4084-8055-f5ef439df646</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div[1]/div/div/div[5]/div[2]/div[1]/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.OSInline.margin-right-l .dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f6462b67-d4f6-4ddb-9423-28fd177350dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>c611f7f6-ffa9-4060-946c-8d4e761a0804</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>5e546c0a-0bbf-4d9c-8b84-458da39eca3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-b1-Dropdown4</value>
+      <webElementGuid>09fb3d32-a51d-4c3f-aad3-e6c2cf2e2b04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pilih OpsiJenis SupplierKategori SupplierNama Supplier</value>
+      <webElementGuid>73683b17-77bc-41cf-8277-5ca929f79590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a316ad2be826b93f4387109a6dd182de</value>
+      <webElementGuid>b8b115a6-873f-4df2-8eec-c13c52e07b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' margin-right-l ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>51126cf5-d019-40ff-905c-2ee7e46bbed9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' margin-right-l ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>1cfebe24-32b7-449c-8c02-a016ab656fc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b1-b1-Dropdown4' and (text() = 'Pilih OpsiJenis SupplierKategori SupplierNama Supplier' or . = 'Pilih OpsiJenis SupplierKategori SupplierNama Supplier')]</value>
+      <webElementGuid>1a0bb994-8c32-479b-b38f-73e6741d3690</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

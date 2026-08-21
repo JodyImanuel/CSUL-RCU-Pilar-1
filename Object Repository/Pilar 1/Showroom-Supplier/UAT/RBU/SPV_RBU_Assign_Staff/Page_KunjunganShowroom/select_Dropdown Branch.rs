@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Dropdown Branch</name>
+   <tag></tag>
+   <elementGuidId>46640998-eea5-457e-9768-fbe8bb6e6475</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='b3-b1-b1-Dropdown1']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b3-b1-b1-Dropdown1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>7551a4af-5ed9-41e6-8be3-71022cd36c80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>2107c359-5a68-4ece-a3be-46e802d4133a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d1643939-974d-43b3-aa3b-4c920ad7a713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-b1-Dropdown1</value>
+      <webElementGuid>2a63363f-8f29-4ce4-ad33-ae4f63cc9510</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Branch&#xd;
+BALI ABU 1BANDUNG ABU 1BANJARMASIN RBU 1BATAM RBUJAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3JAKARTA ABU 4JAMBI ABU 1KARAWANG RBU 1MAKASAR ABU 1MALANG RBU 1NDF ALAM SUTRANDF BANDUNGNDF DENPASARNDF JOGLONDF KALIMALANGPALANGKARAYA RBUPALEMBANG ABU 1PEKANBARU ABU 1PONTIANAK RBUSAMPIT RBUSEMARANG RBU 1SURABAYA ABU 1TANGERANG ABU 1</value>
+      <webElementGuid>6585b06e-6de0-435d-b51e-052731d2e154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b1-b1-Dropdown1&quot;)</value>
+      <webElementGuid>2fc9e622-0c49-4ec0-906e-060ec1c12783</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='b3-b1-b1-Dropdown1']</value>
+      <webElementGuid>2f09ad51-9131-496d-9c8b-279954ba0e03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b1-b1-Dropdown1-container']/select</value>
+      <webElementGuid>42a71448-e0d9-44ed-b839-4021b29f31e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cabang :'])[1]/following::select[1]</value>
+      <webElementGuid>426f2378-3ea9-4ba6-857f-11bab3810d90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ー'])[1]/following::select[1]</value>
+      <webElementGuid>7113496a-b6ee-4502-ae3e-8cb4d162d4c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/preceding::select[1]</value>
+      <webElementGuid>156024ec-73c9-448a-ae64-c944a2c0a392</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>6870f225-4c4c-4704-9875-72a6f63865da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b1-b1-Dropdown1' and (text() = 'Select Branch&#xd;
+BALI ABU 1BANDUNG ABU 1BANJARMASIN RBU 1BATAM RBUJAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3JAKARTA ABU 4JAMBI ABU 1KARAWANG RBU 1MAKASAR ABU 1MALANG RBU 1NDF ALAM SUTRANDF BANDUNGNDF DENPASARNDF JOGLONDF KALIMALANGPALANGKARAYA RBUPALEMBANG ABU 1PEKANBARU ABU 1PONTIANAK RBUSAMPIT RBUSEMARANG RBU 1SURABAYA ABU 1TANGERANG ABU 1' or . = 'Select Branch&#xd;
+BALI ABU 1BANDUNG ABU 1BANJARMASIN RBU 1BATAM RBUJAKARTA ABU 1JAKARTA ABU 2JAKARTA ABU 3JAKARTA ABU 4JAMBI ABU 1KARAWANG RBU 1MAKASAR ABU 1MALANG RBU 1NDF ALAM SUTRANDF BANDUNGNDF DENPASARNDF JOGLONDF KALIMALANGPALANGKARAYA RBUPALEMBANG ABU 1PEKANBARU ABU 1PONTIANAK RBUSAMPIT RBUSEMARANG RBU 1SURABAYA ABU 1TANGERANG ABU 1')]</value>
+      <webElementGuid>3401bcc7-039e-4e78-870a-a9a6751c895b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

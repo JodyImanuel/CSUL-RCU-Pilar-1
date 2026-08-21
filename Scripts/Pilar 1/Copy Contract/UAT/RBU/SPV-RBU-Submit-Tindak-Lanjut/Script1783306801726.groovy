@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Pag
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract'))
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'), 
-    '06-07-2026')
+    '21-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'), 
-    '06-07-2026')
+    '21-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2'), 
     '4', false)
@@ -42,6 +42,10 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Pag
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut'))
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut'))
+
+WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/Page_TindakLanjutDocumentDetailCopyContract/button_Lihat Dokumen'))
+
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus'), 
     '0', false)

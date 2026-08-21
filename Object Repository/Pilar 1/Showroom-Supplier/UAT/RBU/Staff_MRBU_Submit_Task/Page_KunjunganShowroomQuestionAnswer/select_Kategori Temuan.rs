@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Kategori Temuan</name>
+   <tag></tag>
+   <elementGuidId>04e9c249-255f-4a39-a4e9-039efa9fcc32</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div[1]/div[2]/div/div[2]/div/div/div[9]/div/form/div/div/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>62dce5af-9b71-4dd5-be8c-e2dcd596af1a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>b9c5f565-54dc-4c04-96b9-08c4a7211968</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>abcc10b8-ef7a-4d40-8499-a519f3b3247f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-29_1-l2-36_8-b2-b5-Dropdown1</value>
+      <webElementGuid>b0eaadd2-5258-42d0-aabc-47dbf1094f39</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select OptionRendahSedangTinggi</value>
+      <webElementGuid>2a75b862-caa7-4a90-84f5-5035cbf5d90f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-968359a9b6f8cbd1c0f7d51d9b6b9d65</value>
+      <webElementGuid>160c0929-cfd8-4d0b-9d90-abc1410c2161</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>bfe484f8-696a-4d90-b9dc-6aed399577a9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>f79ac9a6-86f3-41d5-a3dc-258d3c4f9573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-l2-29_1-l2-36_8-b2-b5-Dropdown1' and (text() = 'Select OptionRendahSedangTinggi' or . = 'Select OptionRendahSedangTinggi')]</value>
+      <webElementGuid>17aae6f1-3e83-4694-ab30-0d03cf9a79ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

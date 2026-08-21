@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_9_1</name>
+   <tag></tag>
+   <elementGuidId>c356e39a-b744-4902-9eba-efe2041a9ee0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.fwvdny2n2t&quot;] .table-row:nth-child(10) [data-header=&quot;Ketepatan&quot;] [required=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div[3]/div[1]/section/section/div/div/div[4]/article/div/div/div/div/div[1]/div/div/div[2]/div/div/div[2]/div/div[2]/table/tbody/tr[10]/td[4]/div/select</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>35116b8c-3fca-4f74-a9f9-b1c0d703774d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>1b1b9326-254a-4e9f-91df-c16063e1eb95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d2c3cd0e-ce38-4132-87d5-ebb6768ce83a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_9-Ketepatan</value>
+      <webElementGuid>578e8bda-04b6-4cc3-be06-0cf3afd0df8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a categoryTepatTidak Tepat</value>
+      <webElementGuid>bfa91953-7ac1-42fb-a961-8ce9d192c05b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9b39b3e8b38ea9a89b25a9396f098d0b</value>
+      <webElementGuid>0ba45ce9-f836-41c5-a66b-e7becbe7e701</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.fwvdny2n2t']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 10)]//*[@data-header = 'Ketepatan']//*[@required = '']</value>
+      <webElementGuid>d2dd3435-8d44-46e2-944b-a41e858b8d9a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.fwvdny2n2t']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 10)]//*[@data-header = 'Ketepatan']//*[@required = '']</value>
+      <webElementGuid>208181b2-41bb-49fa-bb44-198054388e0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-l2-172_3-b11-b2-l1-446_0-b1-l4_0-447_9-Ketepatan' and (text() = 'Select a categoryTepatTidak Tepat' or . = 'Select a categoryTepatTidak Tepat')]</value>
+      <webElementGuid>68607856-05eb-4762-82ef-267e10703f3a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

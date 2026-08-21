@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Nama Sumber Informasi 1 _</name>
+   <tag></tag>
+   <elementGuidId>aeea10d9-c90c-46f1-82bb-9e9f8a8a7aef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div[1]/div[2]/div/div[2]/div/div/div[1]/div/form/div/div/div/span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(2) [data-block=&quot;ComponentQuestion\.Item_Text&quot;] [aria-required=&quot;true&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>103217bc-7f41-412f-b6cf-035c9d374b11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control OSFillParent</value>
+      <webElementGuid>a3f8482c-a2ae-4bf8-8461-2d7af1b46249</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>19329043-9af0-47c6-a53f-12af7fda289f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>50e6651a-8f23-4f46-8ec5-1d35acb357ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>50</value>
+      <webElementGuid>6de43303-38b0-4e22-a572-30cb7d817119</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-29_1-l2-36_0-b2-b1-Input_QuestionAnswerValue</value>
+      <webElementGuid>24fe82ee-9cb0-4aca-bd38-d25c996ba831</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-54f02399d096efdbff32d6e7147b67f2</value>
+      <webElementGuid>d068fe8b-4446-49e9-b643-3d8a43b0b43a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 2)]//*[@data-block = 'ComponentQuestion.Item_Text']//*[@aria-required = 'true']</value>
+      <webElementGuid>419e2d29-f3b2-4d5e-a3ca-5182c98d85be</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 2)]//*[@data-block = 'ComponentQuestion.Item_Text']//*[@aria-required = 'true']</value>
+      <webElementGuid>8c72a5e5-f29c-41da-98ba-9a361802f39b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @id = 'b3-l2-29_1-l2-36_0-b2-b1-Input_QuestionAnswerValue']</value>
+      <webElementGuid>1bb932c3-b378-4a4c-a583-2f2127148ccc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

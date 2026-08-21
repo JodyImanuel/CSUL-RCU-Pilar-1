@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Assign_PopUp</name>
+   <tag></tag>
+   <elementGuidId>7e07a73c-bf29-4392-a5e4-bcef1a9dbba3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div/div[4]/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.mqq1h9bdii&quot;] .btn-limegreen</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b5ff466f-33ad-4290-8cf5-6011f86276d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-limegreen</value>
+      <webElementGuid>1a02371d-436b-40a2-b80d-88a53c1da95a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ba6d843a-e308-4859-96f9-b6b59637b74f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Assign</value>
+      <webElementGuid>03c2c4d0-94b1-4b5e-b267-5254a113e9d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7dea9ecacd5b8ec0317940e7dfd1a78a</value>
+      <webElementGuid>79d2cca1-6912-4f57-aef3-72a5dccf6139</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.mqq1h9bdii']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-limegreen ')]</value>
+      <webElementGuid>d667d975-d1b6-4da1-881d-ca364e857c5d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.mqq1h9bdii']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-limegreen ')]</value>
+      <webElementGuid>8178f3bc-c4f4-4c64-a4fc-18f4c94b49d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Assign' or . = 'Assign')]</value>
+      <webElementGuid>9465960b-6483-4cf1-ad9f-104d3bc13245</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

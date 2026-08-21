@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Checklist_PIC_B_Utama</name>
+   <tag></tag>
+   <elementGuidId>ee15c48c-5a57-4682-8744-82f0bd1b7fce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div[1]/div/div[2]/div[2]/div[2]/table/tbody/tr[2]/td[8]/span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table-row:nth-child(2) [data-header=&quot;PIC\ Utama&quot;] .checkbox</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>1076dea4-e2b9-4375-8cc1-c0bb23bba970</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>dc181344-ec4e-4c57-a6bf-97b9e781accc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>6104ec05-6503-4100-8fa0-3b86fdbee740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-b5-l1_0-879_1-IsPICUtama</value>
+      <webElementGuid>4e82038d-e767-429f-a8b1-17969b1920be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f5a51ab513ce5a6a980d309dd075ecc9</value>
+      <webElementGuid>c9749f53-68cb-425a-945b-ad2482586690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 2)]//*[@data-header = 'PIC Utama']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox ')]</value>
+      <webElementGuid>fa09e119-0518-4d09-99b4-e574d43f7e8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 2)]//*[@data-header = 'PIC Utama']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox ')]</value>
+      <webElementGuid>ab627746-2800-4364-93df-0810f0325b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox' and @id = 'b3-b2-b5-l1_0-879_1-IsPICUtama']</value>
+      <webElementGuid>7930a924-d504-4582-8793-330a39d10db1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

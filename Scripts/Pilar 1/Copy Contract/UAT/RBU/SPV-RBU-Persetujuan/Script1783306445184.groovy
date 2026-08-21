@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Pa
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract'))
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate'), 
-    '06-07-2026')
+    '21-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2'), 
-    '06-07-2026')
+    '21-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1'), 
     '4', false)
@@ -40,6 +40,10 @@ WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari'))
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan'))
+
+WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/Page_ApprovalCopyContractDetail/button_Lihat Dokumen'))
+
+WebUI.delay(3)
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2'), 
     '0', false)

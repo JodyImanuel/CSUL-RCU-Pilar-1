@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Accordion_DokumenObjek_Pembiayaan</name>
+   <tag></tag>
+   <elementGuidId>bd8107ca-9f48-4a0e-85fa-9e9d4d3ba191</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.n8tme2ntf48&quot;] .OSInline.accordion-icon-container</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div[3]/div[1]/section/section/div/div/div[2]/article/div/div/div/div/div/div/div[2]/div/div/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d7454b2c-abaa-4c3a-866e-cbe5e4d3ffc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-flex justify-content-center align-items-center accordion-icon-container OSInline</value>
+      <webElementGuid>3574a242-8202-4a95-99dd-40d8a48bbe6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a67df7f94d9e36a88b95d541de6a6276</value>
+      <webElementGuid>5ce25ed5-0f81-47be-a73a-c1e3a5fb0e51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.n8tme2ntf48']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' accordion-icon-container ')]</value>
+      <webElementGuid>222e5124-b905-48d3-8bea-6962ecc50da7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.n8tme2ntf48']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' accordion-icon-container ')]</value>
+      <webElementGuid>a5ba8038-63d9-4b21-b6f4-591f14fe1a96</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

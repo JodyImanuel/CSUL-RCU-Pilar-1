@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Cari_PIC_A_B</name>
+   <tag></tag>
+   <elementGuidId>7997ee68-1e52-40d4-9fe5-0e0a34760919</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div[1]/div/div[2]/div[1]/div[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-s .btn-rounded</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>447f4b51-64aa-408d-8af6-89b4fe67d40f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-rounded btn-limegreen</value>
+      <webElementGuid>198b07de-9971-4e14-8e7d-0c6b2500cc81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>80e1c8fa-15bb-47cf-8b7b-c6f3439a970b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cari</value>
+      <webElementGuid>a2d03df2-84c0-43b7-ada4-c08a9b15684c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-b4682960746769985bc7333a9f85e309</value>
+      <webElementGuid>f24a0898-65d7-4675-9c16-7a88def93af6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-s ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-rounded ')]</value>
+      <webElementGuid>1de6927b-f346-4c1d-bdd9-fc56a0d85737</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-s ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-rounded ')]</value>
+      <webElementGuid>65a3bab7-3ac6-4deb-bdab-bd47a9000659</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Cari' or . = 'Cari')]</value>
+      <webElementGuid>ee746132-342e-4a58-8ee0-745ee547b981</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

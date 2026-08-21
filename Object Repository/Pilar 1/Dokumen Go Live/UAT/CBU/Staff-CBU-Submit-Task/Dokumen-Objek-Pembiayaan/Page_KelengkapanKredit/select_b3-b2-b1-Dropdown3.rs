@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-b2-b1-Dropdown3</name>
+   <tag></tag>
+   <elementGuidId>cebab993-f75b-41c4-8e1f-731fb76b5131</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-base:nth-child(3) .dropdown-display</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>ac90a39d-66fd-4947-b529-9304df44e8c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>0465a6f2-67c9-44e0-8022-02df6e732c59</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>1103c0d1-9275-4186-8697-a31f8afc900f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-b1-Dropdown3</value>
+      <webElementGuid>f2600563-f056-4f29-ae42-9572502f37e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StatusBARUDALAM PROSESMENUNGGU PERSETUJUANDISETUJUISURVEIDIKEMBALIKAN</value>
+      <webElementGuid>184797b9-f41a-4910-be62-25aecfd3ff2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-caa5b6a20c8950d645d990a5949dc08a</value>
+      <webElementGuid>432473c6-4356-4f44-ac41-593908c5b6b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>7c8fd439-31e6-4b8c-b134-7bf12d36e4f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-base ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ')]</value>
+      <webElementGuid>05730634-76cb-4895-ab8a-37d3f3b1b0de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b2-b1-Dropdown3' and (text() = 'Select StatusBARUDALAM PROSESMENUNGGU PERSETUJUANDISETUJUISURVEIDIKEMBALIKAN' or . = 'Select StatusBARUDALAM PROSESMENUNGGU PERSETUJUANDISETUJUISURVEIDIKEMBALIKAN')]</value>
+      <webElementGuid>f4bbaf7f-973a-41de-b97b-a858bf76fc82</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/P
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Dokumen Golive'))
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate3'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate4'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/select_b3-b2-b1-Dropdown2'), 
     '2', false)

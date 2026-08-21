@@ -6,12 +6,12 @@
    <elementGuidId>f120763b-bfe9-4174-9cba-c2664451a676</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.btn</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/div/div/div/div[5]/div[2]/div[2]/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+         <key>CSS</key>
+         <value>.btn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>aab976c6-5089-46da-b7ec-732704a5a404</webElementGuid>
+      <webElementGuid>084d5014-cff4-45b7-aed1-c323006ce6b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-rounded btn-limegreen</value>
-      <webElementGuid>ddb110be-3418-46e1-a346-15dd0a35e5b9</webElementGuid>
+      <webElementGuid>0bd1ffcf-01fb-4873-afd0-2c68d65d6117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>63417f78-4e1a-40de-a886-b147050b6e71</webElementGuid>
+      <webElementGuid>d7f2e84e-9c89-4a20-a389-7e68ea243bd8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari</value>
-      <webElementGuid>4e2452f7-e17a-466c-9217-591bf2190421</webElementGuid>
+      <webElementGuid>c55e0c87-f089-4891-bccd-d7521530fe61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>b60eabdb-aa69-4371-bb86-675870246aca</webElementGuid>
+      <webElementGuid>785ee31b-ca4f-4234-90ea-753d33e9eed6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>301c9abe-4cb1-4750-901d-90b99eff7e78</webElementGuid>
+      <webElementGuid>17297f3e-7584-4a94-99c3-f0082044b337</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>59f16e44-374c-4475-8fe7-3e20424df0e5</webElementGuid>
+      <webElementGuid>2e7e5ebf-7dd2-477f-a88b-94d0095042f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Cari' or . = 'Cari')]</value>
-      <webElementGuid>2f7e1637-282f-4e45-a065-effac87b418e</webElementGuid>
+      <webElementGuid>de82dffa-b9d9-413c-bd90-8e8a1bf8a602</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

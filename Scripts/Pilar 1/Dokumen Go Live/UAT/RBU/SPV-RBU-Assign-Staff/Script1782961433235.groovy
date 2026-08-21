@@ -42,6 +42,14 @@ WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CB
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_Cari'))
 
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/Page_KelengkapanKredit/button_View Detail'))
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/Page_KelengkapanKreditDetail/button_Back'))
+
+WebUI.delay(4)
+
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-l1_0-241_0-Checkbox2'))
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/button_Assign'))

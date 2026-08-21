@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Copy Contract - RBU" time="372.167" tests="6" failures="0" errors="0">
+   <testsuite name="Copy Contract - RBU" tests="6" failures="0" errors="0" time="372.167" skipped="0" timestamp="2026-07-21T02:17:26.383Z" hostname="Syarifah Risyani - Syarifah" id="Test Suites/Pilar 1/UAT/Copy Contract/Copy Contract - RBU">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_091718\\Pilar 1\\UAT\\Copy Contract\\Copy Contract - RBU\\20260721_091718"/>
+         <property name="logFiles" value="C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_091718\\Pilar 1\\UAT\\Copy Contract\\Copy Contract - RBU\\20260721_091718\\console0.log, C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_091718\\Pilar 1\\UAT\\Copy Contract\\Copy Contract - RBU\\20260721_091718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Syarifah Risyani - Syarifah"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 150.0.7871.128"/>
+         <property name="userFullName" value="Syarifah Risyani"/>
+         <property name="hostAddress" value="10.229.68.36"/>
+         <property name="sessionId" value="84b375506a14e65fba7546c281727d0c"/>
+         <property name="projectName" value="CSUL-Pilar-1"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-Staff" time="50.722" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-Staff" status="PASSED">
+         <system-out><![CDATA[21-07-2026T09:17:26 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-Staff: Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-Staff
+
+21-07-2026T09:17:26 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:17:27 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-RBU: Test Cases/Pilar 1/Login/UAT/SPV-RBU
+
+21-07-2026T09:17:27 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:17:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:17:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:17:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:17:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:17:31 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:17:31 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:17:34 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga"): Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:17:36 - [MESSAGE][PASSED] - Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:17:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:17:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:17:37 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:17:57 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:17:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:18:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:18:02 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:18:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:18:03 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:18:03 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:18:03 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:18:07 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate"), "10-10-2020"): Text '10-10-2020' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate'
+
+21-07-2026T09:18:10 - [MESSAGE][PASSED] - Text '10-10-2020' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate'
+
+21-07-2026T09:18:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate2"), "10-12-2020"): Text '10-12-2020' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate2'
+
+21-07-2026T09:18:11 - [MESSAGE][PASSED] - Text '10-12-2020' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate2'
+
+21-07-2026T09:18:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownCabang"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownCabang' 
+
+21-07-2026T09:18:12 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownCabang' 
+
+21-07-2026T09:18:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus' 
+
+21-07-2026T09:18:12 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus' 
+
+21-07-2026T09:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-l1_0-239_0-Checkbox2")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-l1_0-239_0-Checkbox2' is clicked on
+
+21-07-2026T09:18:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-l1_0-239_0-Checkbox2' is clicked on
+
+21-07-2026T09:18:13 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign' is clicked on
+
+21-07-2026T09:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign' is clicked on
+
+21-07-2026T09:18:14 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign_popup")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign_popup' is clicked on
+
+21-07-2026T09:18:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign_popup' is clicked on
+
+21-07-2026T09:18:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus"), "1", false): All options with value '1' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus' 
+
+21-07-2026T09:18:16 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus' 
+
+21-07-2026T09:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/Staff-RBU-Submit-Task" time="76.034" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/Staff-RBU-Submit-Task" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Lorem":"C:\\Users\\PPU\\Downloads\\Tester File\\Lorem1_PDF.pdf"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-07-2026T09:18:17 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/Staff-RBU-Submit-Task: Test Cases/Pilar 1/Copy Contract/UAT/RBU/Staff-RBU-Submit-Task
+
+21-07-2026T09:18:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-RBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/Staff-RBU' successfully
+
+21-07-2026T09:18:17 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/Staff-RBU: Test Cases/Pilar 1/Login/UAT/Staff-RBU
+
+21-07-2026T09:18:17 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:18:17 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T09:18:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:18:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:18:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:18:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:18:20 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:18:20 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:18:22 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:18:22 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "pandu.sastra"): Text 'pandu.sastra' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:18:24 - [MESSAGE][PASSED] - Text 'pandu.sastra' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:18:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:18:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:18:24 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:18:45 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:18:45 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:18:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:18:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:18:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:18:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:18:55 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:18:55 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:18:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/Staff-RBU' successfully
+
+21-07-2026T09:18:56 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:19:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate'
+
+21-07-2026T09:19:03 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate'
+
+21-07-2026T09:19:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2'
+
+21-07-2026T09:19:03 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2'
+
+21-07-2026T09:19:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:19:04 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:19:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:19:04 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Pemeriksaan")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Pemeriksaan' is clicked on
+
+21-07-2026T09:19:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Pemeriksaan' is clicked on
+
+21-07-2026T09:19:05 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman' is clicked on
+
+21-07-2026T09:19:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman' is clicked on
+
+21-07-2026T09:19:06 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-b16-Input_NamaKaryawan"), "Fatimah AZ"): Text 'Fatimah AZ' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-b16-Input_NamaKaryawan'
+
+21-07-2026T09:19:07 - [MESSAGE][PASSED] - Text 'Fatimah AZ' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-b16-Input_NamaKaryawan'
+
+21-07-2026T09:19:07 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Cari' is clicked on
+
+21-07-2026T09:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Cari' is clicked on
+
+21-07-2026T09:19:08 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Pilih")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Pilih' is clicked on
+
+21-07-2026T09:19:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Pilih' is clicked on
+
+21-07-2026T09:19:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2' 
+
+21-07-2026T09:19:09 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2' 
+
+21-07-2026T09:19:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill"), "testing@gmail.com"): Text 'testing@gmail.com' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill'
+
+21-07-2026T09:19:09 - [MESSAGE][PASSED] - Text 'testing@gmail.com' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill'
+
+21-07-2026T09:19:09 - [TEST_STEP][PASSED] - delay(6): Delayed 6 second(s)
+
+21-07-2026T09:19:15 - [MESSAGE][PASSED] - Delayed 6 second(s)
+
+21-07-2026T09:19:15 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima"), "testing"): Text 'testing' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima'
+
+21-07-2026T09:19:16 - [MESSAGE][PASSED] - Text 'testing' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima'
+
+21-07-2026T09:19:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown3' 
+
+21-07-2026T09:19:17 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown3' 
+
+21-07-2026T09:19:17 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/textarea_b3-b2-l4_0-194_0-TextArea_Remarks"), "testing ya"): Text 'testing ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/textarea_b3-b2-l4_0-194_0-TextArea_Remarks'
+
+21-07-2026T09:19:17 - [MESSAGE][PASSED] - Text 'testing ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/textarea_b3-b2-l4_0-194_0-TextArea_Remarks'
+
+21-07-2026T09:19:17 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah' is clicked on
+
+21-07-2026T09:19:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah' is clicked on
+
+21-07-2026T09:19:18 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+21-07-2026T09:19:25 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+21-07-2026T09:19:25 - [TEST_STEP][NOT_RUN] - uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone"), Lorem): NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone"), Lorem)
+
+21-07-2026T09:19:25 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone"), Lorem)
+
+21-07-2026T09:19:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup")): NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup"))
+
+21-07-2026T09:19:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup"))
+
+21-07-2026T09:19:25 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1")): NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1"))
+
+21-07-2026T09:19:25 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1"))
+
+21-07-2026T09:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit' is clicked on
+
+21-07-2026T09:19:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit' is clicked on
+
+21-07-2026T09:19:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit_popup")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit_popup' is clicked on
+
+21-07-2026T09:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit_popup' is clicked on
+
+21-07-2026T09:19:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:19:32 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:19:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Persetujuan" time="65.494" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Persetujuan" status="PASSED">
+         <system-out><![CDATA[21-07-2026T09:19:33 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Persetujuan: Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Persetujuan
+
+21-07-2026T09:19:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:19:33 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-RBU: Test Cases/Pilar 1/Login/UAT/SPV-RBU
+
+21-07-2026T09:19:33 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:19:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T09:19:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:19:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:19:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:19:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:19:36 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:19:36 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:19:39 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:19:39 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga"): Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:19:40 - [MESSAGE][PASSED] - Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:19:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:19:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:19:41 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:20:01 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:20:01 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:20:08 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:20:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:20:13 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:20:13 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:20:13 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:20:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:20:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:20:14 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:20:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate'
+
+21-07-2026T09:20:21 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate'
+
+21-07-2026T09:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2'
+
+21-07-2026T09:20:22 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2'
+
+21-07-2026T09:20:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1' 
+
+21-07-2026T09:20:22 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1' 
+
+21-07-2026T09:20:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3' 
+
+21-07-2026T09:20:23 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3' 
+
+21-07-2026T09:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:20:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan' is clicked on
+
+21-07-2026T09:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan' is clicked on
+
+21-07-2026T09:20:24 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/Page_ApprovalCopyContractDetail/button_Lihat Dokumen")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/Page_ApprovalCopyContractDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T09:20:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/Page_ApprovalCopyContractDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T09:20:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-07-2026T09:20:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-07-2026T09:20:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2' 
+
+21-07-2026T09:20:30 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2' 
+
+21-07-2026T09:20:30 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/textarea_b3-b9-TextArea_Catatan"), "testing ya"): Text 'testing ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/textarea_b3-b9-TextArea_Catatan'
+
+21-07-2026T09:20:30 - [MESSAGE][PASSED] - Text 'testing ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/textarea_b3-b9-TextArea_Catatan'
+
+21-07-2026T09:20:30 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/button_Submit")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/button_Submit' is clicked on
+
+21-07-2026T09:20:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/button_Submit' is clicked on
+
+21-07-2026T09:20:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3' 
+
+21-07-2026T09:20:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3' 
+
+21-07-2026T09:20:38 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:20:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-PIC" time="59.117" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-PIC" status="PASSED">
+         <system-out><![CDATA[21-07-2026T09:20:38 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-PIC: Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Assign-PIC
+
+21-07-2026T09:20:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:20:38 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-RBU: Test Cases/Pilar 1/Login/UAT/SPV-RBU
+
+21-07-2026T09:20:39 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:20:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T09:20:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:20:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:20:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:20:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:20:41 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:20:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:20:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:20:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga"): Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:20:45 - [MESSAGE][PASSED] - Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:20:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:20:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:20:46 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:21:06 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:21:06 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:21:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:21:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:21:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:21:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:21:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:21:18 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:21:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:21:24 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:21:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'
+
+21-07-2026T09:21:29 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'
+
+21-07-2026T09:21:29 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'
+
+21-07-2026T09:21:29 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'
+
+21-07-2026T09:21:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2' 
+
+21-07-2026T09:21:30 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2' 
+
+21-07-2026T09:21:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5' 
+
+21-07-2026T09:21:30 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5' 
+
+21-07-2026T09:21:30 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-l2_0-611_0-Checkbox2")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-l2_0-611_0-Checkbox2' is clicked on
+
+21-07-2026T09:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-l2_0-611_0-Checkbox2' is clicked on
+
+21-07-2026T09:21:34 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Kirim Tindak Lanjut_1")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Kirim Tindak Lanjut_1' is clicked on
+
+21-07-2026T09:21:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Kirim Tindak Lanjut_1' is clicked on
+
+21-07-2026T09:21:34 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-NamaKaryawan"), "Fatimah AZ"): Text 'Fatimah AZ' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-NamaKaryawan'
+
+21-07-2026T09:21:35 - [MESSAGE][PASSED] - Text 'Fatimah AZ' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-NamaKaryawan'
+
+21-07-2026T09:21:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-Jabatan"), "IT Business Partner"): Text 'IT Business Partner' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-Jabatan'
+
+21-07-2026T09:21:35 - [MESSAGE][PASSED] - Text 'IT Business Partner' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-Jabatan'
+
+21-07-2026T09:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Cari_PIC")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Cari_PIC' is clicked on
+
+21-07-2026T09:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Cari_PIC' is clicked on
+
+21-07-2026T09:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-l1_0-365_0-IsPICUtama")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-l1_0-365_0-IsPICUtama' is clicked on
+
+21-07-2026T09:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-l1_0-365_0-IsPICUtama' is clicked on
+
+21-07-2026T09:21:36 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut_popup")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut_popup' is clicked on
+
+21-07-2026T09:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut_popup' is clicked on
+
+21-07-2026T09:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut' is clicked on
+
+21-07-2026T09:21:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut" time="60.587" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Lorem":"C:\\Users\\PPU\\Downloads\\Tester File\\Lorem1_PDF.pdf"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-07-2026T09:21:37 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut: Test Cases/Pilar 1/Copy Contract/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut
+
+21-07-2026T09:21:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/PIC-Fatimah"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/PIC-Fatimah' successfully
+
+21-07-2026T09:21:38 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/PIC-Fatimah: Test Cases/Pilar 1/Login/UAT/PIC-Fatimah
+
+21-07-2026T09:21:38 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:21:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T09:21:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:21:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:21:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:21:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:21:40 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:21:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:21:44 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:21:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "fatimah.zahra"): Text 'fatimah.zahra' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:21:46 - [MESSAGE][PASSED] - Text 'fatimah.zahra' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:21:46 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:21:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:21:47 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:22:07 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:22:07 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:22:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:22:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:22:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:22:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:22:12 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:22:12 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:22:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:22:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/PIC-Fatimah' successfully
+
+21-07-2026T09:22:13 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:22:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:22:17 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:22:18 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:22:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:22:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-BisnisUnit"), "1", false): All options with value '1' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-BisnisUnit' 
+
+21-07-2026T09:22:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-BisnisUnit' 
+
+21-07-2026T09:22:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T09:22:22 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T09:22:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:22:23 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:22:23 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:22:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:22:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles"), "31-07-2026"): Text '31-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles'
+
+21-07-2026T09:22:24 - [MESSAGE][PASSED] - Text '31-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles'
+
+21-07-2026T09:22:24 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut"), "sudah bisa dilanjut ya"): Text 'sudah bisa dilanjut ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut'
+
+21-07-2026T09:22:25 - [MESSAGE][PASSED] - Text 'sudah bisa dilanjut ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut'
+
+21-07-2026T09:22:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah' is clicked on
+
+21-07-2026T09:22:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah' is clicked on
+
+21-07-2026T09:22:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:22:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:22:30 - [TEST_STEP][NOT_RUN] - uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone"), Lorem): NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone"), Lorem)
+
+21-07-2026T09:22:30 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone"), Lorem)
+
+21-07-2026T09:22:30 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload")): NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload"))
+
+21-07-2026T09:22:30 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload"))
+
+21-07-2026T09:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit' is clicked on
+
+21-07-2026T09:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit' is clicked on
+
+21-07-2026T09:22:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T09:22:37 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T09:22:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:22:38 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T09:22:38 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+
+21-07-2026T09:22:38 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+
+21-07-2026T09:22:38 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "11102003404"): NOT_RUN: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "11102003404")
+
+21-07-2026T09:22:38 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "11102003404")
+
+21-07-2026T09:22:38 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:22:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut" time="59.994" classname="Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut" status="PASSED">
+         <system-out><![CDATA[21-07-2026T09:22:38 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut: Test Cases/Pilar 1/Copy Contract/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut
+
+21-07-2026T09:22:38 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:22:38 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-RBU: Test Cases/Pilar 1/Login/UAT/SPV-RBU
+
+21-07-2026T09:22:38 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:22:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T09:22:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T09:22:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T09:22:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T09:22:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T09:22:41 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T09:22:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:22:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T09:22:43 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga"): Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:22:45 - [MESSAGE][PASSED] - Text 'taufan.minangga' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T09:22:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:22:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T09:22:45 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T09:23:05 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T09:23:05 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:23:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T09:23:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T09:23:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T09:23:11 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:23:11 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T09:23:11 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:23:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T09:23:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-RBU' successfully
+
+21-07-2026T09:23:11 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:23:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T09:23:15 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T09:23:16 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:23:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract' is clicked on
+
+21-07-2026T09:23:16 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'
+
+21-07-2026T09:23:19 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'
+
+21-07-2026T09:23:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'
+
+21-07-2026T09:23:20 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'
+
+21-07-2026T09:23:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2"), "4", false): All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2' 
+
+21-07-2026T09:23:21 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2' 
+
+21-07-2026T09:23:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5' 
+
+21-07-2026T09:23:21 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5' 
+
+21-07-2026T09:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:23:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari' is clicked on
+
+21-07-2026T09:23:21 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:23:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:23:22 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:23:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:23:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/Page_TindakLanjutDocumentDetailCopyContract/button_Lihat Dokumen")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/Page_TindakLanjutDocumentDetailCopyContract/button_Lihat Dokumen' is clicked on
+
+21-07-2026T09:23:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/Page_TindakLanjutDocumentDetailCopyContract/button_Lihat Dokumen' is clicked on
+
+21-07-2026T09:23:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-07-2026T09:23:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-07-2026T09:23:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus' 
+
+21-07-2026T09:23:31 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus' 
+
+21-07-2026T09:23:31 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/textarea_b3-l1-378_0-b2-TextArea_HasilCatatan"), "selesai ya"): Text 'selesai ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/textarea_b3-l1-378_0-b2-TextArea_HasilCatatan'
+
+21-07-2026T09:23:32 - [MESSAGE][PASSED] - Text 'selesai ya' is set on object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/textarea_b3-l1-378_0-b2-TextArea_HasilCatatan'
+
+21-07-2026T09:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/button_Submit")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/button_Submit' is clicked on
+
+21-07-2026T09:23:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/button_Submit' is clicked on
+
+21-07-2026T09:23:32 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut")): Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut' is clicked on
+
+21-07-2026T09:23:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-07-2026T09:17:26 - [TEST_SUITE][PASSED] - Copy Contract - RBU: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

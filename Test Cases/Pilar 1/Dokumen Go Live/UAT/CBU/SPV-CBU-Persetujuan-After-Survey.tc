@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SPV-CBU-Persetujuan-After-Survey</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c4bae9bc-59ed-46a3-9504-e17b1a6042dc</testCaseGuid>
+</TestCaseEntity>

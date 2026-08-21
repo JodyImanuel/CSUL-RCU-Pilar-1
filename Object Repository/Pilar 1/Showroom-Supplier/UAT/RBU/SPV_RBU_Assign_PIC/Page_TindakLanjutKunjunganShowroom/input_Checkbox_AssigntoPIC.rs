@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Checkbox_AssigntoPIC</name>
+   <tag></tag>
+   <elementGuidId>2ef28443-ad81-4421-8a33-0890186b62cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div[2]/div[1]/table/tbody/tr[1]/td[1]/div/span/input</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table-row:nth-child(1) .checkbox</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>ef162c6b-dc0c-4697-9631-108ea5e6fb01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>0e3dea97-43b6-430e-8c66-bcfb080b3cf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>checkbox</value>
+      <webElementGuid>c248c6db-9096-4147-8575-ddf8aed265c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-l1_0-410_0-Checkbox1</value>
+      <webElementGuid>93ae8e14-8bd2-40b2-87e2-325b25932e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-97f58420f3dddc09d7c1281ecfe8c51f</value>
+      <webElementGuid>dd283a66-b568-4b87-9175-21bc6aeafca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox ')]</value>
+      <webElementGuid>e791ae70-24de-492e-9cb9-b6034ee1a5ce</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' checkbox ')]</value>
+      <webElementGuid>81c5524f-ecfb-48db-bb5d-5569c4581cd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'checkbox' and @id = 'b3-b2-l1_0-410_0-Checkbox1']</value>
+      <webElementGuid>2d7f2a35-7f09-4905-afd6-9f0f68fe8d53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

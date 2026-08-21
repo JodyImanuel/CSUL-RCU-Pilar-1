@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>action</name>
+   <tag></tag>
+   <elementGuidId>1a139a89-240c-41ea-ba10-99083c24bef3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/table/tbody/tr[1]/td[16]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table-row:nth-child(1) .popover-top</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3836ed2a-3916-4b21-9f1c-658b0b23e6d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>popover-top</value>
+      <webElementGuid>aede287b-8b91-4192-9e6b-fc60b1b4cec3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a35e40a6-6c55-40b0-b74c-527002432597</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>. . .</value>
+      <webElementGuid>8eb1fdcb-dfef-43c8-9b8f-ef04d215aa65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-55c33b2aa81fb65e562c72799359df5d</value>
+      <webElementGuid>8485586c-b724-4a02-bea2-65f9c99104a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-top ')]</value>
+      <webElementGuid>c8620d38-0b50-4fbe-b2e5-62b2fa2cbc79</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-top ')]</value>
+      <webElementGuid>0dad3f64-cf9b-48f5-a6b9-081b503fc674</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '. . .' or . = '. . .')]</value>
+      <webElementGuid>85524f3b-2d69-458b-9291-920fa094fd5e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

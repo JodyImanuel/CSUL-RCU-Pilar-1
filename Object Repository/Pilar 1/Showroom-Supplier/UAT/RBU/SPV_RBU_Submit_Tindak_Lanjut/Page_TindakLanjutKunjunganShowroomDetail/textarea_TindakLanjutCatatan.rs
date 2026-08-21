@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_TindakLanjutCatatan</name>
+   <tag></tag>
+   <elementGuidId>1d232b28-6ac6-498c-b313-6fc019ef9ebc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' OSFillParent ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-block=&quot;TindakLanjutShowroomVisit\.Component_SubmitCard&quot;]:nth-child(2) textarea.form-control.OSFillParent.text-area-custom</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a08fea0b-af03-429b-baac-e857a4988adc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-area-custom OSFillParent</value>
+      <webElementGuid>5d1be78e-e2f0-49d0-bb5c-90955fce014f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>e78587e2-0043-404b-8ca1-81cd41f25f63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>a4de7770-7bcb-46a0-bda1-9bffcdf76a11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-l4-291_0-b2-TindakLanjutCatatan</value>
+      <webElementGuid>eae111e9-3573-4613-86d5-9c3fd8834c8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f65a3652387fe7fb421f0be338e954d8</value>
+      <webElementGuid>efaefe67-ef36-4597-93a9-db286e380c75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' OSFillParent ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ')]</value>
+      <webElementGuid>22a7cc05-96cf-4885-a9e8-894e15b99b8a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' OSFillParent ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ')]</value>
+      <webElementGuid>e4d8d806-8896-4bbf-b763-33541f3ca554</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b3-b2-l4-291_0-b2-TindakLanjutCatatan']</value>
+      <webElementGuid>e7c3dd50-ef64-4e98-94db-ab7f19454f5c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

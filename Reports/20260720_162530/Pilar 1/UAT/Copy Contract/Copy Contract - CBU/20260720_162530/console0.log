@@ -1,0 +1,289 @@
+2026-07-20 16:25:35.866 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Syarifah Risyani\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-07-20 16:25:35.870 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Syarifah Risyani\git\Pilar 1\CSUL-Pilar-1\Include\config\log.properties
+2026-07-20 16:25:36.781 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Pilar 1/UAT/Copy Contract/Copy Contract - CBU
+2026-07-20 16:25:36.907 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syarifah Risyani
+2026-07-20 16:25:36.908 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = CSUL-Pilar-1
+2026-07-20 16:25:36.911 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Syarifah Risyani - Syarifah
+2026-07-20 16:25:36.914 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-07-20 16:25:36.915 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.0.2
+2026-07-20 16:25:36.916 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-07-20 16:25:37.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:25:37.196 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff
+2026-07-20 16:25:37.552 DEBUG testcase.SPV-CBU-Assign-Staff            - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-20 16:25:37.785 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:25:37.785 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:25:37.843 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:25:38.037 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:25:38.077 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:25:41.923 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 21da40db85474eb106cea7bbbeac7b02
+2026-07-20 16:25:41.925 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:25:41.927 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:25:41.928 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:25:41.959 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:25:42.511 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-20 16:25:42.957 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:25:48.139 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-20 16:25:50.041 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:25:50.638 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-20 16:26:10.682 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:26:11.027 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-20 16:26:16.050 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:26:17.306 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:26:17.713 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:26:17.713 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:26:17.726 DEBUG testcase.SPV-CBU-Assign-Staff            - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader"))
+2026-07-20 16:26:22.776 DEBUG testcase.SPV-CBU-Assign-Staff            - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader"))
+2026-07-20 16:26:23.334 DEBUG testcase.SPV-CBU-Assign-Staff            - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:26:23.668 DEBUG testcase.SPV-CBU-Assign-Staff            - 5: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate"), "10-10-2020")
+2026-07-20 16:26:27.485 DEBUG testcase.SPV-CBU-Assign-Staff            - 6: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-b1-Input_StartDate2"), "10-12-2020")
+2026-07-20 16:26:28.089 DEBUG testcase.SPV-CBU-Assign-Staff            - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownCabang"), "2", false)
+2026-07-20 16:26:28.684 DEBUG testcase.SPV-CBU-Assign-Staff            - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus"), "0", false)
+2026-07-20 16:26:29.224 DEBUG testcase.SPV-CBU-Assign-Staff            - 9: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari"))
+2026-07-20 16:26:29.567 DEBUG testcase.SPV-CBU-Assign-Staff            - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/input_b3-b1-l1_0-239_0-Checkbox2"))
+2026-07-20 16:26:30.342 DEBUG testcase.SPV-CBU-Assign-Staff            - 11: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign"))
+2026-07-20 16:26:30.677 DEBUG testcase.SPV-CBU-Assign-Staff            - 12: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b4-DropdownStaff"), "0", false)
+2026-07-20 16:26:31.536 DEBUG testcase.SPV-CBU-Assign-Staff            - 13: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Assign_popup"))
+2026-07-20 16:26:31.834 DEBUG testcase.SPV-CBU-Assign-Staff            - 14: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/select_b3-b1-b1-DropdownStatus"), "1", false)
+2026-07-20 16:26:34.154 DEBUG testcase.SPV-CBU-Assign-Staff            - 15: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff/Page_PengirimanCopyContract/button_Cari"))
+2026-07-20 16:26:34.466 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-Staff
+2026-07-20 16:26:34.477 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:26:34.478 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task
+2026-07-20 16:26:34.522 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lorem = C:\Users\PPU\Downloads\Tester File\Lorem1_PDF.pdf
+2026-07-20 16:26:34.623 DEBUG testcase.Staff-CBU-Submit-Task           - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-CBU"), [:], STOP_ON_FAILURE)
+2026-07-20 16:26:34.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:26:34.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Staff-CBU
+2026-07-20 16:26:34.754 DEBUG testcase.Staff-CBU                       - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:26:34.764 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-20 16:26:35.134 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:26:35.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:26:36.240 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0a3cf52ed9c45d6ff839bffc205a7155
+2026-07-20 16:26:36.245 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:26:36.246 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:26:36.247 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:26:36.252 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:26:38.129 DEBUG testcase.Staff-CBU                       - 2: maximizeWindow()
+2026-07-20 16:26:38.282 DEBUG testcase.Staff-CBU                       - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:26:42.215 DEBUG testcase.Staff-CBU                       - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "iqbal.putra")
+2026-07-20 16:26:43.224 DEBUG testcase.Staff-CBU                       - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:26:43.826 DEBUG testcase.Staff-CBU                       - 6: delay(20)
+2026-07-20 16:27:03.849 DEBUG testcase.Staff-CBU                       - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:27:04.676 DEBUG testcase.Staff-CBU                       - 8: delay(5)
+2026-07-20 16:27:09.682 DEBUG testcase.Staff-CBU                       - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:27:10.169 DEBUG testcase.Staff-CBU                       - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:27:10.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Staff-CBU
+2026-07-20 16:27:10.598 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:27:10.601 DEBUG testcase.Staff-CBU-Submit-Task           - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader"))
+2026-07-20 16:27:13.918 DEBUG testcase.Staff-CBU-Submit-Task           - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-20 16:27:14.446 DEBUG testcase.Staff-CBU-Submit-Task           - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:27:14.763 DEBUG testcase.Staff-CBU-Submit-Task           - 5: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate"), "20-07-2026")
+2026-07-20 16:27:17.694 DEBUG testcase.Staff-CBU-Submit-Task           - 6: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2"), "20-07-2026")
+2026-07-20 16:27:18.292 DEBUG testcase.Staff-CBU-Submit-Task           - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown1"), "2", false)
+2026-07-20 16:27:18.835 DEBUG testcase.Staff-CBU-Submit-Task           - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3"), "0", false)
+2026-07-20 16:27:19.364 DEBUG testcase.Staff-CBU-Submit-Task           - 9: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari"))
+2026-07-20 16:27:19.688 DEBUG testcase.Staff-CBU-Submit-Task           - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Pemeriksaan"))
+2026-07-20 16:27:20.335 DEBUG testcase.Staff-CBU-Submit-Task           - 11: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman"))
+2026-07-20 16:27:23.010 DEBUG testcase.Staff-CBU-Submit-Task           - 12: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-b16-Input_NamaKaryawan"), "Fatimah AZ")
+2026-07-20 16:27:24.472 DEBUG testcase.Staff-CBU-Submit-Task           - 13: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Cari"))
+2026-07-20 16:27:24.781 DEBUG testcase.Staff-CBU-Submit-Task           - 14: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Pilih"))
+2026-07-20 16:27:25.431 DEBUG testcase.Staff-CBU-Submit-Task           - 15: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2"), "2", false)
+2026-07-20 16:27:25.969 DEBUG testcase.Staff-CBU-Submit-Task           - 16: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill"), "testing@gmail.com")
+2026-07-20 16:27:26.596 DEBUG testcase.Staff-CBU-Submit-Task           - 17: delay(6)
+2026-07-20 16:27:32.612 DEBUG testcase.Staff-CBU-Submit-Task           - 18: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima"), "testing")
+2026-07-20 16:27:33.292 DEBUG testcase.Staff-CBU-Submit-Task           - 19: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown3"), "0", false)
+2026-07-20 16:27:33.806 DEBUG testcase.Staff-CBU-Submit-Task           - 20: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/textarea_b3-b2-l4_0-194_0-TextArea_Remarks"), "testing ya")
+2026-07-20 16:27:34.396 DEBUG testcase.Staff-CBU-Submit-Task           - 21: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah"))
+2026-07-20 16:27:34.932 DEBUG testcase.Staff-CBU-Submit-Task           - 22: delay(5)
+2026-07-20 16:27:39.949 DEBUG testcase.Staff-CBU-Submit-Task           - 23: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone"), Lorem)
+2026-07-20 16:27:39.952 WARN  testcase.Staff-CBU-Submit-Task           - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone"), Lorem)
+2026-07-20 16:27:39.952 DEBUG testcase.Staff-CBU-Submit-Task           - 24: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup"))
+2026-07-20 16:27:39.952 WARN  testcase.Staff-CBU-Submit-Task           - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup"))
+2026-07-20 16:27:39.952 DEBUG testcase.Staff-CBU-Submit-Task           - 25: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1"))
+2026-07-20 16:27:39.952 WARN  testcase.Staff-CBU-Submit-Task           - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1"))
+2026-07-20 16:27:39.952 DEBUG testcase.Staff-CBU-Submit-Task           - 26: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit"))
+2026-07-20 16:27:42.653 DEBUG testcase.Staff-CBU-Submit-Task           - 27: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit_popup"))
+2026-07-20 16:27:43.168 DEBUG testcase.Staff-CBU-Submit-Task           - 28: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3"), "2", false)
+2026-07-20 16:27:50.099 DEBUG testcase.Staff-CBU-Submit-Task           - 29: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari"))
+2026-07-20 16:27:50.385 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task
+2026-07-20 16:27:50.389 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:27:50.389 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan
+2026-07-20 16:27:50.470 DEBUG testcase.SPV-CBU-Persetujuan             - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-20 16:27:50.528 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:27:50.528 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:27:50.548 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:27:50.549 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-20 16:27:51.002 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:27:51.005 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:27:52.177 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 1270ef08dae9bfbb076dbc57b519a907
+2026-07-20 16:27:52.180 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:27:52.182 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:27:52.182 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:27:52.183 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:27:52.673 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-20 16:27:52.755 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:27:56.102 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-20 16:27:56.742 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:27:57.293 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-20 16:28:17.314 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:28:17.654 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-20 16:28:22.669 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:28:23.777 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:28:24.175 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:28:24.176 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:28:24.177 DEBUG testcase.SPV-CBU-Persetujuan             - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader"))
+2026-07-20 16:28:29.328 DEBUG testcase.SPV-CBU-Persetujuan             - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader"))
+2026-07-20 16:28:29.866 DEBUG testcase.SPV-CBU-Persetujuan             - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:28:30.177 DEBUG testcase.SPV-CBU-Persetujuan             - 5: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate"), "20-07-2026")
+2026-07-20 16:28:32.867 DEBUG testcase.SPV-CBU-Persetujuan             - 6: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/input_b3-b1-Input_StartDate2"), "20-07-2026")
+2026-07-20 16:28:33.430 DEBUG testcase.SPV-CBU-Persetujuan             - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown1"), "2", false)
+2026-07-20 16:28:34.002 DEBUG testcase.SPV-CBU-Persetujuan             - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3"), "0", false)
+2026-07-20 16:28:34.542 DEBUG testcase.SPV-CBU-Persetujuan             - 9: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari"))
+2026-07-20 16:28:34.847 DEBUG testcase.SPV-CBU-Persetujuan             - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Persetujuan"))
+2026-07-20 16:28:35.516 DEBUG testcase.SPV-CBU-Persetujuan             - 11: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/select_b3-b9-Status2"), "0", false)
+2026-07-20 16:28:38.588 DEBUG testcase.SPV-CBU-Persetujuan             - 12: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/textarea_b3-b9-TextArea_Catatan"), "testing ya")
+2026-07-20 16:28:39.182 DEBUG testcase.SPV-CBU-Persetujuan             - 13: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContractDetail/button_Submit"))
+2026-07-20 16:28:39.716 DEBUG testcase.SPV-CBU-Persetujuan             - 14: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/select_b3-b1-Dropdown3"), "2", false)
+2026-07-20 16:28:46.632 DEBUG testcase.SPV-CBU-Persetujuan             - 15: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalCopyContract/button_Cari"))
+2026-07-20 16:28:46.918 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Persetujuan
+2026-07-20 16:28:46.923 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:28:46.923 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC
+2026-07-20 16:28:47.006 DEBUG testcase.SPV-CBU-Assign-PIC              - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-20 16:28:47.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:28:47.071 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:28:47.082 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:28:47.082 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-20 16:28:47.453 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:28:47.454 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:28:48.702 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4083c284cb50c2d3d5af4c3877c97ccc
+2026-07-20 16:28:48.703 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:28:48.704 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:28:48.704 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:28:48.704 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:28:49.278 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-20 16:28:49.362 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:28:52.592 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-20 16:28:53.277 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:28:53.825 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-20 16:29:13.835 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:29:14.174 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-20 16:29:19.190 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:29:20.090 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:29:20.494 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:29:20.494 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:29:20.495 DEBUG testcase.SPV-CBU-Assign-PIC              - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader"))
+2026-07-20 16:29:23.758 DEBUG testcase.SPV-CBU-Assign-PIC              - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-20 16:29:24.292 DEBUG testcase.SPV-CBU-Assign-PIC              - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:29:24.604 DEBUG testcase.SPV-CBU-Assign-PIC              - 5: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3"), "20-07-2026")
+2026-07-20 16:29:27.846 DEBUG testcase.SPV-CBU-Assign-PIC              - 6: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4"), "20-07-2026")
+2026-07-20 16:29:28.433 DEBUG testcase.SPV-CBU-Assign-PIC              - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2"), "2", false)
+2026-07-20 16:29:29.009 DEBUG testcase.SPV-CBU-Assign-PIC              - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5"), "0", false)
+2026-07-20 16:29:29.542 DEBUG testcase.SPV-CBU-Assign-PIC              - 9: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari"))
+2026-07-20 16:29:29.862 DEBUG testcase.SPV-CBU-Assign-PIC              - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut"))
+2026-07-20 16:29:30.494 DEBUG testcase.SPV-CBU-Assign-PIC              - 11: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-l2_0-611_0-Checkbox2"))
+2026-07-20 16:29:32.541 DEBUG testcase.SPV-CBU-Assign-PIC              - 12: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Kirim Tindak Lanjut_1"))
+2026-07-20 16:29:32.933 DEBUG testcase.SPV-CBU-Assign-PIC              - 13: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-NamaKaryawan"), "Fatimah AZ")
+2026-07-20 16:29:33.862 DEBUG testcase.SPV-CBU-Assign-PIC              - 14: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-b2-Jabatan"), "IT Business Partner")
+2026-07-20 16:29:34.479 DEBUG testcase.SPV-CBU-Assign-PIC              - 15: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Cari_PIC"))
+2026-07-20 16:29:34.772 DEBUG testcase.SPV-CBU-Assign-PIC              - 16: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/input_b3-b1-b3-l1_0-365_0-IsPICUtama"))
+2026-07-20 16:29:35.396 DEBUG testcase.SPV-CBU-Assign-PIC              - 17: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut_popup"))
+2026-07-20 16:29:35.930 DEBUG testcase.SPV-CBU-Assign-PIC              - 18: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContractDetail/button_Kirim Tindak Lanjut"))
+2026-07-20 16:29:36.445 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC
+2026-07-20 16:29:36.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:29:36.452 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut
+2026-07-20 16:29:36.463 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lorem = C:\Users\PPU\Downloads\Tester File\Lorem1_PDF.pdf
+2026-07-20 16:29:36.542 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/PIC-Fatimah"), [:], STOP_ON_FAILURE)
+2026-07-20 16:29:36.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:29:36.609 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/PIC-Fatimah
+2026-07-20 16:29:36.642 DEBUG testcase.PIC-Fatimah                     - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:29:36.652 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-20 16:29:37.073 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:29:37.076 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:29:38.054 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6037510a9224def71fd5f38c7307b366
+2026-07-20 16:29:38.055 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:29:38.057 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:29:38.057 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:29:38.058 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:29:39.039 DEBUG testcase.PIC-Fatimah                     - 2: maximizeWindow()
+2026-07-20 16:29:39.134 DEBUG testcase.PIC-Fatimah                     - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:29:43.682 DEBUG testcase.PIC-Fatimah                     - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "fatimah.zahra")
+2026-07-20 16:29:44.382 DEBUG testcase.PIC-Fatimah                     - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:29:44.950 DEBUG testcase.PIC-Fatimah                     - 6: delay(20)
+2026-07-20 16:30:04.953 DEBUG testcase.PIC-Fatimah                     - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:30:05.262 DEBUG testcase.PIC-Fatimah                     - 8: delay(5)
+2026-07-20 16:30:10.271 DEBUG testcase.PIC-Fatimah                     - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:30:11.430 DEBUG testcase.PIC-Fatimah                     - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:30:11.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/PIC-Fatimah
+2026-07-20 16:30:11.815 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:30:11.818 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader"))
+2026-07-20 16:30:14.917 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-20 16:30:15.453 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:30:15.755 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 5: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-BisnisUnit"), "0", false)
+2026-07-20 16:30:17.773 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 6: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+2026-07-20 16:30:17.777 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+2026-07-20 16:30:17.777 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 7: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "12102003318")
+2026-07-20 16:30:17.778 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "12102003318")
+2026-07-20 16:30:17.779 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false)
+2026-07-20 16:30:18.645 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 9: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "0", false)
+2026-07-20 16:30:19.178 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari"))
+2026-07-20 16:30:19.495 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 11: delay(4)
+2026-07-20 16:30:23.504 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 12: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles"), "31-07-2026")
+2026-07-20 16:30:24.139 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 13: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut"), "sudah bisa dilanjut ya")
+2026-07-20 16:30:24.764 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 14: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah"))
+2026-07-20 16:30:25.291 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 15: delay(6)
+2026-07-20 16:30:31.300 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 16: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone"), Lorem)
+2026-07-20 16:30:31.301 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone"), Lorem)
+2026-07-20 16:30:31.301 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 17: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload"))
+2026-07-20 16:30:31.302 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload"))
+2026-07-20 16:30:31.306 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 18: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit"))
+2026-07-20 16:30:31.862 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 19: delay(5)
+2026-07-20 16:30:36.878 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 20: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false)
+2026-07-20 16:30:45.278 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 21: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "2", false)
+2026-07-20 16:30:45.778 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 22: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+2026-07-20 16:30:45.778 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian"), "0", false)
+2026-07-20 16:30:45.778 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 23: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "12102003318")
+2026-07-20 16:30:45.778 WARN  testcase.PIC-CBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian"), "12102003318")
+2026-07-20 16:30:45.781 DEBUG testcase.PIC-CBU-Submit-Tindak-Lanjut    - 24: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari"))
+2026-07-20 16:30:46.076 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut
+2026-07-20 16:30:46.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:30:46.080 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut
+2026-07-20 16:30:46.159 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-20 16:30:46.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:30:46.215 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:30:46.218 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-20 16:30:46.218 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-20 16:30:46.599 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-20 16:30:46.601 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-20 16:30:47.671 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5d662f3f46a50fe0773da272e437970c
+2026-07-20 16:30:47.673 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-20 16:30:47.674 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-20 16:30:47.675 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-20 16:30:47.676 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-20 16:30:48.461 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-20 16:30:48.538 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-20 16:30:52.030 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-20 16:30:52.653 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-20 16:30:53.214 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-20 16:31:13.218 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-20 16:31:13.518 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-20 16:31:18.527 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-20 16:31:22.258 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-20 16:31:22.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-20 16:31:22.648 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-20 16:31:22.649 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 2: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader"))
+2026-07-20 16:31:27.709 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 3: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-20 16:31:28.238 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 4: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract"))
+2026-07-20 16:31:28.556 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 5: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3"), "20-07-2026")
+2026-07-20 16:31:31.618 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 6: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4"), "20-07-2026")
+2026-07-20 16:31:32.195 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2"), "2", false)
+2026-07-20 16:31:32.728 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 8: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown5"), "2", false)
+2026-07-20 16:31:33.269 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 9: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Cari"))
+2026-07-20 16:31:33.568 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 10: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/button_Tindak Lanjut"))
+2026-07-20 16:31:34.190 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 11: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut"))
+2026-07-20 16:31:37.176 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 12: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/select_b3-l1-378_0-b2-TindakLanjutStatus"), "0", false)
+2026-07-20 16:31:39.398 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 13: setText(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/textarea_b3-l1-378_0-b2-TextArea_HasilCatatan"), "selesai ya")
+2026-07-20 16:31:39.993 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 14: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetailCopyContract/button_Submit"))
+2026-07-20 16:31:40.538 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 15: delay(5)
+2026-07-20 16:31:45.543 DEBUG testcase.SPV-CBU-Submit-Tindak-Lanjut    - 16: click(findTestObject("Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContractDetail/button_Tindak Lanjut"))
+2026-07-20 16:31:46.278 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut
+2026-07-20 16:31:46.717 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-20 16:31:46.717 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Pilar 1/UAT/Copy Contract/Copy Contract - CBU
+2026-07-20 16:31:46.717 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Unggah</name>
+   <tag></tag>
+   <elementGuidId>44321442-b88a-4e96-bf2c-705129976ec2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div[3]/div/div[2]/table/tbody/tr[3]/td[2]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td[data-advancedhtml=&quot;&quot;]:nth-child(2) .btn-limegreen</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1fd52547-e1ff-4bd7-aa63-a079d4d8e549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-limegreen</value>
+      <webElementGuid>c6300d56-cab0-4a25-99c6-553a957b0717</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd91ffa7-d5aa-4442-a2fd-428bf8347722</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah</value>
+      <webElementGuid>58cc0b6b-8e43-4af0-91a8-6cfaf73bbf15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a562f283da207ca2d7a938fa4d31adf2</value>
+      <webElementGuid>3acd7a39-301e-4be6-8f92-df615f3a05b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@data-advancedhtml = '') and (name() = 'td') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-limegreen ')]</value>
+      <webElementGuid>6a9a5f9b-c156-47a3-8f00-d38c9852fa62</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@data-advancedhtml = '') and (name() = 'td') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-limegreen ')]</value>
+      <webElementGuid>c34343f1-ccc1-4385-85da-b637b70601dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Unggah' or . = 'Unggah')]</value>
+      <webElementGuid>c38c7bf0-a9ed-4c3b-8e5a-4b7e024a2d67</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

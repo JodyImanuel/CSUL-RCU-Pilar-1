@@ -29,10 +29,10 @@ WebUI.verifyElementText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-
     'Tanggal Go Live :')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-b1-Input_StartDate'), 
-    '10-10-2020')
+    '01-01-2024')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-b1-Input_StartDate2'), 
-    '10-12-2020')
+    '31-03-2024')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/select_b3-b1-b1-Dropdown1'), 
     '2', false)
@@ -42,7 +42,15 @@ WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CB
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_Cari'))
 
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-l1_0-241_0-Checkbox2'))
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_View Detail_2'))
+
+WebUI.delay(7)
+
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_Back_2'))
+
+WebUI.delay(4)
+
+WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_Assign_Checkbox2'))
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/button_Assign'))
 

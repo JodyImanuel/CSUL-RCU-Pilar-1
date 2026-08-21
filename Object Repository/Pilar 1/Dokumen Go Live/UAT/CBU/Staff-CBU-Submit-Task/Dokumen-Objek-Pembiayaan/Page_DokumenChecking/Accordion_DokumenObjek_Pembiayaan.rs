@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Accordion_DokumenObjek_Pembiayaan</name>
+   <tag></tag>
+   <elementGuidId>e8778446-50df-4036-98f7-6dabdc4545bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[img[contains(@src,'Acquisition_CW.Frame19705.svg')]]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>091d8316-be28-4a72-a560-91a787cb38f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>margin-right-s</value>
+      <webElementGuid>1546379d-9469-4242-972a-eba2e69352f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/CSUL_RCU/img/CSUL_RCU_Acquisition_CW.Frame19705.svg?FYP9QRKTRxtjULnHx8b43A</value>
+      <webElementGuid>ee7b1f63-1cc8-423e-bda7-1696b1b30e9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-ecfadae9db010d5ccad7527b4f598cfc</value>
+      <webElementGuid>df9b508b-cce2-4863-9241-68d84470fc67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//img[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-right-s ') and (@data-image = '')]</value>
+      <webElementGuid>d4749dba-e804-43eb-a9b5-5b53f808cf61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//img[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-right-s ') and (@data-image = '')]</value>
+      <webElementGuid>9898f43d-2461-4f2d-a38b-a02b3f5fc372</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/CSUL_RCU/img/CSUL_RCU_Acquisition_CW.Frame19705.svg?FYP9QRKTRxtjULnHx8b43A']</value>
+      <webElementGuid>83d3048a-b2a3-471a-b2b3-9a453c9044cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

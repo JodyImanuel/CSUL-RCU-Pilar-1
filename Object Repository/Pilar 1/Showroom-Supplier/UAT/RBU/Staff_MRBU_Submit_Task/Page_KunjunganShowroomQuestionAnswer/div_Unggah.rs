@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Unggah</name>
+   <tag></tag>
+   <elementGuidId>4ebc83a7-abd6-4fba-8fda-060dae3bb387</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div[1]/div[2]/div/div[2]/div/div/div[8]/div/form/div/div/div[1]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-block=&quot;ComponentQuestion\.Item_UploadDocument&quot;] .OSInline.camera-absolute</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>271a1bac-fdc9-4778-b457-7edff884f097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>camera1 camera-absolute OSInline</value>
+      <webElementGuid>2703c177-7979-49b6-9617-cc94f920a791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Unggah</value>
+      <webElementGuid>1dc6521c-bff7-47ab-993a-e1dd473ebc90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e1153ddd17b44018b72fc421f123a773</value>
+      <webElementGuid>34db7691-3e16-45ba-8968-2e60677d4698</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-block = 'ComponentQuestion.Item_UploadDocument']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' camera-absolute ')]</value>
+      <webElementGuid>31c162ef-608b-4cee-82f6-9a8df66ee6c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-block = 'ComponentQuestion.Item_UploadDocument']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' camera-absolute ')]</value>
+      <webElementGuid>033d8def-d78b-4d95-8f0f-50911ddb5977</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Unggah' or . = 'Unggah')]</value>
+      <webElementGuid>a6726828-0d59-4fb5-b64a-73a1b708f56a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

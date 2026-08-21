@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Icon_filter_Task_KunjunganShowroom</name>
+   <tag></tag>
+   <elementGuidId>e39a28bc-b34e-4449-9114-b6c04c19fec7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-filter.icon.text-darkblue[data-icon=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>c53f6283-c1c2-4008-93b9-b48394e3106b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon text-darkblue fa fa-filter fa-3x</value>
+      <webElementGuid>e96696b6-15af-4a83-ab2e-230c9bd9d505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3717bab610e0ca086b2be978df5084ef</value>
+      <webElementGuid>53a54fe3-190c-4817-81b5-f00ba3023059</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//i[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa ') and contains(concat(' ', normalize-space(@class), ' '), ' fa-filter ') and contains(concat(' ', normalize-space(@class), ' '), ' icon ') and contains(concat(' ', normalize-space(@class), ' '), ' text-darkblue ') and (@data-icon = '')]</value>
+      <webElementGuid>60009a44-1c39-4e95-8358-9e0fedb5e182</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//i[@class and contains(concat(' ', normalize-space(@class), ' '), ' fa ') and contains(concat(' ', normalize-space(@class), ' '), ' fa-filter ') and contains(concat(' ', normalize-space(@class), ' '), ' icon ') and contains(concat(' ', normalize-space(@class), ' '), ' text-darkblue ') and (@data-icon = '')]</value>
+      <webElementGuid>4a76ea40-d633-4da6-9be8-d0df22ac4e4a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

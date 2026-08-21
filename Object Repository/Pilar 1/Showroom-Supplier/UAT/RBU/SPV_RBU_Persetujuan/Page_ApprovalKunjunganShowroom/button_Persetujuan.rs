@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Persetujuan</name>
+   <tag></tag>
+   <elementGuidId>eef9489c-68a9-45cf-86fe-e119f4fc7c82</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div[2]/div[1]/table/tbody/tr[1]/td[19]/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.btn-orange</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>4806fe2e-e566-4f65-a75f-11cfced483a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-orange</value>
+      <webElementGuid>82021ac9-6ab5-49a6-af60-80580ecf08d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6e6d0c3b-0172-4862-a791-109668b1339b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Persetujuan</value>
+      <webElementGuid>8a5d561d-7388-4244-b3b0-fcb8ce1d05bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-e0c41e4a315311f4060112bec3d5ad4a</value>
+      <webElementGuid>b01bebec-a523-4824-b821-eda60c829fae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-orange ')]</value>
+      <webElementGuid>476e46e5-efe1-4506-9207-ed96c125a0c9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-orange ')]</value>
+      <webElementGuid>c522588b-6e72-4333-b199-af0bb9ef0d5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Persetujuan' or . = 'Persetujuan')]</value>
+      <webElementGuid>831d2943-af5f-4095-b131-cea54aa0f7f0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

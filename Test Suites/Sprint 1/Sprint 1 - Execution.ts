@@ -49,7 +49,7 @@
       <guid>055b389c-f5fc-4be0-a8fc-4fd5af1d2419</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan</testCaseId>
+      <testCaseId>Test Cases/Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan-Before-Survey</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

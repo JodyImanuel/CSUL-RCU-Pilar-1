@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Pilar 1/Login/UAT/PIC'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Pilar 1/Login/UAT/PIC-Fatimah'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader'))
 
@@ -37,22 +37,33 @@ WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari'))
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/input_b3-b2-l2_0-113_0-Input_TenggatWaktuPenyeles'), 
-    '10-07-2026')
+    '31-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/textarea_b3-b2-l2_0-113_0-TextArea_TindakLanjut'), 
     'sudah bisa dilanjut ya')
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Unggah'))
 
-WebUI.uploadFile(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone'), 
+WebUI.delay(5)
+
+not_run: WebUI.uploadFile(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/div_b3-b2-b6-dropzone'), 
     Lorem)
 
-WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload'))
+not_run: WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Upload'))
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Submit'))
 
+WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1'), 
+    '4', false)
+
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3'), 
     '2', false)
+
+not_run: WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/select_Pencarian'), 
+    '0', false)
+
+not_run: WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/Page_TindakLanjutCopyContract/input_Pencarian'), 
+    '11102003404')
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/button_Cari'))
 

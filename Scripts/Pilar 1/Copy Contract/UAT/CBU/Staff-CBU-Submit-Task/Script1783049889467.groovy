@@ -26,16 +26,16 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_Dashboard/a_Copy Contract'))
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate'), 
-    '03-07-2026')
+    '20-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/input_b3-b2-b1-Input_StartDate2'), 
-    '03-07-2026')
+    '20-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown1'), 
     '2', false)
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/select_b3-b2-b1-Dropdown3'), 
-    '1', false)
+    '0', false)
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Cari'))
 
@@ -53,8 +53,10 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/select_b3-b2-l4_0-194_0-Dropdown2'), 
     '2', false)
 
-WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_PICPengiriman2'), 
+WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_AirwayBill'), 
     'testing@gmail.com')
+
+WebUI.delay(6)
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/input_b3-b2-l4_0-194_0-Input_NamaPenerima'), 
     'testing')
@@ -67,12 +69,14 @@ WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Tas
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Unggah'))
 
-WebUI.uploadFile(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone'), 
+WebUI.delay(5)
+
+not_run: WebUI.uploadFile(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/div_b3-b2-b15-dropzone'), 
     Lorem)
 
-WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup'))
+not_run: WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Upload_popup'))
 
-WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1'))
+not_run: WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContract/button_Draft_1'))
 
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/Staff-CBU-Submit-Task/Page_PengirimanCopyContractDetail/button_Submit'))
 

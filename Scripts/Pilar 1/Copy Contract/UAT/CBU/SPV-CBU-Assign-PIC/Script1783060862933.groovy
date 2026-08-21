@@ -26,10 +26,10 @@ WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Pag
 WebUI.click(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Copy Contract'))
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate3'), 
-    '03-07-2026')
+    '20-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/input_b3-b1-b1-Input_StartDate4'), 
-    '03-07-2026')
+    '20-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Copy Contract/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutCopyContract/select_b3-b1-b1-Dropdown2'), 
     '2', false)

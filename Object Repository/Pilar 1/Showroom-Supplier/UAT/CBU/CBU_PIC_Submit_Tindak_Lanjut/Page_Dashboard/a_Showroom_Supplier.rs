@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Showroom_Supplier</name>
+   <tag></tag>
+   <elementGuidId>ca095ece-709e-4636-8abd-bef5b75cab76</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/aside/div/div/nav/div[2]/div/div/div/div/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/CSUL_RCU\/TindakLanjutKunjunganShowroom&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6c283c4f-4a5d-4f0d-a451-f5d6ee37cde8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>last-sub-menu-link OSFillParent</value>
+      <webElementGuid>9b0a2cdd-3990-43a4-b32c-924251d9d1d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/CSUL_RCU/TindakLanjutKunjunganShowroom</value>
+      <webElementGuid>0aa71905-e8b3-4c0c-962c-10e17048b1fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showroom/Supplier</value>
+      <webElementGuid>6e4c72a0-504a-4d3f-9cd4-aa8d1800ed71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0b80ac5983d14bb359067c3148d9e980</value>
+      <webElementGuid>2af3a350-ac27-4756-9f19-051a1f6b37b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/TindakLanjutKunjunganShowroom']</value>
+      <webElementGuid>7b528af5-e28f-4b3d-96fe-1078aecc7282</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/TindakLanjutKunjunganShowroom']</value>
+      <webElementGuid>bc860a0b-9024-41bc-b1cd-8fd8b2451fd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/CSUL_RCU/TindakLanjutKunjunganShowroom' and (text() = 'Showroom/Supplier' or . = 'Showroom/Supplier')]</value>
+      <webElementGuid>c2c3a397-e94d-475d-8c03-319ff40af1e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

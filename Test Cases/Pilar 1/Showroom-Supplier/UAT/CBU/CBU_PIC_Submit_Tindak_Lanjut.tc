@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CBU_PIC_Submit_Tindak_Lanjut</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d7186508-1211-49e8-b4b1-dc7ca26d7e26</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aae04918-9328-4828-a515-1add469605a6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'D:\\Ica\\PPU (PT. PILAR PERKASA UTAMA)\\Task QA\\CSUL\\CSUL Pilar 4 Sprint 3\\UAT Pilar 4 CSUL\\Cabang Jakarta 1.xlsx'</defaultValue>
+      <description></description>
+      <id>aae04918-9328-4828-a515-1add469605a6</id>
+      <masked>false</masked>
+      <name>UploadFile</name>
+   </variable>
+</TestCaseEntity>

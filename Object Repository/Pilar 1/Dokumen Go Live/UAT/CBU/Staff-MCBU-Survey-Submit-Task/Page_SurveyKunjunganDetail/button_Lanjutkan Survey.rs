@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Lanjutkan Survey</name>
+   <tag></tag>
+   <elementGuidId>947b75cf-2918-43ef-8ab6-919841a57173</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-custom.btn-custom--btn-vividorange.ThemeGrid_Width12</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div/div[3]/div/div/div[2]/div/div[2]/div/div[2]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>93f66c91-9ee8-4b58-9b65-8e7474023a04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-custom btn-custom--btn-vividorange ThemeGrid_Width12</value>
+      <webElementGuid>6f02910e-a4a1-4535-a516-6d042280c89d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6400fbb1-aaa3-4b1a-8640-2ceb3d0d3f85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lanjutkan Survey</value>
+      <webElementGuid>b753bad8-dc8f-4e91-b4fe-4aeb6cfa4213</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b4-l1-21_0-b2-Column2&quot;)/div[@class=&quot;margin-left-base&quot;]/div[@class=&quot;ThemeGrid_Width10 ThemeGrid_MarginGutter&quot;]/div[@class=&quot;margin-top-s&quot;]/button[@class=&quot;btn btn-custom btn-custom--btn-vividorange ThemeGrid_Width12&quot;]</value>
+      <webElementGuid>99067f0e-e9c2-45e0-afff-5794837fac02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>cbd43896-1c53-4ce0-ba0c-bb7baa9ee293</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b4-l1-21_0-b2-Column2']/div/div[2]/div[2]/button</value>
+      <webElementGuid>0c404292-94f2-4c6f-b5ba-a9b57a2ead0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jarak: 0 KM'])[1]/following::button[1]</value>
+      <webElementGuid>5460aca5-d031-4d03-aafd-ad89b70cd5f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alamat : XXX 000 000 XXX XXX XXX 14240'])[1]/following::button[1]</value>
+      <webElementGuid>3c6bb244-ac83-49e1-8c16-225b22f5227e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::button[1]</value>
+      <webElementGuid>1e3145f1-ec43-422f-b9e1-83636a3452b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>1fd57dd9-896c-4e11-84c1-4f4056e5c0b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Lanjutkan Survey' or . = 'Lanjutkan Survey')]</value>
+      <webElementGuid>d5e5d334-4de2-4cf2-ae43-e1bdd6069338</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

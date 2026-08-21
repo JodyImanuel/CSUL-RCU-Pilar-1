@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kunjungan Showroom - CBU" time="420.904" tests="6" failures="0" errors="0">
+   <testsuite name="Kunjungan Showroom - CBU" tests="6" failures="0" errors="0" time="420.904" skipped="0" timestamp="2026-07-21T09:01:16.366Z" hostname="Syarifah Risyani - Syarifah" id="Test Suites/Pilar 1/UAT/Showroom-Supplier/Kunjungan Showroom - CBU">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_160110\\Pilar 1\\UAT\\Showroom-Supplier\\Kunjungan Showroom - CBU\\20260721_160110"/>
+         <property name="logFiles" value="C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_160110\\Pilar 1\\UAT\\Showroom-Supplier\\Kunjungan Showroom - CBU\\20260721_160110\\console0.log, C:\\Users\\Syarifah Risyani\\git\\Pilar 1\\CSUL-Pilar-1\\Reports\\20260721_160110\\Pilar 1\\UAT\\Showroom-Supplier\\Kunjungan Showroom - CBU\\20260721_160110\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="executionBindingVariables" value="[]"/>
+         <property name="hostName" value="Syarifah Risyani - Syarifah"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.1.1.0"/>
+         <property name="browser" value="Chrome 150.0.7871.128"/>
+         <property name="userFullName" value="Syarifah Risyani"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="sessionId" value="debd00bcb0bba1028d52cb7f9915870c"/>
+         <property name="projectName" value="CSUL-Pilar-1"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff" time="59.158" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff" status="PASSED">
+         <system-out><![CDATA[21-07-2026T16:01:16 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff
+
+21-07-2026T16:01:17 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:01:17 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-CBU: Test Cases/Pilar 1/Login/UAT/SPV-CBU
+
+21-07-2026T16:01:17 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:01:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:01:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:01:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:01:21 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T16:01:21 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T16:01:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:01:24 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:01:24 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto"): Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:01:25 - [MESSAGE][PASSED] - Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:01:25 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:01:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:01:26 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T16:01:46 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T16:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:01:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:01:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:01:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:01:51 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:01:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:01:52 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:01:58 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Showroom_Supplier")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:01:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:01:58 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_StartDate"), "01-01-2023"): Text '01-01-2023' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_StartDate'
+
+21-07-2026T16:02:03 - [MESSAGE][PASSED] - Text '01-01-2023' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_StartDate'
+
+21-07-2026T16:02:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input__EndDate"), "31-03-2023"): Text '31-03-2023' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input__EndDate'
+
+21-07-2026T16:02:03 - [MESSAGE][PASSED] - Text '31-03-2023' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input__EndDate'
+
+21-07-2026T16:02:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown1"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown1' 
+
+21-07-2026T16:02:04 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown1' 
+
+21-07-2026T16:02:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3' 
+
+21-07-2026T16:02:04 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3' 
+
+21-07-2026T16:02:04 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cek Jarak_1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cek Jarak_1' is clicked on
+
+21-07-2026T16:02:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cek Jarak_1' is clicked on
+
+21-07-2026T16:02:06 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_Checkbox2_ChecklistAssign")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_Checkbox2_ChecklistAssign' is clicked on
+
+21-07-2026T16:02:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_Checkbox2_ChecklistAssign' is clicked on
+
+21-07-2026T16:02:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:02:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign' is clicked on
+
+21-07-2026T16:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign' is clicked on
+
+21-07-2026T16:02:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b4-Dropdown1"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b4-Dropdown1' 
+
+21-07-2026T16:02:13 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b4-Dropdown1' 
+
+21-07-2026T16:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign_1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign_1' is clicked on
+
+21-07-2026T16:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign_1' is clicked on
+
+21-07-2026T16:02:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3"), "1", false): All options with value '1' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3' 
+
+21-07-2026T16:02:15 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3' 
+
+21-07-2026T16:02:15 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task" time="85.908" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Lorem":"C:\\Users\\PPU\\Downloads\\Tester File\\Lorem1_PDF.pdf"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-07-2026T16:02:15 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task
+
+21-07-2026T16:02:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/Mobile/Staff-MCBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU' successfully
+
+21-07-2026T16:02:15 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU: Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU
+
+21-07-2026T16:02:15 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSUL_RCU_MOBILE/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSUL_RCU_MOBILE/Login'
+
+21-07-2026T16:02:15 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T16:02:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:02:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:02:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSUL_RCU_MOBILE/Login'
+
+21-07-2026T16:02:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Username"), "iqbal.putra"): Text 'iqbal.putra' is set on object 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/input_Username'
+
+21-07-2026T16:02:24 - [MESSAGE][PASSED] - Text 'iqbal.putra' is set on object 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/input_Username'
+
+21-07-2026T16:02:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/input_Password'
+
+21-07-2026T16:02:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/input_Password'
+
+21-07-2026T16:02:25 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+21-07-2026T16:02:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-07-2026T16:02:35 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/button_Log In")): Object: 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/button_Log In' is clicked on
+
+21-07-2026T16:02:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Mobile/Page_Login/button_Log In' is clicked on
+
+21-07-2026T16:02:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU' successfully
+
+21-07-2026T16:02:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/div_HomeStaff"), 5): Object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/div_HomeStaff' is visible
+
+21-07-2026T16:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/div_HomeStaff' is visible
+
+21-07-2026T16:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom' is clicked on
+
+21-07-2026T16:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom' is clicked on
+
+21-07-2026T16:02:43 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014"): NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:02:43 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:02:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+
+21-07-2026T16:02:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+
+21-07-2026T16:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_KUNJUNGAN SHOWROOMCBU_P1.3_07_26_011")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_KUNJUNGAN SHOWROOMCBU_P1.3_07_26_011' is clicked on
+
+21-07-2026T16:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_KUNJUNGAN SHOWROOMCBU_P1.3_07_26_011' is clicked on
+
+21-07-2026T16:02:44 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/input_b3-Checkbox1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/input_b3-Checkbox1' is clicked on
+
+21-07-2026T16:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/input_b3-Checkbox1' is clicked on
+
+21-07-2026T16:02:45 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/button_Survey")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/button_Survey' is clicked on
+
+21-07-2026T16:02:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/button_Survey' is clicked on
+
+21-07-2026T16:02:47 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormFotoKunjungan")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormFotoKunjungan' is clicked on
+
+21-07-2026T16:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormFotoKunjungan' is clicked on
+
+21-07-2026T16:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto1' is clicked on
+
+21-07-2026T16:02:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto1' is clicked on
+
+21-07-2026T16:02:48 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera1' is clicked on
+
+21-07-2026T16:02:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera1' is clicked on
+
+21-07-2026T16:02:49 - [TEST_STEP][PASSED] - switchToWindowTitle("KunjunganShowroomQuestionAnswer"): Switched to window with title: 'KunjunganShowroomQuestionAnswer'
+
+21-07-2026T16:02:49 - [MESSAGE][PASSED] - Switched to window with title: 'KunjunganShowroomQuestionAnswer'
+
+21-07-2026T16:02:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:02:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:02:54 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_1' is clicked on
+
+21-07-2026T16:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_1' is clicked on
+
+21-07-2026T16:02:56 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto2")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto2' is clicked on
+
+21-07-2026T16:02:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto2' is clicked on
+
+21-07-2026T16:02:56 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+21-07-2026T16:03:03 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+21-07-2026T16:03:03 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_1' is clicked on
+
+21-07-2026T16:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_1' is clicked on
+
+21-07-2026T16:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto3")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto3' is clicked on
+
+21-07-2026T16:03:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto3' is clicked on
+
+21-07-2026T16:03:04 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera3")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera3' is clicked on
+
+21-07-2026T16:03:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera3' is clicked on
+
+21-07-2026T16:03:05 - [TEST_STEP][PASSED] - switchToWindowTitle("KunjunganShowroomQuestionAnswer"): Switched to window with title: 'KunjunganShowroomQuestionAnswer'
+
+21-07-2026T16:03:05 - [MESSAGE][PASSED] - Switched to window with title: 'KunjunganShowroomQuestionAnswer'
+
+21-07-2026T16:03:05 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:03:10 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_2")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_2' is clicked on
+
+21-07-2026T16:03:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_2' is clicked on
+
+21-07-2026T16:03:10 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto_4")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto_4' is clicked on
+
+21-07-2026T16:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto_4' is clicked on
+
+21-07-2026T16:03:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:03:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:03:16 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_2")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_2' is clicked on
+
+21-07-2026T16:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_2' is clicked on
+
+21-07-2026T16:03:16 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Batal")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Batal"))
+
+21-07-2026T16:03:16 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Batal"))
+
+21-07-2026T16:03:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+21-07-2026T16:03:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+21-07-2026T16:03:18 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormHasilKunjungan")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormHasilKunjungan' is clicked on
+
+21-07-2026T16:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormHasilKunjungan' is clicked on
+
+21-07-2026T16:03:18 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 1 _"), "Mina"): Text 'Mina' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 1 _'
+
+21-07-2026T16:03:19 - [MESSAGE][PASSED] - Text 'Mina' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 1 _'
+
+21-07-2026T16:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 1_1"), "ART"): Text 'ART' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 1_1'
+
+21-07-2026T16:03:19 - [MESSAGE][PASSED] - Text 'ART' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 1_1'
+
+21-07-2026T16:03:19 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 2 _"), "Memet"): Text 'Memet' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 2 _'
+
+21-07-2026T16:03:21 - [MESSAGE][PASSED] - Text 'Memet' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 2 _'
+
+21-07-2026T16:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 2_2"), "Security"): Text 'Security' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 2_2'
+
+21-07-2026T16:03:21 - [MESSAGE][PASSED] - Text 'Security' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 2_2'
+
+21-07-2026T16:03:21 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 3 __1"), "Minda"): Text 'Minda' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 3 __1'
+
+21-07-2026T16:03:23 - [MESSAGE][PASSED] - Text 'Minda' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 3 __1'
+
+21-07-2026T16:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 3"), "Karyawan"): Text 'Karyawan' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 3'
+
+21-07-2026T16:03:23 - [MESSAGE][PASSED] - Text 'Karyawan' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 3'
+
+21-07-2026T16:03:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/textarea_Hasil Pemeriksaan RCU"), "Tidak sesuai"): Text 'Tidak sesuai' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/textarea_Hasil Pemeriksaan RCU'
+
+21-07-2026T16:03:25 - [MESSAGE][PASSED] - Text 'Tidak sesuai' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/textarea_Hasil Pemeriksaan RCU'
+
+21-07-2026T16:03:25 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Unggah")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Unggah' is clicked on
+
+21-07-2026T16:03:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Unggah' is clicked on
+
+21-07-2026T16:03:25 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+21-07-2026T16:03:32 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+21-07-2026T16:03:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/select_Kategori Temuan"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/select_Kategori Temuan' 
+
+21-07-2026T16:03:35 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/select_Kategori Temuan' 
+
+21-07-2026T16:03:35 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Draft")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Draft"))
+
+21-07-2026T16:03:35 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Draft"))
+
+21-07-2026T16:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit' is clicked on
+
+21-07-2026T16:03:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit' is clicked on
+
+21-07-2026T16:03:35 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit_PopUp")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit_PopUp' is clicked on
+
+21-07-2026T16:03:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit_PopUp' is clicked on
+
+21-07-2026T16:03:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:03:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:03:41 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom' is clicked on
+
+21-07-2026T16:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom' is clicked on
+
+21-07-2026T16:03:41 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014"): NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:03:41 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:03:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+
+21-07-2026T16:03:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan" time="62.777" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan" status="PASSED">
+         <system-out><![CDATA[21-07-2026T16:03:41 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan
+
+21-07-2026T16:03:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:03:41 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-CBU: Test Cases/Pilar 1/Login/UAT/SPV-CBU
+
+21-07-2026T16:03:41 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:03:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T16:03:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:03:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:03:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:03:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T16:03:44 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T16:03:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:03:47 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:03:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto"): Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:03:48 - [MESSAGE][PASSED] - Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:03:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:03:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:03:49 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T16:04:09 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T16:04:09 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:04:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:04:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:04:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:04:15 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:04:15 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:04:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:04:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:04:16 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:04:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:04:20 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:04:21 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Showroom_Supplier")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:04:22 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_StartDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:04:25 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:04:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_EndDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:04:25 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:04:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_b3-b1-DropdownCabang"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_b3-b1-DropdownCabang' 
+
+21-07-2026T16:04:26 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_b3-b1-DropdownCabang' 
+
+21-07-2026T16:04:26 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+
+21-07-2026T16:04:26 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+
+21-07-2026T16:04:26 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:04:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:04:26 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Persetujuan")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Persetujuan' is clicked on
+
+21-07-2026T16:04:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Persetujuan' is clicked on
+
+21-07-2026T16:04:28 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto' is clicked on
+
+21-07-2026T16:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto' is clicked on
+
+21-07-2026T16:04:30 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_1")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_1' is clicked on
+
+21-07-2026T16:04:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_1' is clicked on
+
+21-07-2026T16:04:31 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_2")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_2' is clicked on
+
+21-07-2026T16:04:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_2' is clicked on
+
+21-07-2026T16:04:32 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_3")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_3' is clicked on
+
+21-07-2026T16:04:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_3' is clicked on
+
+21-07-2026T16:04:33 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Dokumen")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T16:04:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T16:04:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/select_b3-b2-Status2"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/select_b3-b2-Status2' 
+
+21-07-2026T16:04:35 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/select_b3-b2-Status2' 
+
+21-07-2026T16:04:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/textarea_b3-b2-TextArea_Catatan"), "Okay saya setujui dan akan tindak lanjut"): Text 'Okay saya setujui dan akan tindak lanjut' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/textarea_b3-b2-TextArea_Catatan'
+
+21-07-2026T16:04:36 - [MESSAGE][PASSED] - Text 'Okay saya setujui dan akan tindak lanjut' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/textarea_b3-b2-TextArea_Catatan'
+
+21-07-2026T16:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Submit")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:04:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-07-2026T16:04:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-07-2026T16:04:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status' 
+
+21-07-2026T16:04:44 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status' 
+
+21-07-2026T16:04:44 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Hasil")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Hasil' is clicked on
+
+21-07-2026T16:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Hasil' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC" time="74.48" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC" status="PASSED">
+         <system-out><![CDATA[21-07-2026T16:04:44 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC
+
+21-07-2026T16:04:44 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:04:44 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-CBU: Test Cases/Pilar 1/Login/UAT/SPV-CBU
+
+21-07-2026T16:04:44 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:04:44 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T16:04:45 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:04:45 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:04:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:04:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T16:04:47 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T16:04:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:04:50 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto"): Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:04:51 - [MESSAGE][PASSED] - Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:04:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:04:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:04:52 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T16:05:12 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T16:05:12 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:05:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:05:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:05:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:05:17 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:05:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:05:17 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:05:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:05:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:05:18 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:05:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:05:22 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:05:23 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:05:29 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:05:29 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:05:30 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:05:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang' 
+
+21-07-2026T16:05:31 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang' 
+
+21-07-2026T16:05:31 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+
+21-07-2026T16:05:31 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+
+21-07-2026T16:05:31 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:05:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:05:31 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:05:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+21-07-2026T16:05:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+21-07-2026T16:05:36 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checkbox_AssigntoPIC")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checkbox_AssigntoPIC' is clicked on
+
+21-07-2026T16:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checkbox_AssigntoPIC' is clicked on
+
+21-07-2026T16:05:50 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak lanjut")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak lanjut' is clicked on
+
+21-07-2026T16:05:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak lanjut' is clicked on
+
+21-07-2026T16:05:51 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_A"), "margareta"): Text 'margareta' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_A'
+
+21-07-2026T16:05:52 - [MESSAGE][PASSED] - Text 'margareta' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_A'
+
+21-07-2026T16:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B' is clicked on
+
+21-07-2026T16:05:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B' is clicked on
+
+21-07-2026T16:05:52 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_A_Utama")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_A_Utama' is clicked on
+
+21-07-2026T16:05:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_A_Utama' is clicked on
+
+21-07-2026T16:05:53 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B"), "Irwansyah"): NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B"), "Irwansyah")
+
+21-07-2026T16:05:53 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B"), "Irwansyah")
+
+21-07-2026T16:05:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B"))
+
+21-07-2026T16:05:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B"))
+
+21-07-2026T16:05:53 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama"))
+
+21-07-2026T16:05:53 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama"))
+
+21-07-2026T16:05:53 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut (1)")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut (1)' is clicked on
+
+21-07-2026T16:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut (1)' is clicked on
+
+21-07-2026T16:05:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/div_Apakah Anda yakin ingin mengirimkan tindak l"), 0): Object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/div_Apakah Anda yakin ingin mengirimkan tindak l' is present
+
+21-07-2026T16:05:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '20'
+
+21-07-2026T16:05:54 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/div_Apakah Anda yakin ingin mengirimkan tindak l' is present
+
+21-07-2026T16:05:54 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut(2)")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut(2)' is clicked on
+
+21-07-2026T16:05:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut(2)' is clicked on
+
+21-07-2026T16:05:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+21-07-2026T16:05:58 - [MESSAGE][PASSED] - Delayed 4 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut" time="73.681" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) Uploa...":"D:\\Ica\\PPU (PT. PILAR PERKASA UTAMA)\\Task QA\\CSUL\\CSUL Pilar 4 Sprint 3\\UAT Pilar 4 CSUL\\Cabang Jakarta 1.xlsx"}]]></property>
+         </properties>
+         <system-out><![CDATA[21-07-2026T16:05:58 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut
+
+21-07-2026T16:05:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/PIC-Margareta"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/PIC-Margareta' successfully
+
+21-07-2026T16:05:59 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/PIC-Margareta: Test Cases/Pilar 1/Login/UAT/PIC-Margareta
+
+21-07-2026T16:05:59 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:05:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T16:05:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:05:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:06:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:06:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T16:06:04 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T16:06:04 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:06:10 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:06:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "margareta.husadani"): Text 'margareta.husadani' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:06:11 - [MESSAGE][PASSED] - Text 'margareta.husadani' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:06:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:06:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:06:12 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T16:06:32 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T16:06:32 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:06:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:06:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:06:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:06:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta' is visible
+
+21-07-2026T16:06:38 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta' is visible
+
+21-07-2026T16:06:38 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta' is double clicked on
+
+21-07-2026T16:06:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta' is double clicked on
+
+21-07-2026T16:06:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/PIC-Margareta' successfully
+
+21-07-2026T16:06:38 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:06:42 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/a_Showroom_Supplier")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:06:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:06:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_Dropdown_PIC_BisnisUnit"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_Dropdown_PIC_BisnisUnit' 
+
+21-07-2026T16:06:46 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_Dropdown_PIC_BisnisUnit' 
+
+21-07-2026T16:06:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T16:06:47 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T16:06:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T16:06:48 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T16:06:48 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian"), "2", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian"), "2", false)
+
+21-07-2026T16:06:48 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian"), "2", false)
+
+21-07-2026T16:06:48 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1"), "Mitra Nusantara Bersaudara, PT"): NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1"), "Mitra Nusantara Bersaudara, PT")
+
+21-07-2026T16:06:48 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1"), "Mitra Nusantara Bersaudara, PT")
+
+21-07-2026T16:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:06:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:06:48 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut_Header")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut_Header' is clicked on
+
+21-07-2026T16:06:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut_Header' is clicked on
+
+21-07-2026T16:06:49 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/input_b3-b1-TanggatWaktuValue"), "31-07-2026"): Text '31-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/input_b3-b1-TanggatWaktuValue'
+
+21-07-2026T16:06:53 - [MESSAGE][PASSED] - Text '31-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/input_b3-b1-TanggatWaktuValue'
+
+21-07-2026T16:06:53 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/textarea_b3-b1-TextArea_Catatan"), "Saya sudah melakukan tindak lanjut, mohon diperiksa thanks"): Text 'Saya sudah melakukan tindak lanjut, mohon diperiksa thanks' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/textarea_b3-b1-TextArea_Catatan'
+
+21-07-2026T16:06:54 - [MESSAGE][PASSED] - Text 'Saya sudah melakukan tindak lanjut, mohon diperiksa thanks' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/textarea_b3-b1-TextArea_Catatan'
+
+21-07-2026T16:06:54 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Unggah")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Unggah' is clicked on
+
+21-07-2026T16:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Unggah' is clicked on
+
+21-07-2026T16:06:54 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"))
+
+21-07-2026T16:06:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"))
+
+21-07-2026T16:06:54 - [TEST_STEP][PASSED] - delay(7): Delayed 7 second(s)
+
+21-07-2026T16:07:01 - [MESSAGE][PASSED] - Delayed 7 second(s)
+
+21-07-2026T16:07:01 - [TEST_STEP][NOT_RUN] - uploadFile(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"), UploadFile): NOT_RUN: uploadFile(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"), UploadFile)
+
+21-07-2026T16:07:01 - [MESSAGE][NOT_RUN] - NOT_RUN: uploadFile(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"), UploadFile)
+
+21-07-2026T16:07:01 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Upload")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Upload"))
+
+21-07-2026T16:07:01 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Upload"))
+
+21-07-2026T16:07:01 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Submit")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:07:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:07:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:07:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:07:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T16:07:11 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1' 
+
+21-07-2026T16:07:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T16:07:12 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3' 
+
+21-07-2026T16:07:12 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:07:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut" time="64.698" classname="Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut" status="PASSED">
+         <system-out><![CDATA[21-07-2026T16:07:12 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut: Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut
+
+21-07-2026T16:07:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:07:12 - [TEST_CASE][PASSED] - Test Cases/Pilar 1/Login/UAT/SPV-CBU: Test Cases/Pilar 1/Login/UAT/SPV-CBU
+
+21-07-2026T16:07:12 - [TEST_STEP][PASSED] - openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login"): Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:07:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+21-07-2026T16:07:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-07-2026T16:07:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-07-2026T16:07:14 - [MESSAGE][PASSED] - Browser is opened with url: 'https://sakti-test.csulfinance.com/CSULFoundation_Login/Login'
+
+21-07-2026T16:07:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-07-2026T16:07:14 - [MESSAGE][PASSED] - Current window maximized
+
+21-07-2026T16:07:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:07:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username' is visible
+
+21-07-2026T16:07:17 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto"): Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:07:18 - [MESSAGE][PASSED] - Text 'adhy.surnanto' is set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Username'
+
+21-07-2026T16:07:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw="): Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:07:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Pilar 1/Login/UAT/Page_Login/input_Password'
+
+21-07-2026T16:07:19 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+21-07-2026T16:07:39 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+21-07-2026T16:07:39 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:07:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/button_Login' is clicked on
+
+21-07-2026T16:07:39 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:07:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:07:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10): Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:07:46 - [MESSAGE][PASSED] - Object 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is visible
+
+21-07-2026T16:07:46 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application")): Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:07:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application' is double clicked on
+
+21-07-2026T16:07:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Pilar 1/Login/UAT/SPV-CBU' successfully
+
+21-07-2026T16:07:47 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader' is clicked on
+
+21-07-2026T16:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:07:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader' is clicked on
+
+21-07-2026T16:07:51 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:07:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier' is clicked on
+
+21-07-2026T16:07:52 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:07:59 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate'
+
+21-07-2026T16:07:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate"), "21-07-2026"): Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:08:00 - [MESSAGE][PASSED] - Text '21-07-2026' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate'
+
+21-07-2026T16:08:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang' 
+
+21-07-2026T16:08:00 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang' 
+
+21-07-2026T16:08:00 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false)
+
+21-07-2026T16:08:00 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false)
+
+21-07-2026T16:08:00 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:08:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari' is clicked on
+
+21-07-2026T16:08:01 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:08:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:08:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/select_Dropdown_Kategori_Temuan"), "2", false): All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/select_Dropdown_Kategori_Temuan' 
+
+21-07-2026T16:08:05 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/select_Dropdown_Kategori_Temuan' 
+
+21-07-2026T16:08:05 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Save")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Save' is clicked on
+
+21-07-2026T16:08:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Save' is clicked on
+
+21-07-2026T16:08:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+21-07-2026T16:08:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+21-07-2026T16:08:09 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Lihat Dokumen")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T16:08:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Lihat Dokumen' is clicked on
+
+21-07-2026T16:08:09 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/select_category_status"), "0", false): All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/select_category_status' 
+
+21-07-2026T16:08:10 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/select_category_status' 
+
+21-07-2026T16:08:10 - [TEST_STEP][PASSED] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_Catatan_TindakLanjut"), "Saya selesaikan ya sudah bagus"): Text 'Saya selesaikan ya sudah bagus' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_Catatan_TindakLanjut'
+
+21-07-2026T16:08:11 - [MESSAGE][PASSED] - Text 'Saya selesaikan ya sudah bagus' is set on object 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_Catatan_TindakLanjut'
+
+21-07-2026T16:08:11 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:08:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit' is clicked on
+
+21-07-2026T16:08:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+21-07-2026T16:08:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+21-07-2026T16:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut")): Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:08:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut' is clicked on
+
+21-07-2026T16:08:17 - [TEST_STEP][NOT_RUN] - selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID"), "0", false): NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID"), "0", false)
+
+21-07-2026T16:08:17 - [MESSAGE][NOT_RUN] - NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID"), "0", false)
+
+21-07-2026T16:08:17 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId"), "CBU/P1.3/07/26/014"): NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:08:17 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId"), "CBU/P1.3/07/26/014")
+
+21-07-2026T16:08:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari")): NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+
+21-07-2026T16:08:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-07-2026T16:01:16 - [TEST_SUITE][PASSED] - Kunjungan Showroom - CBU: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

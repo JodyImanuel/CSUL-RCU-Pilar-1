@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Kamera1</name>
+   <tag></tag>
+   <elementGuidId>02f13215-5669-4b7f-9857-49f2e271a2b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.lt57p1088ek&quot;] .padding-m.border-bottom-m .vertical-align</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div/div[2]/div/div[2]/div/div/div[1]/div/form/div/div/div/div/div[2]/div[1]/div/div/div[1]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fa377c60-7f9e-4a7d-a5b1-7513ffc384f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>vertical-align flex-direction-row</value>
+      <webElementGuid>95bcee39-2cb4-47f9-bb4e-2d31a475fbf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-28_1-l2-39_0-b2-b8-b1-b2-b1-Content</value>
+      <webElementGuid>bbef9435-e28c-4e36-b2ae-50e12df5718b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kamera</value>
+      <webElementGuid>35d6c96a-8eeb-446c-9611-0633f2a2e10e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-12eeb071888cf8205b3d871858336bb4</value>
+      <webElementGuid>a4bcea28-a68b-402a-bc7d-30c620ae2078</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.lt57p1088ek']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' padding-m ') and contains(concat(' ', normalize-space(@class), ' '), ' border-bottom-m ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' vertical-align ')]</value>
+      <webElementGuid>5f1e2e42-a8b8-4322-a4fb-f1e7bc1e3642</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.lt57p1088ek']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' padding-m ') and contains(concat(' ', normalize-space(@class), ' '), ' border-bottom-m ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' vertical-align ')]</value>
+      <webElementGuid>70e85d16-aa14-4614-86b4-5d68a8e69a0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b4-l2-28_1-l2-39_0-b2-b8-b1-b2-b1-Content' and (text() = 'Kamera' or . = 'Kamera')]</value>
+      <webElementGuid>5ec2629d-fd69-4eb9-ad07-2a60a87066f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

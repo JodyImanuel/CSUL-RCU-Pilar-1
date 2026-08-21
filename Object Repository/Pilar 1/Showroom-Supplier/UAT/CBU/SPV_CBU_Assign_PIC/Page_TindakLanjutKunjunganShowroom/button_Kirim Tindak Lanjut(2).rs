@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Kirim Tindak Lanjut(2)</name>
+   <tag></tag>
+   <elementGuidId>f4500511-607c-4e09-901e-463b0f35c948</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[3]/div/div/div/div/div/div[4]/div/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#b3-b2-b5-b8-b1-Button > button.btn.btn-primary.OSFillParent</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e0a4c055-5d4a-48af-bdf4-f7e5efc7472d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary OSFillParent</value>
+      <webElementGuid>ca4767ad-b931-442a-a3a1-1074cf07c657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cc81586c-c523-49e2-b7b4-4aeb88af3666</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim Tindak Lanjut</value>
+      <webElementGuid>5115c1ff-7261-45f9-95d1-c2d0a35f0cbc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-b2-b5-b8-b1-Button&quot;)/button[@class=&quot;btn btn-primary OSFillParent&quot;]</value>
+      <webElementGuid>d6961198-f1f5-411f-b975-54832eb41ef6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>cbc712d6-dd09-4678-ac20-cb762958b5e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-b2-b5-b8-b1-Button']/button</value>
+      <webElementGuid>c1802a5a-9973-418b-8c82-4ae0b48598bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batal'])[1]/following::button[1]</value>
+      <webElementGuid>c0432b33-6a30-4899-b6c0-ec530f641f9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Seluruh dokumen/kontrak yang telah dipilih akan dikirimkan kepada PIC yang telah Anda tentukan.'])[1]/following::button[2]</value>
+      <webElementGuid>08158d21-af14-435b-9561-dbf478efa4c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div[4]/div/div/button</value>
+      <webElementGuid>9ca4be0d-83a0-45d1-bdcc-74d3c5c53fef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Kirim Tindak Lanjut' or . = 'Kirim Tindak Lanjut')]</value>
+      <webElementGuid>eccd3474-139c-4e1f-b877-7dc97b14ac3c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

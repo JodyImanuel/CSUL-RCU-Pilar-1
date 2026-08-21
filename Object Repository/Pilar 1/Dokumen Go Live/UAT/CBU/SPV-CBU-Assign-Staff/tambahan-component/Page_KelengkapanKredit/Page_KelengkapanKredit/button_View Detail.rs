@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_View Detail</name>
+   <tag></tag>
+   <elementGuidId>8a59272a-ca57-4cdd-bbd1-7495d01e189f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/table/tbody/tr[1]/td[16]/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-orange</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>098b2c4a-0ef7-46df-ad24-0403daf8cf82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-orange</value>
+      <webElementGuid>9f4a97c0-9b61-4267-8643-86ab23a47883</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>27d1ef04-c13d-456b-b44b-3b088388fd25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Detail</value>
+      <webElementGuid>d0e4f3f5-9676-4ddc-b429-97fc587680ae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b3-$b1&quot;)/div[2]/div[@class=&quot;check-table&quot;]/table[@class=&quot;table&quot;]/tbody[1]/tr[@class=&quot;table-row&quot;]/td[16]/button[@class=&quot;btn btn-orange&quot;]</value>
+      <webElementGuid>344f363c-8599-443a-8ee4-c8c945ebe8dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>87bf5bb4-eee3-4fad-aafc-918095ebd703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b3-$b1']/div[2]/div/table/tbody/tr/td[16]/button</value>
+      <webElementGuid>f90eaea2-65e6-497b-8457-013ea49c0aff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BARU'])[2]/following::button[1]</value>
+      <webElementGuid>cd9e1657-7724-49ae-8050-e4fdbcfd37f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COMPANY'])[1]/following::button[1]</value>
+      <webElementGuid>346b3f5d-d9af-4c0b-9c63-58f735291859</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='JAKARTA 1'])[3]/preceding::button[1]</value>
+      <webElementGuid>7c081de9-ab23-4a8c-9051-def2b047ae23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Product LS for Heavy Equipment IDR - PILB'])[1]/preceding::button[1]</value>
+      <webElementGuid>2d395613-8730-4889-bc04-2ee58420232e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Detail']/parent::*</value>
+      <webElementGuid>0cc439c8-0573-439f-a33b-e26deecce991</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[16]/button</value>
+      <webElementGuid>386b118b-9fac-44a2-90bc-7eb861ed7c85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'View Detail' or . = 'View Detail')]</value>
+      <webElementGuid>9c9fc29f-490f-4559-a2dd-d0352ab5d9f1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

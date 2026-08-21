@@ -1,0 +1,330 @@
+2026-07-21 16:01:15.483 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Syarifah Risyani\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-07-21 16:01:15.494 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Syarifah Risyani\git\Pilar 1\CSUL-Pilar-1\Include\config\log.properties
+2026-07-21 16:01:16.286 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Pilar 1/UAT/Showroom-Supplier/Kunjungan Showroom - CBU
+2026-07-21 16:01:16.386 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syarifah Risyani
+2026-07-21 16:01:16.387 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = CSUL-Pilar-1
+2026-07-21 16:01:16.388 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Syarifah Risyani - Syarifah
+2026-07-21 16:01:16.388 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-07-21 16:01:16.389 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.0.2
+2026-07-21 16:01:16.391 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-07-21 16:01:16.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:01:16.527 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff
+2026-07-21 16:01:17.014 DEBUG testcase.SPV-CBU-Assign-Staff            - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-21 16:01:17.251 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:01:17.252 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:01:17.345 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-21 16:01:17.560 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:01:17.617 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:01:19.852 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a34a0be64d1aabe0c686adcf8185e02d
+2026-07-21 16:01:19.854 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:01:19.857 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:01:19.859 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:01:19.868 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:01:21.426 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-21 16:01:21.514 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-21 16:01:24.340 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-21 16:01:25.737 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:01:26.316 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-21 16:01:46.342 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-21 16:01:46.670 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-21 16:01:51.681 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-21 16:01:51.938 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-21 16:01:52.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:01:52.361 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:01:52.374 DEBUG testcase.SPV-CBU-Assign-Staff            - 2: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader"))
+2026-07-21 16:01:57.549 DEBUG testcase.SPV-CBU-Assign-Staff            - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader"))
+2026-07-21 16:01:58.098 DEBUG testcase.SPV-CBU-Assign-Staff            - 4: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Showroom_Supplier"))
+2026-07-21 16:01:58.408 DEBUG testcase.SPV-CBU-Assign-Staff            - 5: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_StartDate"), "01-01-2023")
+2026-07-21 16:02:03.002 DEBUG testcase.SPV-CBU-Assign-Staff            - 6: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input__EndDate"), "31-03-2023")
+2026-07-21 16:02:03.607 DEBUG testcase.SPV-CBU-Assign-Staff            - 7: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown1"), "2", false)
+2026-07-21 16:02:04.177 DEBUG testcase.SPV-CBU-Assign-Staff            - 8: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3"), "0", false)
+2026-07-21 16:02:04.718 DEBUG testcase.SPV-CBU-Assign-Staff            - 9: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari"))
+2026-07-21 16:02:05.039 DEBUG testcase.SPV-CBU-Assign-Staff            - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cek Jarak_1"))
+2026-07-21 16:02:06.105 DEBUG testcase.SPV-CBU-Assign-Staff            - 11: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/input_Checkbox2_ChecklistAssign"))
+2026-07-21 16:02:07.047 DEBUG testcase.SPV-CBU-Assign-Staff            - 12: delay(5)
+2026-07-21 16:02:12.064 DEBUG testcase.SPV-CBU-Assign-Staff            - 13: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign"))
+2026-07-21 16:02:12.387 DEBUG testcase.SPV-CBU-Assign-Staff            - 14: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b4-Dropdown1"), "0", false)
+2026-07-21 16:02:13.306 DEBUG testcase.SPV-CBU-Assign-Staff            - 15: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Assign_1"))
+2026-07-21 16:02:13.656 DEBUG testcase.SPV-CBU-Assign-Staff            - 16: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3"), "1", false)
+2026-07-21 16:02:15.364 DEBUG testcase.SPV-CBU-Assign-Staff            - 17: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/button_Cari"))
+2026-07-21 16:02:15.686 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff
+2026-07-21 16:02:15.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:02:15.699 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task
+2026-07-21 16:02:15.741 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lorem = C:\Users\PPU\Downloads\Tester File\Lorem1_PDF.pdf
+2026-07-21 16:02:15.836 DEBUG testcase.Staff-MCBU-Submit-Task          - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Mobile/Staff-MCBU"), [:], STOP_ON_FAILURE)
+2026-07-21 16:02:15.899 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:02:15.899 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU
+2026-07-21 16:02:15.955 DEBUG testcase.Staff-MCBU                      - 1: openBrowser("https://sakti-test.csulfinance.com/CSUL_RCU_MOBILE/Login")
+2026-07-21 16:02:15.965 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-21 16:02:16.349 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:02:16.353 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:02:17.464 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 91d1c29d5cf651814694c3da68e8e874
+2026-07-21 16:02:17.466 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:02:17.466 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:02:17.466 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:02:17.471 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:02:18.103 DEBUG testcase.Staff-MCBU                      - 2: setText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Username"), "iqbal.putra")
+2026-07-21 16:02:24.660 DEBUG testcase.Staff-MCBU                      - 3: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:02:25.036 DEBUG testcase.Staff-MCBU                      - 4: delay(10)
+2026-07-21 16:02:35.053 DEBUG testcase.Staff-MCBU                      - 5: click(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/button_Log In"))
+2026-07-21 16:02:38.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MCBU
+2026-07-21 16:02:38.846 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:02:38.848 DEBUG testcase.Staff-MCBU-Submit-Task          - 2: waitForElementVisible(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/div_HomeStaff"), 5)
+2026-07-21 16:02:43.152 DEBUG testcase.Staff-MCBU-Submit-Task          - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom"))
+2026-07-21 16:02:43.451 DEBUG testcase.Staff-MCBU-Submit-Task          - 4: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+2026-07-21 16:02:43.453 DEBUG testcase.Staff-MCBU-Submit-Task          - 5: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+2026-07-21 16:02:43.452 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+2026-07-21 16:02:43.456 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+2026-07-21 16:02:43.458 DEBUG testcase.Staff-MCBU-Submit-Task          - 6: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_KUNJUNGAN SHOWROOMCBU_P1.3_07_26_011"))
+2026-07-21 16:02:44.342 DEBUG testcase.Staff-MCBU-Submit-Task          - 7: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/input_b3-Checkbox1"))
+2026-07-21 16:02:45.306 DEBUG testcase.Staff-MCBU-Submit-Task          - 8: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomDetail/button_Survey"))
+2026-07-21 16:02:47.428 DEBUG testcase.Staff-MCBU-Submit-Task          - 9: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormFotoKunjungan"))
+2026-07-21 16:02:48.550 DEBUG testcase.Staff-MCBU-Submit-Task          - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto1"))
+2026-07-21 16:02:48.923 DEBUG testcase.Staff-MCBU-Submit-Task          - 11: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera1"))
+2026-07-21 16:02:49.335 DEBUG testcase.Staff-MCBU-Submit-Task          - 12: switchToWindowTitle("KunjunganShowroomQuestionAnswer")
+2026-07-21 16:02:49.396 DEBUG testcase.Staff-MCBU-Submit-Task          - 13: delay(5)
+2026-07-21 16:02:54.404 DEBUG testcase.Staff-MCBU-Submit-Task          - 14: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_1"))
+2026-07-21 16:02:56.134 DEBUG testcase.Staff-MCBU-Submit-Task          - 15: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto2"))
+2026-07-21 16:02:56.736 DEBUG testcase.Staff-MCBU-Submit-Task          - 16: delay(7)
+2026-07-21 16:03:03.749 DEBUG testcase.Staff-MCBU-Submit-Task          - 17: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_1"))
+2026-07-21 16:03:04.105 DEBUG testcase.Staff-MCBU-Submit-Task          - 18: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto3"))
+2026-07-21 16:03:04.761 DEBUG testcase.Staff-MCBU-Submit-Task          - 19: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_kamera3"))
+2026-07-21 16:03:05.112 DEBUG testcase.Staff-MCBU-Submit-Task          - 20: switchToWindowTitle("KunjunganShowroomQuestionAnswer")
+2026-07-21 16:03:05.138 DEBUG testcase.Staff-MCBU-Submit-Task          - 21: delay(5)
+2026-07-21 16:03:10.145 DEBUG testcase.Staff-MCBU-Submit-Task          - 22: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_2"))
+2026-07-21 16:03:10.464 DEBUG testcase.Staff-MCBU-Submit-Task          - 23: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto_4"))
+2026-07-21 16:03:11.012 DEBUG testcase.Staff-MCBU-Submit-Task          - 24: delay(5)
+2026-07-21 16:03:16.022 DEBUG testcase.Staff-MCBU-Submit-Task          - 25: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_2"))
+2026-07-21 16:03:16.380 DEBUG testcase.Staff-MCBU-Submit-Task          - 26: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Batal"))
+2026-07-21 16:03:16.382 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Batal"))
+2026-07-21 16:03:16.383 DEBUG testcase.Staff-MCBU-Submit-Task          - 27: delay(2)
+2026-07-21 16:03:18.404 DEBUG testcase.Staff-MCBU-Submit-Task          - 28: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_FormHasilKunjungan"))
+2026-07-21 16:03:18.721 DEBUG testcase.Staff-MCBU-Submit-Task          - 29: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 1 _"), "Mina")
+2026-07-21 16:03:19.393 DEBUG testcase.Staff-MCBU-Submit-Task          - 30: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 1_1"), "ART")
+2026-07-21 16:03:19.996 DEBUG testcase.Staff-MCBU-Submit-Task          - 31: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 2 _"), "Memet")
+2026-07-21 16:03:21.200 DEBUG testcase.Staff-MCBU-Submit-Task          - 32: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 2_2"), "Security")
+2026-07-21 16:03:21.966 DEBUG testcase.Staff-MCBU-Submit-Task          - 33: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 3 __1"), "Minda")
+2026-07-21 16:03:23.231 DEBUG testcase.Staff-MCBU-Submit-Task          - 34: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 3"), "Karyawan")
+2026-07-21 16:03:23.856 DEBUG testcase.Staff-MCBU-Submit-Task          - 35: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/textarea_Hasil Pemeriksaan RCU"), "Tidak sesuai")
+2026-07-21 16:03:25.160 DEBUG testcase.Staff-MCBU-Submit-Task          - 36: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/div_Unggah"))
+2026-07-21 16:03:25.698 DEBUG testcase.Staff-MCBU-Submit-Task          - 37: delay(7)
+2026-07-21 16:03:32.707 DEBUG testcase.Staff-MCBU-Submit-Task          - 38: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/select_Kategori Temuan"), "0", false)
+2026-07-21 16:03:35.151 DEBUG testcase.Staff-MCBU-Submit-Task          - 39: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Draft"))
+2026-07-21 16:03:35.152 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Draft"))
+2026-07-21 16:03:35.153 DEBUG testcase.Staff-MCBU-Submit-Task          - 40: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit"))
+2026-07-21 16:03:35.783 DEBUG testcase.Staff-MCBU-Submit-Task          - 41: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/Page_KunjunganShowroomQuestionAnswer/button_Submit_PopUp"))
+2026-07-21 16:03:36.161 DEBUG testcase.Staff-MCBU-Submit-Task          - 42: delay(5)
+2026-07-21 16:03:41.172 DEBUG testcase.Staff-MCBU-Submit-Task          - 43: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_Home/span_Kunjungan Showroom"))
+2026-07-21 16:03:41.598 DEBUG testcase.Staff-MCBU-Submit-Task          - 44: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+2026-07-21 16:03:41.600 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/input_TextSearch"), "CBU/P1.3/07/26/014")
+2026-07-21 16:03:41.602 DEBUG testcase.Staff-MCBU-Submit-Task          - 45: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+2026-07-21 16:03:41.604 WARN  testcase.Staff-MCBU-Submit-Task          - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task/Page_KunjunganShowroom/div_IconSearch"))
+2026-07-21 16:03:41.607 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/Staff-MCBU-Submit-Task
+2026-07-21 16:03:41.614 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:03:41.616 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan
+2026-07-21 16:03:41.762 DEBUG testcase.SPV-CBU-Persetujuan             - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-21 16:03:41.887 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:03:41.888 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:03:41.918 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-21 16:03:41.922 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-21 16:03:42.450 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:03:42.452 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:03:43.533 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 394ed521f569531b789448720c9d2681
+2026-07-21 16:03:43.535 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:03:43.535 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:03:43.535 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:03:43.536 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:03:44.135 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-21 16:03:44.200 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-21 16:03:47.795 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-21 16:03:48.449 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:03:49.068 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-21 16:04:09.072 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-21 16:04:09.373 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-21 16:04:14.381 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-21 16:04:15.898 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-21 16:04:16.292 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:04:16.292 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:04:16.293 DEBUG testcase.SPV-CBU-Persetujuan             - 2: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader"))
+2026-07-21 16:04:20.788 DEBUG testcase.SPV-CBU-Persetujuan             - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader"))
+2026-07-21 16:04:21.746 DEBUG testcase.SPV-CBU-Persetujuan             - 4: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Showroom_Supplier"))
+2026-07-21 16:04:22.050 DEBUG testcase.SPV-CBU-Persetujuan             - 5: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_StartDate"), "21-07-2026")
+2026-07-21 16:04:25.124 DEBUG testcase.SPV-CBU-Persetujuan             - 6: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/input_EndDate"), "21-07-2026")
+2026-07-21 16:04:25.733 DEBUG testcase.SPV-CBU-Persetujuan             - 7: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_b3-b1-DropdownCabang"), "2", false)
+2026-07-21 16:04:26.282 DEBUG testcase.SPV-CBU-Persetujuan             - 8: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+2026-07-21 16:04:26.282 WARN  testcase.SPV-CBU-Persetujuan             - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+2026-07-21 16:04:26.282 DEBUG testcase.SPV-CBU-Persetujuan             - 9: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Cari"))
+2026-07-21 16:04:26.582 DEBUG testcase.SPV-CBU-Persetujuan             - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Persetujuan"))
+2026-07-21 16:04:28.307 DEBUG testcase.SPV-CBU-Persetujuan             - 11: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto"))
+2026-07-21 16:04:30.386 DEBUG testcase.SPV-CBU-Persetujuan             - 12: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_1"))
+2026-07-21 16:04:31.877 DEBUG testcase.SPV-CBU-Persetujuan             - 13: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_2"))
+2026-07-21 16:04:32.859 DEBUG testcase.SPV-CBU-Persetujuan             - 14: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_3"))
+2026-07-21 16:04:33.678 DEBUG testcase.SPV-CBU-Persetujuan             - 15: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Dokumen"))
+2026-07-21 16:04:34.442 DEBUG testcase.SPV-CBU-Persetujuan             - 16: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/select_b3-b2-Status2"), "0", false)
+2026-07-21 16:04:35.405 DEBUG testcase.SPV-CBU-Persetujuan             - 17: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/textarea_b3-b2-TextArea_Catatan"), "Okay saya setujui dan akan tindak lanjut")
+2026-07-21 16:04:36.104 DEBUG testcase.SPV-CBU-Persetujuan             - 18: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Submit"))
+2026-07-21 16:04:36.655 DEBUG testcase.SPV-CBU-Persetujuan             - 19: delay(3)
+2026-07-21 16:04:39.668 DEBUG testcase.SPV-CBU-Persetujuan             - 20: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false)
+2026-07-21 16:04:44.094 DEBUG testcase.SPV-CBU-Persetujuan             - 21: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/button_Hasil"))
+2026-07-21 16:04:44.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan
+2026-07-21 16:04:44.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:04:44.398 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC
+2026-07-21 16:04:44.891 DEBUG testcase.SPV_CBU_Assign_PIC              - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-21 16:04:44.970 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:04:44.970 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:04:44.984 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-21 16:04:44.986 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-21 16:04:45.372 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:04:45.374 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:04:46.402 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = fff3f85c7c89184e9bb002d2ed320f42
+2026-07-21 16:04:46.403 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:04:46.408 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:04:46.408 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:04:46.409 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:04:47.183 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-21 16:04:47.273 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-21 16:04:50.120 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-21 16:04:51.760 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:04:52.309 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-21 16:05:12.313 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-21 16:05:12.616 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-21 16:05:17.623 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-21 16:05:17.868 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-21 16:05:18.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:05:18.268 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:05:18.270 DEBUG testcase.SPV_CBU_Assign_PIC              - 2: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader"))
+2026-07-21 16:05:22.429 DEBUG testcase.SPV_CBU_Assign_PIC              - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-21 16:05:22.956 DEBUG testcase.SPV_CBU_Assign_PIC              - 4: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier"))
+2026-07-21 16:05:23.292 DEBUG testcase.SPV_CBU_Assign_PIC              - 5: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate"), "21-07-2026")
+2026-07-21 16:05:29.955 DEBUG testcase.SPV_CBU_Assign_PIC              - 6: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate"), "21-07-2026")
+2026-07-21 16:05:30.547 DEBUG testcase.SPV_CBU_Assign_PIC              - 7: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang"), "2", false)
+2026-07-21 16:05:31.082 DEBUG testcase.SPV_CBU_Assign_PIC              - 8: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+2026-07-21 16:05:31.086 WARN  testcase.SPV_CBU_Assign_PIC              - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "0", false)
+2026-07-21 16:05:31.086 DEBUG testcase.SPV_CBU_Assign_PIC              - 9: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:05:31.461 DEBUG testcase.SPV_CBU_Assign_PIC              - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut"))
+2026-07-21 16:05:32.425 DEBUG testcase.SPV_CBU_Assign_PIC              - 11: delay(4)
+2026-07-21 16:05:36.446 DEBUG testcase.SPV_CBU_Assign_PIC              - 12: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checkbox_AssigntoPIC"))
+2026-07-21 16:05:50.939 DEBUG testcase.SPV_CBU_Assign_PIC              - 13: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak lanjut"))
+2026-07-21 16:05:51.260 DEBUG testcase.SPV_CBU_Assign_PIC              - 14: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_A"), "margareta")
+2026-07-21 16:05:52.275 DEBUG testcase.SPV_CBU_Assign_PIC              - 15: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B"))
+2026-07-21 16:05:52.566 DEBUG testcase.SPV_CBU_Assign_PIC              - 16: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_A_Utama"))
+2026-07-21 16:05:53.541 DEBUG testcase.SPV_CBU_Assign_PIC              - 17: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B"), "Irwansyah")
+2026-07-21 16:05:53.545 WARN  testcase.SPV_CBU_Assign_PIC              - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B"), "Irwansyah")
+2026-07-21 16:05:53.548 DEBUG testcase.SPV_CBU_Assign_PIC              - 18: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B"))
+2026-07-21 16:05:53.549 WARN  testcase.SPV_CBU_Assign_PIC              - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B"))
+2026-07-21 16:05:53.549 DEBUG testcase.SPV_CBU_Assign_PIC              - 19: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama"))
+2026-07-21 16:05:53.552 WARN  testcase.SPV_CBU_Assign_PIC              - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama"))
+2026-07-21 16:05:53.554 DEBUG testcase.SPV_CBU_Assign_PIC              - 20: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut (1)"))
+2026-07-21 16:05:54.085 DEBUG testcase.SPV_CBU_Assign_PIC              - 21: verifyElementPresent(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/div_Apakah Anda yakin ingin mengirimkan tindak l"), 0)
+2026-07-21 16:05:54.109 WARN  c.k.k.c.webui.common.WebUiCommonHelper   - Timeout '0' is invalid. Using default page load timeout: '20'
+2026-07-21 16:05:54.553 DEBUG testcase.SPV_CBU_Assign_PIC              - 22: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut(2)"))
+2026-07-21 16:05:54.868 DEBUG testcase.SPV_CBU_Assign_PIC              - 23: delay(4)
+2026-07-21 16:05:58.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC
+2026-07-21 16:05:58.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:05:58.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut
+2026-07-21 16:05:58.923 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) UploadFile = D:\Ica\PPU (PT. PILAR PERKASA UTAMA)\Task QA\CSUL\CSUL Pilar 4 Sprint 3\UAT Pilar 4 CSUL\Cabang Jakarta 1.xlsx
+2026-07-21 16:05:59.098 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/PIC-Margareta"), [:], STOP_ON_FAILURE)
+2026-07-21 16:05:59.162 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:05:59.162 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/PIC-Margareta
+2026-07-21 16:05:59.237 DEBUG testcase.PIC-Margareta                   - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-21 16:05:59.241 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-21 16:05:59.744 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:05:59.747 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:06:01.040 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f05ad045b4256f496877d2996f400190
+2026-07-21 16:06:01.043 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:06:01.044 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:06:01.045 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:06:01.046 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:06:04.265 DEBUG testcase.PIC-Margareta                   - 2: maximizeWindow()
+2026-07-21 16:06:04.341 DEBUG testcase.PIC-Margareta                   - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-21 16:06:10.374 DEBUG testcase.PIC-Margareta                   - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "margareta.husadani")
+2026-07-21 16:06:11.622 DEBUG testcase.PIC-Margareta                   - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:06:12.157 DEBUG testcase.PIC-Margareta                   - 6: delay(20)
+2026-07-21 16:06:32.167 DEBUG testcase.PIC-Margareta                   - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-21 16:06:32.469 DEBUG testcase.PIC-Margareta                   - 8: delay(5)
+2026-07-21 16:06:37.477 DEBUG testcase.PIC-Margareta                   - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta"), 10)
+2026-07-21 16:06:38.053 DEBUG testcase.PIC-Margareta                   - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/Page_ApplicationsCatalog/div_Risk Control Unit Application-Margareta"))
+2026-07-21 16:06:38.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/PIC-Margareta
+2026-07-21 16:06:38.429 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:06:38.431 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 2: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader"))
+2026-07-21 16:06:42.163 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-21 16:06:42.710 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 4: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/a_Showroom_Supplier"))
+2026-07-21 16:06:43.031 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 5: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_Dropdown_PIC_BisnisUnit"), "0", false)
+2026-07-21 16:06:46.870 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 6: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false)
+2026-07-21 16:06:47.717 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 7: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "0", false)
+2026-07-21 16:06:48.236 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 8: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian"), "2", false)
+2026-07-21 16:06:48.236 WARN  testcase.CBU_PIC_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian"), "2", false)
+2026-07-21 16:06:48.239 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 9: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1"), "Mitra Nusantara Bersaudara, PT")
+2026-07-21 16:06:48.240 WARN  testcase.CBU_PIC_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1"), "Mitra Nusantara Bersaudara, PT")
+2026-07-21 16:06:48.240 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:06:48.538 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 11: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut_Header"))
+2026-07-21 16:06:49.302 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 12: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/input_b3-b1-TanggatWaktuValue"), "31-07-2026")
+2026-07-21 16:06:53.772 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 13: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/textarea_b3-b1-TextArea_Catatan"), "Saya sudah melakukan tindak lanjut, mohon diperiksa thanks")
+2026-07-21 16:06:54.465 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 14: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Unggah"))
+2026-07-21 16:06:54.971 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 15: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"))
+2026-07-21 16:06:54.976 WARN  testcase.CBU_PIC_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"))
+2026-07-21 16:06:54.978 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 16: delay(7)
+2026-07-21 16:07:01.983 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 17: uploadFile(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"), UploadFile)
+2026-07-21 16:07:01.983 WARN  testcase.CBU_PIC_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/span_Browse"), UploadFile)
+2026-07-21 16:07:01.985 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 18: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Upload"))
+2026-07-21 16:07:01.985 WARN  testcase.CBU_PIC_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Upload"))
+2026-07-21 16:07:01.985 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 19: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Submit"))
+2026-07-21 16:07:06.131 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 20: delay(5)
+2026-07-21 16:07:11.149 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 21: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1"), "2", false)
+2026-07-21 16:07:11.732 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 22: selectOptionByValue(findTestObject("Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3"), "2", false)
+2026-07-21 16:07:12.271 DEBUG testcase.CBU_PIC_Submit_Tindak_Lanjut    - 23: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:07:12.559 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut
+2026-07-21 16:07:12.571 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:07:12.572 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut
+2026-07-21 16:07:12.683 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-CBU"), [:], STOP_ON_FAILURE)
+2026-07-21 16:07:12.748 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:07:12.748 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:07:12.748 DEBUG testcase.SPV-CBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-21 16:07:12.748 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-21 16:07:13.127 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-21 16:07:13.131 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-21 16:07:14.244 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = debd00bcb0bba1028d52cb7f9915870c
+2026-07-21 16:07:14.244 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.128
+2026-07-21 16:07:14.245 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-21 16:07:14.247 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-21 16:07:14.249 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-21 16:07:14.858 DEBUG testcase.SPV-CBU                         - 2: maximizeWindow()
+2026-07-21 16:07:14.958 DEBUG testcase.SPV-CBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-21 16:07:17.865 DEBUG testcase.SPV-CBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "adhy.surnanto")
+2026-07-21 16:07:18.810 DEBUG testcase.SPV-CBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-21 16:07:19.400 DEBUG testcase.SPV-CBU                         - 6: delay(20)
+2026-07-21 16:07:39.419 DEBUG testcase.SPV-CBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-21 16:07:39.747 DEBUG testcase.SPV-CBU                         - 8: delay(5)
+2026-07-21 16:07:44.754 DEBUG testcase.SPV-CBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-21 16:07:46.800 DEBUG testcase.SPV-CBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-21 16:07:47.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-CBU
+2026-07-21 16:07:47.181 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-21 16:07:47.185 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 2: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader"))
+2026-07-21 16:07:51.388 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 3: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-21 16:07:51.937 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 4: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier"))
+2026-07-21 16:07:52.306 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 5: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate"), "21-07-2026")
+2026-07-21 16:07:59.607 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 6: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate"), "21-07-2026")
+2026-07-21 16:08:00.228 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 7: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang"), "2", false)
+2026-07-21 16:08:00.769 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 8: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false)
+2026-07-21 16:08:00.769 WARN  testcase.SPV_CBU_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status"), "2", false)
+2026-07-21 16:08:00.769 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 9: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:08:01.151 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 10: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut"))
+2026-07-21 16:08:02.027 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 11: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/select_Dropdown_Kategori_Temuan"), "2", false)
+2026-07-21 16:08:05.894 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 12: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Save"))
+2026-07-21 16:08:06.304 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 13: delay(3)
+2026-07-21 16:08:09.325 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 14: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Lihat Dokumen"))
+2026-07-21 16:08:09.719 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 15: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/select_category_status"), "0", false)
+2026-07-21 16:08:10.750 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 16: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_Catatan_TindakLanjut"), "Saya selesaikan ya sudah bagus")
+2026-07-21 16:08:11.428 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 17: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit"))
+2026-07-21 16:08:11.949 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 18: delay(5)
+2026-07-21 16:08:16.965 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 19: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut"))
+2026-07-21 16:08:17.252 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 20: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID"), "0", false)
+2026-07-21 16:08:17.259 WARN  testcase.SPV_CBU_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID"), "0", false)
+2026-07-21 16:08:17.260 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 21: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId"), "CBU/P1.3/07/26/014")
+2026-07-21 16:08:17.262 WARN  testcase.SPV_CBU_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId"), "CBU/P1.3/07/26/014")
+2026-07-21 16:08:17.263 DEBUG testcase.SPV_CBU_Submit_Tindak_Lanjut    - 22: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:08:17.265 WARN  testcase.SPV_CBU_Submit_Tindak_Lanjut    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari"))
+2026-07-21 16:08:17.270 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut
+2026-07-21 16:08:17.681 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-21 16:08:17.681 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Pilar 1/UAT/Showroom-Supplier/Kunjungan Showroom - CBU
+2026-07-21 16:08:17.682 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

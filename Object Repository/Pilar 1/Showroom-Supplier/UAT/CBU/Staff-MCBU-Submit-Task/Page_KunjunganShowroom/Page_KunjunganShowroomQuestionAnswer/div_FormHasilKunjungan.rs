@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FormHasilKunjungan</name>
+   <tag></tag>
+   <elementGuidId>eb8a4dad-14b8-4604-a05d-799f43c0890d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-block=&quot;QuestionAnswer\.Accordion_Submission&quot;]:nth-child(3) .OSInline.justify-content-center</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div[1]/div[2]/div/div[1]/div[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e3d11773-cc66-4a09-8b88-cefaf2d56770</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>display-flex justify-content-center align-items-center  OSInline</value>
+      <webElementGuid>678d98f7-1da1-4fff-8091-6ac7ec3b1d35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a3e6c8d6fd61af2607bf5bcb213c4bb2</value>
+      <webElementGuid>03b7eb70-c9cf-43f7-9b58-1fbcb5ff8d83</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'QuestionAnswer.Accordion_Submission') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-content-center ')]</value>
+      <webElementGuid>5df787ba-092a-4e28-94a6-214d65393d9c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'QuestionAnswer.Accordion_Submission') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' OSInline ') and contains(concat(' ', normalize-space(@class), ' '), ' justify-content-center ')]</value>
+      <webElementGuid>1a31d3b8-e48f-476a-8f9a-88ecce965687</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

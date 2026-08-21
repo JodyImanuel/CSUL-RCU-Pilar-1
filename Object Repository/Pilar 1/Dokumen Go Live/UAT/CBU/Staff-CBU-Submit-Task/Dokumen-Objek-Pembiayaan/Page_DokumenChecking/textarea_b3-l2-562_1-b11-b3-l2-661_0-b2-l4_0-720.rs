@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720</name>
+   <tag></tag>
+   <elementGuidId>0cf62a63-5bc2-46f5-b86f-70bf6436302c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Catatan')]//textarea</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table-row-m[data-header=&quot;Catatan&quot;] textarea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>a2b487f5-49b7-47c2-955c-87a026cfa55c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-area-custom OSFillParent</value>
+      <webElementGuid>18fb9950-1f58-4951-a81a-89ed1a97aef7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>8655ee51-4d91-452d-845b-34e60226901a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>845a3d1d-ef70-4286-9e8f-28e36c0aa93c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720_0-Catatan</value>
+      <webElementGuid>7f1e5113-b40a-4c89-bf96-99f80c216b27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9232a62dc7fc91f216ae574ccfb0eb8d</value>
+      <webElementGuid>dd5cc67e-3be9-447e-b728-a29c02d220d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Catatan')]//textarea</value>
+      <webElementGuid>8e61a28f-8d46-4cbc-870d-a72820f3bc43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Catatan')]//textarea</value>
+      <webElementGuid>8a48113a-c234-445f-a664-43ee1e76361b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720_0-Catatan']</value>
+      <webElementGuid>ede1c6c1-50b1-4cec-8195-68c52e20d917</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

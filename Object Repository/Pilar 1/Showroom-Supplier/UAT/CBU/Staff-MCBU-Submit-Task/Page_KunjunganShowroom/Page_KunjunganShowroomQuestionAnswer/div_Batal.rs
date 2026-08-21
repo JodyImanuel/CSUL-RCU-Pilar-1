@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Batal</name>
+   <tag></tag>
+   <elementGuidId>05c276c8-f797-4e1c-8639-31cec642e1b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[name=&quot;\30 \.5zaw5laat9o&quot;] .margin-top-s.padding-base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/form/div[1]/div[1]/div/div[2]/div/div/div[1]/div/form/div/div/div/div/div[2]/div[1]/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b64c03a-57a4-4063-bccc-36f8900a93fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>margin-top-s padding-base text-align-center background-neutral-0</value>
+      <webElementGuid>03a8321b-2c6d-44cc-a159-e843c9bbf873</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Batal</value>
+      <webElementGuid>0100d138-613b-4faa-b165-321ad0487c46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-65e803c27210002d3b1e48148f64e4ce</value>
+      <webElementGuid>dd7bbd4f-f434-4c1f-b027-d98050bf248a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@name = '0.5zaw5laat9o']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-top-s ') and contains(concat(' ', normalize-space(@class), ' '), ' padding-base ')]</value>
+      <webElementGuid>1749fe1b-99e8-46c8-97bd-1b078a339427</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@name = '0.5zaw5laat9o']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-top-s ') and contains(concat(' ', normalize-space(@class), ' '), ' padding-base ')]</value>
+      <webElementGuid>5f453383-9cd2-4c7e-9af5-52253c81d70a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Batal' or . = 'Batal')]</value>
+      <webElementGuid>5ded2df2-0656-4137-874d-f00038aa1e59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

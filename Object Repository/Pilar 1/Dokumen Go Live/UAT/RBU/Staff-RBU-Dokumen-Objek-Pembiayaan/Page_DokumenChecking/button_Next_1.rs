@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Next_1</name>
+   <tag></tag>
+   <elementGuidId>a8bb0d5d-d229-4823-b579-7fa8094be099</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-primary.btn.ThemeGrid_MarginGutter[type=&quot;button&quot;][data-button=&quot;&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div[3]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e80ebbd8-9fd9-4a61-98db-714b67e20048</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary ThemeGrid_MarginGutter</value>
+      <webElementGuid>4d8422ad-f09b-46c4-8fe5-f19af0b33210</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5634aaed-5d57-42ab-9e84-1639758f6664</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next </value>
+      <webElementGuid>1419cd06-29ee-4cb0-a603-e53d17a17ac2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-61d668fa82e79231f6e7093168973da9</value>
+      <webElementGuid>9b97a152-0a42-47de-a5b1-639acfd049a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' ThemeGrid_MarginGutter ') and (@type = 'button') and (@data-button = '')]</value>
+      <webElementGuid>0417364a-b662-4bd9-a5dd-5bde31527cf5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' ThemeGrid_MarginGutter ') and (@type = 'button') and (@data-button = '')]</value>
+      <webElementGuid>9c06c882-f1c1-481f-aa7b-5229f9e29a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Next ' or . = 'Next ')]</value>
+      <webElementGuid>69813d7a-5b0c-4fda-8f2c-be4adc5413e4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

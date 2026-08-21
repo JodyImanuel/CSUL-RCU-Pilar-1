@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-b1-b4-DropdownStaff</name>
+   <tag></tag>
+   <elementGuidId>55c203f1-6ba5-491a-93d5-840caeea166b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div/div[2]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-m:nth-child(2) .dropdown</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'b3-b1-b4-Dropdown1' and (text() = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY' or . = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1e138f96-ad54-49ee-b514-17802ecc220e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>120b913b-a48c-4aad-868a-655ae833d2c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>63081f1b-c900-4b5a-b816-eb75d9fa058e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-b4-Dropdown1</value>
+      <webElementGuid>c3f4e803-3990-4e6e-84ab-d9255d66969b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY</value>
+      <webElementGuid>77f8462c-bb97-4c44-b706-575f748493db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-006ca02121f0f96b4928de069c9fde03</value>
+      <webElementGuid>f41e8d0c-00f2-4eb6-8b09-aa15c73334f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-m ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ')]</value>
+      <webElementGuid>4c89c759-247e-4389-b9dd-0e2896ab23e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-m ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ')]</value>
+      <webElementGuid>8ed6ca96-69d2-4553-a3da-6efd5e589f5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b1-b4-Dropdown1' and (text() = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY' or . = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY')]</value>
+      <webElementGuid>c020af0a-4d69-42e4-897d-db76296c4c93</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

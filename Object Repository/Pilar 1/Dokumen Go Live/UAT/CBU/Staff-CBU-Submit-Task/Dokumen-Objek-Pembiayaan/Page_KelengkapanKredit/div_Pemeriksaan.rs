@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pemeriksaan</name>
+   <tag></tag>
+   <elementGuidId>d87a6b86-053b-4c4e-90b2-c4745f3028ec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div[2]/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.popover-bottom [data-container=&quot;&quot;]:nth-child(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17ed3581-f4d5-4f37-b5cd-f81fbb65e67e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pemeriksaan</value>
+      <webElementGuid>ad09093f-880c-4224-85c2-22229ee525b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-5351e61a5989a8d0aa42fc3126cf95fd</value>
+      <webElementGuid>bb2f7fe9-5080-4ae6-a1f7-eed7c684cb25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-bottom ')]//*[(@data-container = '') and (position() = 2)]</value>
+      <webElementGuid>20f74a60-2d2a-48ad-a583-7c7cee8461ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-bottom ')]//*[(@data-container = '') and (position() = 2)]</value>
+      <webElementGuid>8dac7443-6aaf-428c-aefd-409b45500259</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pemeriksaan' or . = 'Pemeriksaan')]</value>
+      <webElementGuid>5a921bf1-8749-4554-ae45-fd76a4d3cf47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

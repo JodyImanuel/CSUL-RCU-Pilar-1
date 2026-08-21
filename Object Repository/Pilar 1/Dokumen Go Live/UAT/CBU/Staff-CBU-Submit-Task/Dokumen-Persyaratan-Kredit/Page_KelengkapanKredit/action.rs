@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/table/tbody/tr[1]/td[16]/div/div</value>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/div[2]/div[1]/table/tbody/tr[1]/td[16]/div/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>a6a4e0af-3cba-4954-90c8-f01fd90bac4a</webElementGuid>
+      <webElementGuid>608a396e-5658-4985-9ff5-5e5e19a36546</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>popover-top</value>
-      <webElementGuid>fced241e-01aa-4ef5-828e-73a5cb788e2c</webElementGuid>
+      <webElementGuid>45e8a5dd-d1fb-404e-a710-a5ec0c8146d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>03c52d4b-5e6c-48fb-aa25-062935ecfd25</webElementGuid>
+      <webElementGuid>024b02f9-bb36-4d51-8cee-02dfd268ebd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>. . .</value>
-      <webElementGuid>f01fe0dd-86c7-41ab-8191-43fff3a13538</webElementGuid>
+      <webElementGuid>f14f9aba-73ef-4fa0-8c19-ae75aa40fba6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-55c33b2aa81fb65e562c72799359df5d</value>
-      <webElementGuid>5cc3bab0-e54b-4e86-9bb4-fb193ab77268</webElementGuid>
+      <webElementGuid>9b10f227-2970-49f8-8e32-efaeb24b0346</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-top ')]</value>
-      <webElementGuid>636394cd-ec23-4c20-b4fa-0f8ec6ff5e42</webElementGuid>
+      <webElementGuid>dc7d57a9-b8a6-4d4c-9421-d84d5d269dc8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' popover-top ')]</value>
-      <webElementGuid>25ef206c-de23-4421-9758-a12f8ffe2ac3</webElementGuid>
+      <webElementGuid>78663894-7046-413f-960c-08fa7579592a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '. . .' or . = '. . .')]</value>
-      <webElementGuid>f73d3502-f0c9-4897-9e1f-bc9ca874747a</webElementGuid>
+      <webElementGuid>554bf2b4-7709-4637-80f3-6650b749dd02</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

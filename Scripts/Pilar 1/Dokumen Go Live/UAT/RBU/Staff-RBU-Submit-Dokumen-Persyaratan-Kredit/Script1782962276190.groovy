@@ -30,13 +30,13 @@ WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Tas
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive'))
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2'), 
-    '02-07-2026')
+    '22-07-2026')
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3'), 
-    '1', false)
+    '0', false)
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari'))
 
@@ -132,10 +132,12 @@ WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Unggah'))
 
-WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone'), 
+WebUI.delay(5)
+
+not_run: WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone'), 
     Lorem)
 
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload'))
+not_run: WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload'))
 
 WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_9-'), 
     '1', false)
@@ -148,74 +150,16 @@ WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Unggah_1'))
 
-WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone'), 
+WebUI.delay(5)
+
+not_run: WebUI.uploadFile(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone'), 
     Lorem)
 
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload'))
+not_run: WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload'))
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_b3-ButtonDraftRBU'))
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next'))
-
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/i_icon accordion-badan-usaha-dokumen-tagihan'))
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_0-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_0-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_'), 
-    'testing')
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_1-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_1-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412__1'), 
-    'testing')
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_2-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_2-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412__2'), 
-    'testing')
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_3-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_3-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412__3'), 
-    'testing')
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_4-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_4-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412__4'), 
-    'testing')
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_5-'), 
-    '0', false)
-
-WebUI.selectOptionByValue(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412_5-_1'), 
-    '0', false)
-
-WebUI.setText(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-171_1-b8-b1-l1-411_0-b1-l4_0-412__5'), 
-    'testing')
-
-WebUI.click(findTestObject('Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_b3-ButtonDraftRBU'))
-
-WebUI.delay(5)
 

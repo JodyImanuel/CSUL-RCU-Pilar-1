@@ -1,0 +1,159 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Kunjungan Showroom - RBU,Chrome 150.0.7871.129,,,22-07-2026 09:27:28,22-07-2026 09:34:47,7m - 19.024s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff,Chrome 150.0.7871.129,,,22-07-2026 09:27:29,22-07-2026 09:28:30,1m - 1.163s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:27:29,22-07-2026 09:28:05,35.913s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:05,22-07-2026 09:28:12,7.024s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:12,22-07-2026 09:28:13,0.562s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Showroom_Supplier""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:13,22-07-2026 09:28:13,0.302s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/input_StartDate""), ""01-01-2024"")",Chrome 150.0.7871.129,,,22-07-2026 09:28:13,22-07-2026 09:28:19,6.097s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/input_EndDate""), ""31-03-2024"")",Chrome 150.0.7871.129,,,22-07-2026 09:28:19,22-07-2026 09:28:20,0.598s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/select_Dropdown Branch""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:28:20,22-07-2026 09:28:20,0.592s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3""), ""0"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:28:20,22-07-2026 09:28:21,0.566s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:21,22-07-2026 09:28:21,0.315s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/button_Cek Jarak""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:21,22-07-2026 09:28:22,1.019s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/input_b3-b1-l1_0-236_0-Checkbox2""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:22,22-07-2026 09:28:23,0.757s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/button_Assign""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:23,22-07-2026 09:28:23,0.338s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/button_Assign_PopUp""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:23,22-07-2026 09:28:24,0.766s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Assign-Staff/Page_KunjunganShowroom/select_b3-b1-b1-Dropdown3""), ""1"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:28:24,22-07-2026 09:28:25,1.362s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_Staff/Page_KunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:25,22-07-2026 09:28:30,4.408s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task,Chrome 150.0.7871.129,,,22-07-2026 09:28:30,22-07-2026 09:29:53,1m - 23.354s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/Mobile/Staff-MRBU - Pandu""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:28:30,22-07-2026 09:28:50,20.243s,PASSED
+"waitForElementVisible(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_Home/div_HomeStaff""), 5)",Chrome 150.0.7871.129,,,22-07-2026 09:28:50,22-07-2026 09:28:52,2.088s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_Home/span_Kunjungan Showroom""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:52,22-07-2026 09:28:54,2.039s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroom/input_TextSearch""), ""RBU/P1.3/07/26/004"")",Chrome 150.0.7871.129,,,22-07-2026 09:28:54,22-07-2026 09:28:54,0.005s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroom/div_IconSearch""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:54,22-07-2026 09:28:54,0.005s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroom/div_KUNJUNGAN SHOWROOMRBU_P1.3_07_26_011""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:54,22-07-2026 09:28:55,0.756s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomDetail/input_b3-Checkbox1""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:55,22-07-2026 09:28:56,1.363s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomDetail/button_Survey""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:56,22-07-2026 09:28:58,2.012s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_FormFotoKunjungan""))",Chrome 150.0.7871.129,,,22-07-2026 09:28:58,22-07-2026 09:29:00,1.436s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto1""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:00,22-07-2026 09:29:00,0.396s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_kamera1""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:00,22-07-2026 09:29:01,0.394s,PASSED
+"switchToWindowTitle(""KunjunganShowroomQuestionAnswer"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:01,22-07-2026 09:29:01,0.087s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:29:01,22-07-2026 09:29:06,5.013s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_1""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:06,22-07-2026 09:29:08,1.834s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto2""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:08,22-07-2026 09:29:08,0.615s,PASSED
+delay(7),Chrome 150.0.7871.129,,,22-07-2026 09:29:08,22-07-2026 09:29:15,7.015s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_1""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:15,22-07-2026 09:29:16,0.462s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto3""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:16,22-07-2026 09:29:16,0.652s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_kamera3""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:16,22-07-2026 09:29:17,0.357s,PASSED
+"switchToWindowTitle(""KunjunganShowroomQuestionAnswer"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:17,22-07-2026 09:29:17,0.036s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:29:17,22-07-2026 09:29:22,5.011s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Sesuai_2""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:22,22-07-2026 09:29:22,0.371s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_Ambil Foto_4""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:22,22-07-2026 09:29:23,0.657s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:29:23,22-07-2026 09:29:28,5.017s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Tidak Sesuai_2""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:28,22-07-2026 09:29:28,0.321s,PASSED
+delay(2),Chrome 150.0.7871.129,,,22-07-2026 09:29:28,22-07-2026 09:29:30,2.008s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_FormHasilKunjungan""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:30,22-07-2026 09:29:30,0.291s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 1 _""), ""Nathan"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:30,22-07-2026 09:29:31,0.658s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 1_1""), ""Adik"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:31,22-07-2026 09:29:32,0.676s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 2 _""), ""Nadia"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:32,22-07-2026 09:29:33,1.234s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 2_2""), ""Ibu"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:33,22-07-2026 09:29:34,0.650s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Nama Sumber Informasi 3 __1""), ""Nuri"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:34,22-07-2026 09:29:35,1.271s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/input_Jabatan Sumber Informasi 3""), ""Sepupu"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:35,22-07-2026 09:29:36,0.632s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/textarea_Hasil Pemeriksaan RCU""), ""Tidak sesuai"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:36,22-07-2026 09:29:37,1.324s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/div_Unggah""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:37,22-07-2026 09:29:37,0.520s,PASSED
+delay(7),Chrome 150.0.7871.129,,,22-07-2026 09:29:37,22-07-2026 09:29:44,7.007s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/select_Kategori Temuan""), ""1"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:29:44,22-07-2026 09:29:47,2.404s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/button_Draft""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:47,22-07-2026 09:29:47,0.006s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/button_Submit""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:47,22-07-2026 09:29:47,0.646s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroomQuestionAnswer/button_Submit_PopUp""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:47,22-07-2026 09:29:48,0.368s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:29:48,22-07-2026 09:29:53,5.021s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_Home/span_Kunjungan Showroom""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:53,22-07-2026 09:29:53,0.302s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroom/input_TextSearch""), ""RBU/P1.3/07/26/004"")",Chrome 150.0.7871.129,,,22-07-2026 09:29:53,22-07-2026 09:29:53,0.001s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/Staff_MRBU_Submit_Task/Page_KunjunganShowroom/div_IconSearch""))",Chrome 150.0.7871.129,,,22-07-2026 09:29:53,22-07-2026 09:29:53,0.001s,NOT_RUN
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan,Chrome 150.0.7871.129,,,22-07-2026 09:29:53,22-07-2026 09:31:24,1m - 30.736s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:29:53,22-07-2026 09:30:47,53.318s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:30:47,22-07-2026 09:30:52,5.291s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:30:52,22-07-2026 09:30:53,0.566s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_Dashboard/a_Showroom_Supplier""))",Chrome 150.0.7871.129,,,22-07-2026 09:30:53,22-07-2026 09:30:53,0.318s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/input_StartDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:30:53,22-07-2026 09:30:56,3.565s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/input_EndDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:30:56,22-07-2026 09:30:57,0.571s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/select_b3-b1-DropdownCabang""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:30:57,22-07-2026 09:30:58,1.042s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:30:58,22-07-2026 09:30:59,1.027s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/button_Persetujuan""))",Chrome 150.0.7871.129,,,22-07-2026 09:30:59,22-07-2026 09:31:06,7.039s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:06,22-07-2026 09:31:11,4.384s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_1""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:11,22-07-2026 09:31:11,0.954s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_2""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:11,22-07-2026 09:31:12,0.634s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Foto_3""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:12,22-07-2026 09:31:13,0.550s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Lihat Dokumen""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:13,22-07-2026 09:31:13,0.622s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/select_b3-b2-Status2""), ""0"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:31:13,22-07-2026 09:31:14,0.925s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/textarea_b3-b2-TextArea_Catatan""), ""Baik akan saya approved dan tindak lanjut, thanks"")",Chrome 150.0.7871.129,,,22-07-2026 09:31:14,22-07-2026 09:31:15,0.729s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroomDetail/button_Submit""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:15,22-07-2026 09:31:15,0.519s,PASSED
+delay(3),Chrome 150.0.7871.129,,,22-07-2026 09:31:15,22-07-2026 09:31:18,3.009s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKunjunganShowroom/select_Select Status""), ""2"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:31:18,22-07-2026 09:31:24,5.125s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Persetujuan/Page_ApprovalKunjunganShowroom/button_Hasil""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:24,22-07-2026 09:31:24,0.296s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC,Chrome 150.0.7871.129,,,22-07-2026 09:31:24,22-07-2026 09:32:40,1m - 15.818s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:31:24,22-07-2026 09:31:59,34.164s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:31:59,22-07-2026 09:32:03,4.688s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:03,22-07-2026 09:32:04,0.559s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:04,22-07-2026 09:32:04,0.315s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:32:04,22-07-2026 09:32:11,6.957s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:32:11,22-07-2026 09:32:12,0.587s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:32:12,22-07-2026 09:32:12,0.517s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:12,22-07-2026 09:32:13,0.372s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:13,22-07-2026 09:32:13,0.849s,PASSED
+delay(4),Chrome 150.0.7871.129,,,22-07-2026 09:32:13,22-07-2026 09:32:17,4.013s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checkbox_AssigntoPIC""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:17,22-07-2026 09:32:31,13.395s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak lanjut""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:31,22-07-2026 09:32:31,0.312s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_A""), ""margareta"")",Chrome 150.0.7871.129,,,22-07-2026 09:32:31,22-07-2026 09:32:31,0.002s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:31,22-07-2026 09:32:31,0.003s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_A_Utama""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:31,22-07-2026 09:32:31,0.003s,NOT_RUN
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_NamaPIC_B""), ""Irwansyah"")",Chrome 150.0.7871.129,,,22-07-2026 09:32:31,22-07-2026 09:32:32,1.015s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari_PIC_A_B""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:32,22-07-2026 09:32:32,0.289s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_Checklist_PIC_B_Utama""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:32,22-07-2026 09:32:34,1.920s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut (1)""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:34,22-07-2026 09:32:35,0.546s,PASSED
+"verifyElementPresent(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/div_Apakah Anda yakin ingin mengirimkan tindak l""), 0)",Chrome 150.0.7871.129,,,22-07-2026 09:32:35,22-07-2026 09:32:35,0.480s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Kirim Tindak Lanjut(2)""))",Chrome 150.0.7871.129,,,22-07-2026 09:32:35,22-07-2026 09:32:36,0.296s,PASSED
+delay(4),Chrome 150.0.7871.129,,,22-07-2026 09:32:36,22-07-2026 09:32:40,4.012s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut,Chrome 150.0.7871.129,,,22-07-2026 09:32:40,22-07-2026 09:33:47,1m - 7.310s,PASSED
+"DATA BINDING - {""(Default) Uploa..."":""D:\\Ica\\PPU (PT. PILAR PERKASA UTAMA)\\Task QA\\CSUL\\CSUL Pilar 4 Sprint 3\\UAT Pilar 4 CSUL\\Cabang Jakarta 1.xlsx""}",,,,,,,
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/PIC-Irwansyah""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:32:40,22-07-2026 09:33:13,33.222s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b3-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:13,22-07-2026 09:33:18,4.571s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/div_b2-l1-17_1-b4-l1-23_4-b1-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:18,22-07-2026 09:33:18,0.550s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_Dashboard/a_Showroom_Supplier""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:18,22-07-2026 09:33:19,0.327s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_Dropdown_PIC_BisnisUnit""), ""1"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:19,22-07-2026 09:33:25,6.846s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:25,22-07-2026 09:33:26,0.952s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3""), ""0"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:26,22-07-2026 09:33:27,0.524s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_DropdownPencarian""), ""2"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:27,22-07-2026 09:33:27,0.000s,NOT_RUN
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Search_1""), ""Satria Jaya Motor"")",Chrome 150.0.7871.129,,,22-07-2026 09:33:27,22-07-2026 09:33:27,0.000s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:27,22-07-2026 09:33:27,0.295s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut_Header""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:27,22-07-2026 09:33:28,1.200s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/input_TenggatWaktuPenyelesaian""), ""31-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:33:28,22-07-2026 09:33:32,3.862s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_b3-b1-TextArea_Catatan""), ""Saya sudah melakukan tindak lanjut pak"")",Chrome 150.0.7871.129,,,22-07-2026 09:33:32,22-07-2026 09:33:33,0.645s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Unggah""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:33,22-07-2026 09:33:33,0.516s,PASSED
+delay(7),Chrome 150.0.7871.129,,,22-07-2026 09:33:33,22-07-2026 09:33:40,7.005s,PASSED
+"uploadFile(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/span_Browse""), UploadFile)",Chrome 150.0.7871.129,,,22-07-2026 09:33:40,22-07-2026 09:33:40,0.001s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Upload""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:40,22-07-2026 09:33:40,0.001s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/RBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:40,22-07-2026 09:33:41,0.317s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:33:41,22-07-2026 09:33:46,5.009s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown1""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:46,22-07-2026 09:33:46,0.519s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Copy Contract/UAT/CBU/PIC-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutCopyContract/select_b3-b2-b1-Dropdown3""), ""2"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:33:46,22-07-2026 09:33:47,0.519s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/CBU_PIC_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:33:47,22-07-2026 09:33:47,0.291s,PASSED
+,,,,,,,
+Test Cases/Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Submit_Tindak_Lanjut,Chrome 150.0.7871.129,,,22-07-2026 09:33:47,22-07-2026 09:34:47,1m - 0.008s,PASSED
+"callTestCase(findTestCase(""Pilar 1/Login/UAT/SPV-RBU""), [:], STOP_ON_FAILURE)",Chrome 150.0.7871.129,,,22-07-2026 09:33:47,22-07-2026 09:34:20,32.657s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b3-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:20,22-07-2026 09:34:24,4.236s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/div_b2-l1-17_10-b4-l1-44_4-b1-SubMenuHeader""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:24,22-07-2026 09:34:25,0.547s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_Dashboard/a_Showroom_Supplier""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:25,22-07-2026 09:34:25,0.315s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_StartDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:34:25,22-07-2026 09:34:30,5.387s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/input_EndDate""), ""22-07-2026"")",Chrome 150.0.7871.129,,,22-07-2026 09:34:30,22-07-2026 09:34:31,0.554s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/select_DropdownCabang""), ""4"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:34:31,22-07-2026 09:34:31,0.526s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:31,22-07-2026 09:34:32,0.340s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:32,22-07-2026 09:34:33,0.867s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/select_Dropdown_Kategori_Temuan""), ""2"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:34:33,22-07-2026 09:34:36,3.357s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/button_Save""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:36,22-07-2026 09:34:36,0.329s,PASSED
+delay(3),Chrome 150.0.7871.129,,,22-07-2026 09:34:36,22-07-2026 09:34:39,3.005s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Lihat Dokumen""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:39,22-07-2026 09:34:40,0.297s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/select_category_status""), ""0"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:34:40,22-07-2026 09:34:41,0.974s,PASSED
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/textarea_Catatan_TindakLanjut""), ""Okay saya cek ya, mantap"")",Chrome 150.0.7871.129,,,22-07-2026 09:34:41,22-07-2026 09:34:41,0.637s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/CBU/SPV_CBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroomDetail/Page_TindakLanjutKunjunganShowroomDetail/button_Submit""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:41,22-07-2026 09:34:42,0.539s,PASSED
+delay(5),Chrome 150.0.7871.129,,,22-07-2026 09:34:42,22-07-2026 09:34:47,5.005s,PASSED
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Tindak lanjut""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:47,22-07-2026 09:34:47,0.298s,PASSED
+"selectOptionByValue(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/select_JenisSearch_ByTask ID""), ""0"", false)",Chrome 150.0.7871.129,,,22-07-2026 09:34:47,22-07-2026 09:34:47,0.002s,NOT_RUN
+"setText(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Submit_Tindak_Lanjut/Page_TindakLanjutKunjunganShowroom/input_Pencarian_By_TaskId""), ""RBU/P1.3/07/26/004"")",Chrome 150.0.7871.129,,,22-07-2026 09:34:47,22-07-2026 09:34:47,0.003s,NOT_RUN
+"click(findTestObject(""Pilar 1/Showroom-Supplier/UAT/RBU/SPV_RBU_Assign_PIC/Page_TindakLanjutKunjunganShowroom/button_Cari""))",Chrome 150.0.7871.129,,,22-07-2026 09:34:47,22-07-2026 09:34:47,0.002s,NOT_RUN

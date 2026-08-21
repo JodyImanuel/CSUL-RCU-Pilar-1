@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_Catatan Hasil Survey_1</name>
+   <tag></tag>
+   <elementGuidId>5b881450-bc1d-4a8d-bb7a-3afdd1df80c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-textarea = '']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-textarea=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>346b9f10-2d54-4f19-abc5-a9eb707717ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control OSFillParent</value>
+      <webElementGuid>29f3d816-c825-4cd4-9a54-520f3186c2e1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>e63ae1e4-19c3-4e6f-89cb-38eaffda8f65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>minlength_input</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>a947c9f0-31a9-4ddd-9492-3891b623b0ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>2000</value>
+      <webElementGuid>86fdf7c9-a431-4947-b4ac-f2740a064cc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-l2-33_2-l2-51_9-b2-b2-TextArea_Answer</value>
+      <webElementGuid>affb35b3-9a2e-40de-b5cb-7b2e97a7d690</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-0983327a1988361bf91d51ac63252fb7</value>
+      <webElementGuid>48b45715-ef5f-4a56-84bb-66a26dd49447</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-textarea = '']</value>
+      <webElementGuid>ba05bb7c-ba2b-446f-adbb-e879fb4bd399</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-textarea = '']</value>
+      <webElementGuid>55977d41-aef5-4875-81e5-6a7e245c5ff4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b4-l2-33_2-l2-51_9-b2-b2-TextArea_Answer']</value>
+      <webElementGuid>527e217f-edf7-4c37-8635-2b8e0c252c32</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

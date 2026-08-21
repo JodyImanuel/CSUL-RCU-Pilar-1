@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Showroom_Supplier</name>
+   <tag></tag>
+   <elementGuidId>5e6ffd98-c32d-4b32-b53b-96f45c9704cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/aside/div/div/nav/div[2]/div/div/div/div[2]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/CSUL_RCU\/KunjunganShowroom&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6e005392-c9c2-48ca-b4bc-a86a4be0ed5d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>last-sub-menu-link OSFillParent</value>
+      <webElementGuid>74be05be-ada7-4c5c-9850-9b5e5883a82b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/CSUL_RCU/KunjunganShowroom</value>
+      <webElementGuid>38fe42c1-1966-4fe6-bf2e-ecab80e7d4af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showroom/Supplier</value>
+      <webElementGuid>30103a16-156f-47a2-b8c9-6849f218afa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2999141b76c0901048347adec4404c58</value>
+      <webElementGuid>e0a8104b-9cc9-4aa5-8988-5c02bfa6efcf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/KunjunganShowroom']</value>
+      <webElementGuid>058e42a8-e352-40a1-b666-c394ddc7bb0e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/KunjunganShowroom']</value>
+      <webElementGuid>95b88bba-7048-4688-ba07-ef11b04a60f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/CSUL_RCU/KunjunganShowroom' and (text() = 'Showroom/Supplier' or . = 'Showroom/Supplier')]</value>
+      <webElementGuid>249beed1-1dab-4eb2-b9a8-f1dc75a5ddf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_PopUp_Kirim Tindak Lanjut</name>
+   <tag></tag>
+   <elementGuidId>cb5fdccf-f182-4de3-a26e-96f8d170a48a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div[1]/div/div[2]/div[4]/div/button[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn-primary.btn.ThemeGrid_MarginGutter[type=&quot;button&quot;][data-button=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c2c8bad8-2c59-4dd4-8a30-d13ba8ea3898</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary ThemeGrid_MarginGutter</value>
+      <webElementGuid>a57e0c15-da3c-499c-af29-7dba714743fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b5674e1a-5d20-45b4-9938-529db8bb737c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Kirim Tindak Lanjut</value>
+      <webElementGuid>169d6c5c-10a5-4a61-b6d3-e816788f5573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-61d668fa82e79231f6e7093168973da9</value>
+      <webElementGuid>6b6806a7-681b-49f4-9b8b-2b231912b2d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' ThemeGrid_MarginGutter ') and (@type = 'button') and (@data-button = '')]</value>
+      <webElementGuid>06c4467e-ef43-4c9b-ad45-4826eda844c3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ') and contains(concat(' ', normalize-space(@class), ' '), ' btn ') and contains(concat(' ', normalize-space(@class), ' '), ' ThemeGrid_MarginGutter ') and (@type = 'button') and (@data-button = '')]</value>
+      <webElementGuid>58b7a8f3-8066-44f4-ae2b-509b327ad104</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Kirim Tindak Lanjut' or . = 'Kirim Tindak Lanjut')]</value>
+      <webElementGuid>a3cfd70d-d91d-4204-b334-1c9e38cfd3d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

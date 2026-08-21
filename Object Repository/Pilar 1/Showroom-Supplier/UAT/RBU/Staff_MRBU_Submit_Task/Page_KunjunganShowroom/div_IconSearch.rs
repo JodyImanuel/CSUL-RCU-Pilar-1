@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_IconSearch</name>
+   <tag></tag>
+   <elementGuidId>c561b520-11eb-45a6-ae69-27aad27dc4a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[1]/div/div/div/div/div[1]/div/div/div/div/div[1]/div/div[1]/div/div/div/div/div[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.input-with-icon.input-with-icon-right .ph.input-with-icon-content-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3a37fdeb-0cca-4c19-8bbc-1384985c39ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>input-with-icon-content-icon center ph</value>
+      <webElementGuid>57df937f-5c5d-4bba-91c7-da373228009e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b4-b1-b1-Icon</value>
+      <webElementGuid>a1a34e24-4273-4d35-8176-f932fa5d0c16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f17db015aee1eeba0746db45ab02484c</value>
+      <webElementGuid>146e7f02-58ee-4a39-8315-096fab403e4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon ') and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon-right ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ph ') and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon-content-icon ')]</value>
+      <webElementGuid>8cc353e5-d88c-4422-85b0-169086c4eba1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon ') and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon-right ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ph ') and contains(concat(' ', normalize-space(@class), ' '), ' input-with-icon-content-icon ')]</value>
+      <webElementGuid>89848f60-7e7b-4521-98f2-1cc29067a640</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'b4-b1-b1-Icon']</value>
+      <webElementGuid>c76be9d7-fb9d-4317-ace7-3c92709cc3f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

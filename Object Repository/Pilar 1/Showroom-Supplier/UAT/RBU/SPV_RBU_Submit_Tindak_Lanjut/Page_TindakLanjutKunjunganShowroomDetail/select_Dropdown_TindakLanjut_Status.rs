@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Dropdown_TindakLanjut_Status</name>
+   <tag></tag>
+   <elementGuidId>08b54efa-1860-4d12-824c-602efb23f680</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//select[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ') and (@required = '')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[data-block=&quot;TindakLanjutShowroomVisit\.Component_SubmitCard&quot;]:nth-child(2) select.dropdown-display.dropdown[required=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>8b648f00-d8fa-4c2c-a54d-ad4f89f06940</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>06e3bb99-a2c3-4fc0-88f7-b693dc32cc8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>ea9d9ac7-b897-4a35-bf75-5e4ccc5feec6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b2-l4-291_0-b2-TindakLanjutStatus</value>
+      <webElementGuid>733f2540-5ab2-45c5-8e44-20dfde10a424</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a categorySelesaiSedang BerjalanBatal</value>
+      <webElementGuid>67f8ded2-2166-4be3-bd4e-f40cedb2a723</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4a8d135b54010b9edd8c0afca98f2819</value>
+      <webElementGuid>88c05aa0-3418-4b9e-b2b0-96aaef2866b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//select[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ') and (@required = '')]</value>
+      <webElementGuid>d55bce4f-0be9-4907-9fc4-1605e1398dac</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[(@data-block = 'TindakLanjutShowroomVisit.Component_SubmitCard') and (position() = 2)]//select[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown-display ') and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ') and (@required = '')]</value>
+      <webElementGuid>8cf41f58-8374-48af-88be-3fafe4ea138b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b2-l4-291_0-b2-TindakLanjutStatus' and (text() = 'Select a categorySelesaiSedang BerjalanBatal' or . = 'Select a categorySelesaiSedang BerjalanBatal')]</value>
+      <webElementGuid>6b8f708a-a191-4968-bfdc-46677c574cf3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

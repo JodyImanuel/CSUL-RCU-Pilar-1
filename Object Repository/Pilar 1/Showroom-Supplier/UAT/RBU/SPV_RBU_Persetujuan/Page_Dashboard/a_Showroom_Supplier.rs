@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Showroom_Supplier</name>
+   <tag></tag>
+   <elementGuidId>d2657eba-812e-4eb4-b9f6-eb159700bf9e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/aside/div/div/nav/div[2]/div/div/div/div[3]/div/div/div[2]/div/div/div[1]/div/div/div[2]/div/div/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>[href=&quot;\/CSUL_RCU\/ApprovalKunjunganShowroom&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ce0e3c39-537e-48d4-8e33-3819a926f774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>last-sub-menu-link OSFillParent</value>
+      <webElementGuid>990ce916-e6b0-45fb-b520-8574d5a0b4bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/CSUL_RCU/ApprovalKunjunganShowroom</value>
+      <webElementGuid>e0cce29a-cf53-4343-b894-f0f47bfe1f82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Showroom/Supplier</value>
+      <webElementGuid>1ef99086-ee81-4aeb-a455-05466b98ab05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4fa1a07eb4517886809753fbc6792cd2</value>
+      <webElementGuid>73c46a01-e84c-4e85-931a-a9c4214221fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/ApprovalKunjunganShowroom']</value>
+      <webElementGuid>24fc627f-4646-4445-91ea-3a0285721928</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@href = '/CSUL_RCU/ApprovalKunjunganShowroom']</value>
+      <webElementGuid>79c1f094-4689-404d-be79-c152cbccf9a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/CSUL_RCU/ApprovalKunjunganShowroom' and (text() = 'Showroom/Supplier' or . = 'Showroom/Supplier')]</value>
+      <webElementGuid>948120df-ac8b-4de6-b972-06c45b93bfef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

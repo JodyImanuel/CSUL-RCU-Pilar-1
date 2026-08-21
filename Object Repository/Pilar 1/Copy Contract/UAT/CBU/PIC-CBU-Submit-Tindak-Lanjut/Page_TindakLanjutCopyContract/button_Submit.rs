@@ -6,12 +6,12 @@
    <elementGuidId>3152b73f-6528-4aef-82cb-526377a488d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.btn-primary</value>
+         <key>XPATH</key>
+         <value>/html/body/div/div/div/div/div/div/div/div/div[3]/div/div/div/form/div[3]/div/div/button</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/div[1]/div/div/div/div/div/div/div/div[3]/div/div/div/form/div[3]/div/div/button</value>
+         <key>CSS</key>
+         <value>.btn-primary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3d569d04-5142-4b7f-ab89-ad4b757d694c</webElementGuid>
+      <webElementGuid>57483e88-2446-4bba-89fe-e39f75df2274</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary OSFillParent</value>
-      <webElementGuid>660c3136-042e-4fb6-baa0-5f6c5c5dabc0</webElementGuid>
+      <webElementGuid>349a92c8-5e48-4ff1-b822-67ebd3396d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>feaeb80a-a20a-4bfe-baa8-42b0f151a1cb</webElementGuid>
+      <webElementGuid>129e2412-1268-4832-b9cf-3c1461d0ac2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Submit</value>
-      <webElementGuid>fb149847-e362-4c5d-903b-b996b77176a5</webElementGuid>
+      <webElementGuid>38aa421c-9022-4d68-b065-22615eb57504</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b980468a906289ecbca73a0eb82bac32</value>
-      <webElementGuid>6d9c0aba-6b4e-453b-92cc-7c8595d1136c</webElementGuid>
+      <webElementGuid>21184844-7406-475b-86a2-a811e7ebeb4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>e9352a86-5d60-44e1-aa43-5cc43cfe8f16</webElementGuid>
+      <webElementGuid>a1b5d2b9-a027-4c7b-ac2c-f1120488f269</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>137116cd-14b3-440c-96ab-a4a3849c2abd</webElementGuid>
+      <webElementGuid>18395746-01f9-4964-baaf-9df062caca98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,6 +79,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Submit' or . = 'Submit')]</value>
-      <webElementGuid>bcf4fe3d-57fb-4810-b47e-416115a3e36e</webElementGuid>
+      <webElementGuid>fe988257-b297-4f8d-ad0c-a298f0c03425</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

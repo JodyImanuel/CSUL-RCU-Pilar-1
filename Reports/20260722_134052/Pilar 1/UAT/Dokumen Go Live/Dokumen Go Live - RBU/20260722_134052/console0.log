@@ -1,0 +1,688 @@
+2026-07-22 13:40:59.024 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\Syarifah Risyani\.katalon\packages\KS-11.1.1\configuration\org.eclipse.osgi\150\0\.cp\resources\logback\logback-execution.xml
+2026-07-22 13:40:59.028 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\Syarifah Risyani\git\Pilar 1\CSUL-Pilar-1\Include\config\log.properties
+2026-07-22 13:40:59.812 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/Pilar 1/UAT/Dokumen Go Live/Dokumen Go Live - RBU
+2026-07-22 13:40:59.901 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Syarifah Risyani
+2026-07-22 13:40:59.902 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = CSUL-Pilar-1
+2026-07-22 13:40:59.902 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Syarifah Risyani - Syarifah
+2026-07-22 13:40:59.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-07-22 13:40:59.903 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 172.16.0.2
+2026-07-22 13:40:59.904 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.1.1.0
+2026-07-22 13:41:00.060 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:41:00.061 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Assign-Staff
+2026-07-22 13:41:00.502 DEBUG testcase.SPV-RBU-Assign-Staff            - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:41:00.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:41:00.673 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:41:00.763 DEBUG testcase.SPV-RBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:41:00.993 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:41:01.043 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:41:03.641 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e4f7629ff567909354706cfc50ac4d07
+2026-07-22 13:41:03.644 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:41:03.645 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:41:03.646 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:41:03.654 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:41:04.173 DEBUG testcase.SPV-RBU                         - 2: maximizeWindow()
+2026-07-22 13:41:04.272 DEBUG testcase.SPV-RBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:41:08.374 DEBUG testcase.SPV-RBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga")
+2026-07-22 13:41:09.246 DEBUG testcase.SPV-RBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:41:09.832 DEBUG testcase.SPV-RBU                         - 6: delay(20)
+2026-07-22 13:41:29.857 DEBUG testcase.SPV-RBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:41:30.192 DEBUG testcase.SPV-RBU                         - 8: delay(5)
+2026-07-22 13:41:35.205 DEBUG testcase.SPV-RBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:41:37.210 DEBUG testcase.SPV-RBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:41:37.618 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:41:37.618 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:41:37.630 DEBUG testcase.SPV-RBU-Assign-Staff            - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b3-SubMenuHeader"))
+2026-07-22 13:41:43.012 DEBUG testcase.SPV-RBU-Assign-Staff            - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/div_b2-l1-17_8-b4-l1-26_4-b1-SubMenuHeader"))
+2026-07-22 13:41:43.568 DEBUG testcase.SPV-RBU-Assign-Staff            - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:41:43.900 DEBUG testcase.SPV-RBU-Assign-Staff            - 5: verifyElementText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/label_Tanggal Go Live _"), "Tanggal Go Live :")
+2026-07-22 13:41:46.457 DEBUG testcase.SPV-RBU-Assign-Staff            - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-b1-Input_StartDate"), "10-10-2020")
+2026-07-22 13:41:47.076 DEBUG testcase.SPV-RBU-Assign-Staff            - 7: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-b1-Input_StartDate2"), "10-12-2020")
+2026-07-22 13:41:47.670 DEBUG testcase.SPV-RBU-Assign-Staff            - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/select_b3-b1-b1-Dropdown1"), "4", false)
+2026-07-22 13:41:48.255 DEBUG testcase.SPV-RBU-Assign-Staff            - 9: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/select_b3-b1-b1-Dropdown3"), "0", false)
+2026-07-22 13:41:48.805 DEBUG testcase.SPV-RBU-Assign-Staff            - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:41:49.131 DEBUG testcase.SPV-RBU-Assign-Staff            - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/Page_KelengkapanKredit/button_View Detail"))
+2026-07-22 13:41:49.922 DEBUG testcase.SPV-RBU-Assign-Staff            - 12: delay(7)
+2026-07-22 13:41:56.942 DEBUG testcase.SPV-RBU-Assign-Staff            - 13: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/Page_KelengkapanKreditDetail/button_Back"))
+2026-07-22 13:41:57.246 DEBUG testcase.SPV-RBU-Assign-Staff            - 14: delay(4)
+2026-07-22 13:42:01.260 DEBUG testcase.SPV-RBU-Assign-Staff            - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/input_b3-b1-l1_0-241_0-Checkbox2"))
+2026-07-22 13:42:01.592 DEBUG testcase.SPV-RBU-Assign-Staff            - 16: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/button_Assign"))
+2026-07-22 13:42:01.939 DEBUG testcase.SPV-RBU-Assign-Staff            - 17: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/tambahan-component/Page_KelengkapanKredit/button_Assign_popup"))
+2026-07-22 13:42:02.582 DEBUG testcase.SPV-RBU-Assign-Staff            - 18: delay(3)
+2026-07-22 13:42:05.601 DEBUG testcase.SPV-RBU-Assign-Staff            - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/select_b3-b1-b1-Dropdown3"), "1", false)
+2026-07-22 13:42:08.474 DEBUG testcase.SPV-RBU-Assign-Staff            - 20: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-Staff/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:42:08.780 DEBUG testcase.SPV-RBU-Assign-Staff            - 21: delay(3)
+2026-07-22 13:42:11.787 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Assign-Staff
+2026-07-22 13:42:11.795 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:42:11.795 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Submit-Dokumen-Persyaratan-Kredit
+2026-07-22 13:42:11.879 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lorem = C:\Users\PPU\Downloads\Tester File\Lorem1_PDF.pdf
+2026-07-22 13:42:12.039 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 1: today = SimpleDateFormat(dd-MM-yyyy).format(new java.util.Date())
+2026-07-22 13:42:12.060 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 2: callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:42:12.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:42:12.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:42:12.192 DEBUG testcase.Staff-RBU                       - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:42:12.195 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:42:12.624 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:42:12.627 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:42:13.708 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = c2149b3cf48a15bae288e1bd3c80f7d0
+2026-07-22 13:42:13.709 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:42:13.710 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:42:13.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:42:13.714 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:42:14.196 DEBUG testcase.Staff-RBU                       - 2: maximizeWindow()
+2026-07-22 13:42:14.370 DEBUG testcase.Staff-RBU                       - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:42:18.081 DEBUG testcase.Staff-RBU                       - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "pandu.sastra")
+2026-07-22 13:42:18.736 DEBUG testcase.Staff-RBU                       - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:42:19.286 DEBUG testcase.Staff-RBU                       - 6: delay(20)
+2026-07-22 13:42:39.297 DEBUG testcase.Staff-RBU                       - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:42:39.616 DEBUG testcase.Staff-RBU                       - 8: delay(5)
+2026-07-22 13:42:44.632 DEBUG testcase.Staff-RBU                       - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:42:48.186 DEBUG testcase.Staff-RBU                       - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:42:48.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:42:48.570 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:42:48.571 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader"))
+2026-07-22 13:42:52.088 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-22 13:42:52.636 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 5: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:42:52.933 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:42:55.068 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 7: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:42:55.672 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3"), "0", false)
+2026-07-22 13:42:56.220 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:42:56.525 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/action"))
+2026-07-22 13:42:57.276 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/div_Pemeriksaan"))
+2026-07-22 13:42:57.818 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/i_icon accordion-perorangan"))
+2026-07-22 13:43:01.062 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 13: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_0-"), "0", false)
+2026-07-22 13:43:01.672 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 14: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_0-_1"), "0", false)
+2026-07-22 13:43:02.208 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 15: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_"), "testing")
+2026-07-22 13:43:02.920 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_1-"), "0", false)
+2026-07-22 13:43:03.685 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 17: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_1-_1"), "0", false)
+2026-07-22 13:43:04.246 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 18: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__1"), "testing")
+2026-07-22 13:43:04.937 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_2-"), "0", false)
+2026-07-22 13:43:05.728 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 20: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_2-_1"), "0", false)
+2026-07-22 13:43:06.275 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 21: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__2"), "testing")
+2026-07-22 13:43:06.992 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 22: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_3-"), "0", false)
+2026-07-22 13:43:07.755 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 23: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_3-_1"), "0", false)
+2026-07-22 13:43:08.324 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 24: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__3"), "testing")
+2026-07-22 13:43:09.041 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 25: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_4-"), "0", false)
+2026-07-22 13:43:09.809 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 26: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_4-_1"), "0", false)
+2026-07-22 13:43:10.365 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 27: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__4"), "testing")
+2026-07-22 13:43:11.102 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 28: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_5-"), "0", false)
+2026-07-22 13:43:11.855 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 29: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_5-_1"), "0", false)
+2026-07-22 13:43:12.414 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 30: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__5"), "testing")
+2026-07-22 13:43:13.131 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 31: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_6-"), "0", false)
+2026-07-22 13:43:13.901 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 32: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_6-_1"), "0", false)
+2026-07-22 13:43:14.463 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 33: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__6"), "testing")
+2026-07-22 13:43:15.137 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 34: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_7-"), "0", false)
+2026-07-22 13:43:15.897 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 35: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_7-_1"), "0", false)
+2026-07-22 13:43:16.449 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 36: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__7"), "testing")
+2026-07-22 13:43:17.251 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 37: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_8-"), "0", false)
+2026-07-22 13:43:18.047 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 38: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_8-_1"), "1", false)
+2026-07-22 13:43:18.616 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 39: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_8-_2"), "0", false)
+2026-07-22 13:43:19.494 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 40: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__8"), "testing")
+2026-07-22 13:43:20.102 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 41: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Unggah"))
+2026-07-22 13:43:20.641 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 42: delay(5)
+2026-07-22 13:43:25.650 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 43: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone"), Lorem)
+2026-07-22 13:43:25.652 WARN  ff-RBU-Submit-Dokumen-Persyaratan-Kredit - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone"), Lorem)
+2026-07-22 13:43:25.652 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 44: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload"))
+2026-07-22 13:43:25.653 WARN  ff-RBU-Submit-Dokumen-Persyaratan-Kredit - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload"))
+2026-07-22 13:43:25.653 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 45: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_9-"), "1", false)
+2026-07-22 13:43:26.846 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 46: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/select_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267_9-_1"), "0", false)
+2026-07-22 13:43:27.658 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 47: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/textarea_b3-l2-180_0-b8-b1-l1-266_0-b1-l4_0-267__9"), "testing")
+2026-07-22 13:43:28.289 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 48: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Unggah_1"))
+2026-07-22 13:43:28.875 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 49: delay(5)
+2026-07-22 13:43:33.888 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 50: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone"), Lorem)
+2026-07-22 13:43:33.888 WARN  ff-RBU-Submit-Dokumen-Persyaratan-Kredit - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/div_b3-l2-180_0-b8-b1-l1-266_0-b1-b4-dropzone"), Lorem)
+2026-07-22 13:43:33.888 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 51: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload"))
+2026-07-22 13:43:33.888 WARN  ff-RBU-Submit-Dokumen-Persyaratan-Kredit - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Upload"))
+2026-07-22 13:43:33.888 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 52: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_b3-ButtonDraftRBU"))
+2026-07-22 13:43:34.197 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 53: delay(5)
+2026-07-22 13:43:39.206 DEBUG ff-RBU-Submit-Dokumen-Persyaratan-Kredit - 54: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:43:40.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Submit-Dokumen-Persyaratan-Kredit
+2026-07-22 13:43:40.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:43:40.241 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan
+2026-07-22 13:43:40.365 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:43:40.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:43:40.436 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:43:40.449 DEBUG testcase.Staff-RBU                       - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:43:40.449 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:43:40.874 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:43:40.877 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:43:42.131 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = d7e29c28b12e417c512ef867b3903369
+2026-07-22 13:43:42.132 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:43:42.133 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:43:42.133 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:43:42.134 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:43:42.793 DEBUG testcase.Staff-RBU                       - 2: maximizeWindow()
+2026-07-22 13:43:42.877 DEBUG testcase.Staff-RBU                       - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:43:45.913 DEBUG testcase.Staff-RBU                       - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "pandu.sastra")
+2026-07-22 13:43:47.040 DEBUG testcase.Staff-RBU                       - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:43:47.623 DEBUG testcase.Staff-RBU                       - 6: delay(20)
+2026-07-22 13:44:07.630 DEBUG testcase.Staff-RBU                       - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:44:07.931 DEBUG testcase.Staff-RBU                       - 8: delay(5)
+2026-07-22 13:44:12.934 DEBUG testcase.Staff-RBU                       - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:44:14.323 DEBUG testcase.Staff-RBU                       - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:44:14.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:44:14.737 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:44:14.742 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader"))
+2026-07-22 13:44:22.046 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-22 13:44:22.588 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:44:22.903 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:44:26.402 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:44:27.000 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3"), "1", false)
+2026-07-22 13:44:27.531 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 8: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:44:27.826 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/action"))
+2026-07-22 13:44:28.567 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/div_Pemeriksaan"))
+2026-07-22 13:44:29.072 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:44:32.460 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:44:38.296 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 13: delay(5)
+2026-07-22 13:44:43.312 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/div_Accordion_DokumenObjek_Pembiayaan"))
+2026-07-22 13:44:43.635 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 15: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_0-"), "0", false)
+2026-07-22 13:44:44.205 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_0-_1"), "0", false)
+2026-07-22 13:44:44.754 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 17: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_"), "testing")
+2026-07-22 13:44:45.458 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 18: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_1-"), "0", false)
+2026-07-22 13:44:46.208 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_1-_1"), "0", false)
+2026-07-22 13:44:46.755 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 20: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700__1"), "testing")
+2026-07-22 13:44:47.413 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 21: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_2-"), "0", false)
+2026-07-22 13:44:48.186 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 22: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_2-_1"), "0", false)
+2026-07-22 13:44:48.721 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 23: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700__2"), "testing")
+2026-07-22 13:44:49.386 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 24: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_3-"), "0", false)
+2026-07-22 13:44:50.136 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 25: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_3-_1"), "0", false)
+2026-07-22 13:44:50.666 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 26: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700__3"), "testing")
+2026-07-22 13:44:51.302 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 27: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_4-"), "0", false)
+2026-07-22 13:44:52.052 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 28: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_4-_1"), "0", false)
+2026-07-22 13:44:52.579 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 29: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700__4"), "testing")
+2026-07-22 13:44:53.220 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 30: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_5-"), "0", false)
+2026-07-22 13:44:53.912 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 31: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/select_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700_5-_1"), "0", false)
+2026-07-22 13:44:54.476 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 32: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/textarea_b3-l2-538_1-b8-b1-l1-699_0-b1-l4_0-700__5"), "testing")
+2026-07-22 13:44:55.116 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 33: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/button_b3-ButtonDraftRBU"))
+2026-07-22 13:44:55.658 DEBUG t.Staff-RBU-Dokumen-Objek-Pembiayaan     - 34: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan/Page_DokumenChecking/button_Next_1"))
+2026-07-22 13:44:56.540 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Objek-Pembiayaan
+2026-07-22 13:44:56.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:44:56.543 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Submit-Dokumen-Persetujuan
+2026-07-22 13:44:56.717 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:44:56.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:44:56.783 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:44:56.790 DEBUG testcase.Staff-RBU                       - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:44:56.790 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:44:57.242 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:44:57.244 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:44:58.487 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5dcbebecc6f33a7d1b0b9ba259cb9867
+2026-07-22 13:44:58.489 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:44:58.490 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:44:58.492 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:44:58.492 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:44:59.068 DEBUG testcase.Staff-RBU                       - 2: maximizeWindow()
+2026-07-22 13:44:59.190 DEBUG testcase.Staff-RBU                       - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:45:02.580 DEBUG testcase.Staff-RBU                       - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "pandu.sastra")
+2026-07-22 13:45:03.226 DEBUG testcase.Staff-RBU                       - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:45:03.770 DEBUG testcase.Staff-RBU                       - 6: delay(20)
+2026-07-22 13:45:23.778 DEBUG testcase.Staff-RBU                       - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:45:24.095 DEBUG testcase.Staff-RBU                       - 8: delay(5)
+2026-07-22 13:45:29.100 DEBUG testcase.Staff-RBU                       - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:45:29.887 DEBUG testcase.Staff-RBU                       - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:45:30.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:45:30.473 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:45:30.478 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader"))
+2026-07-22 13:45:37.470 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-22 13:45:37.963 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:45:38.271 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:45:40.559 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:45:41.136 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3"), "1", false)
+2026-07-22 13:45:41.678 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 8: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:45:41.985 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/action"))
+2026-07-22 13:45:42.899 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/div_Pemeriksaan"))
+2026-07-22 13:45:43.454 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:45:46.095 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:45:51.894 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 13: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:45:52.435 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:45:57.843 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/i_icon accordion-dokumen-persetujuan-kredit"))
+2026-07-22 13:45:58.384 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_0-"), "0", false)
+2026-07-22 13:45:59.000 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 17: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_0-_1"), "0", false)
+2026-07-22 13:45:59.540 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 18: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/textarea_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_"), "testing")
+2026-07-22 13:46:00.235 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_1-"), "0", false)
+2026-07-22 13:46:01.014 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 20: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_1-_1"), "0", false)
+2026-07-22 13:46:01.555 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 21: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/textarea_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335__1"), "testing")
+2026-07-22 13:46:02.264 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 22: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_2-"), "0", false)
+2026-07-22 13:46:03.104 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 23: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_2-_1"), "0", false)
+2026-07-22 13:46:03.637 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 24: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/textarea_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335__2"), "testing")
+2026-07-22 13:46:04.310 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 25: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_3-"), "0", false)
+2026-07-22 13:46:05.053 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 26: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/select_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335_3-_1"), "0", false)
+2026-07-22 13:46:05.594 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 27: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Persetujuan/Page_DokumenChecking/textarea_b3-l2-184_2-b8-b1-l1-334_0-b1-l4_0-335__3"), "testing")
+2026-07-22 13:46:06.330 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 28: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_4-"), "0", false)
+2026-07-22 13:46:07.080 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 29: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_4-_1"), "0", false)
+2026-07-22 13:46:07.620 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 30: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_"), "testing")
+2026-07-22 13:46:08.340 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 31: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_5-"), "0", false)
+2026-07-22 13:46:09.140 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 32: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_5-_1"), "0", false)
+2026-07-22 13:46:09.798 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 33: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__1"), "testing")
+2026-07-22 13:46:10.526 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 34: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_6-"), "0", false)
+2026-07-22 13:46:11.330 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 35: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_6-_1"), "0", false)
+2026-07-22 13:46:11.930 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 36: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__2"), "testing")
+2026-07-22 13:46:12.686 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 37: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_7-"), "0", false)
+2026-07-22 13:46:13.455 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 38: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_7-_1"), "0", false)
+2026-07-22 13:46:14.143 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 39: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__3"), "testing")
+2026-07-22 13:46:14.865 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 40: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_8-"), "0", false)
+2026-07-22 13:46:15.640 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 41: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_8-_1"), "0", false)
+2026-07-22 13:46:16.250 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 42: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__4"), "testing")
+2026-07-22 13:46:16.934 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 43: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_9-"), "0", false)
+2026-07-22 13:46:17.702 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 44: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_9-_1"), "0", false)
+2026-07-22 13:46:18.250 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 45: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__5"), "testing")
+2026-07-22 13:46:18.990 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 46: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_10"), "0", false)
+2026-07-22 13:46:19.761 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 47: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_10_1"), "0", false)
+2026-07-22 13:46:20.290 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 48: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__6"), "testing")
+2026-07-22 13:46:20.955 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 49: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_11"), "0", false)
+2026-07-22 13:46:21.708 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 50: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_11_1"), "0", false)
+2026-07-22 13:46:22.262 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 51: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__7"), "testing")
+2026-07-22 13:46:22.930 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 52: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_12"), "0", false)
+2026-07-22 13:46:23.697 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 53: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_12_1"), "0", false)
+2026-07-22 13:46:24.268 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 54: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__8"), "testing")
+2026-07-22 13:46:24.991 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 55: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_13"), "0", false)
+2026-07-22 13:46:25.779 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 56: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284_13_1"), "0", false)
+2026-07-22 13:46:26.352 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 57: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-178_2-b8-b1-l1-283_0-b1-l4_0-284__9"), "testing")
+2026-07-22 13:46:27.020 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 58: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:46:27.532 DEBUG t.Staff-RBU-Submit-Dokumen-Persetujuan   - 59: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:46:36.538 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Submit-Dokumen-Persetujuan
+2026-07-22 13:46:36.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:46:36.542 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian
+2026-07-22 13:46:36.635 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Staff-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:46:36.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:46:36.698 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:46:36.705 DEBUG testcase.Staff-RBU                       - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:46:36.705 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:46:37.132 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:46:37.133 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:46:38.129 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7f01752fc2c0230348932181ccf3d4d0
+2026-07-22 13:46:38.130 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:46:38.130 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:46:38.130 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:46:38.131 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:46:38.675 DEBUG testcase.Staff-RBU                       - 2: maximizeWindow()
+2026-07-22 13:46:38.777 DEBUG testcase.Staff-RBU                       - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:46:42.280 DEBUG testcase.Staff-RBU                       - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "pandu.sastra")
+2026-07-22 13:46:42.914 DEBUG testcase.Staff-RBU                       - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:46:43.447 DEBUG testcase.Staff-RBU                       - 6: delay(20)
+2026-07-22 13:47:03.452 DEBUG testcase.Staff-RBU                       - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:47:03.754 DEBUG testcase.Staff-RBU                       - 8: delay(5)
+2026-07-22 13:47:08.764 DEBUG testcase.Staff-RBU                       - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:47:09.890 DEBUG testcase.Staff-RBU                       - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:47:10.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Staff-RBU
+2026-07-22 13:47:10.269 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:47:10.273 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b3-SubMenuHeader"))
+2026-07-22 13:47:15.051 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/div_b2-l1-16_3-b4-l1-23_4-b1-SubMenuHeader"))
+2026-07-22 13:47:15.586 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:47:15.876 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:47:19.185 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/input_b3-b2-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:47:19.755 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3"), "1", false)
+2026-07-22 13:47:20.277 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 8: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:47:20.581 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/action"))
+2026-07-22 13:47:21.346 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/div_Pemeriksaan"))
+2026-07-22 13:47:21.858 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:47:25.547 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:47:34.200 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 13: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:47:34.734 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:47:41.712 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:47:42.255 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 16: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Next"))
+2026-07-22 13:47:48.913 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 17: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/i_icon accordion-dokumen-perjajian"))
+2026-07-22 13:47:49.463 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 18: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_0-K"), "0", false)
+2026-07-22 13:47:50.122 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_0-K_1"), "0", false)
+2026-07-22 13:47:50.651 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 20: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_0"), "testing")
+2026-07-22 13:47:51.304 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 21: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_1-K"), "0", false)
+2026-07-22 13:47:52.046 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 22: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_1-K_1"), "0", false)
+2026-07-22 13:47:52.587 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 23: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_1"), "testing")
+2026-07-22 13:47:53.262 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 24: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_2-K"), "0", false)
+2026-07-22 13:47:54.025 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 25: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_2-K_1"), "0", false)
+2026-07-22 13:47:54.569 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 26: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_2"), "testing")
+2026-07-22 13:47:55.200 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 27: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_3-K"), "0", false)
+2026-07-22 13:47:55.958 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 28: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_3-K_1"), "0", false)
+2026-07-22 13:47:56.505 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 29: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_3"), "testing")
+2026-07-22 13:47:57.214 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 30: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_4-K"), "0", false)
+2026-07-22 13:47:57.972 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 31: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_4-K_1"), "0", false)
+2026-07-22 13:47:58.512 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 32: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_4"), "testing")
+2026-07-22 13:47:59.171 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 33: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_5-K"), "0", false)
+2026-07-22 13:47:59.945 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 34: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_5-K_1"), "0", false)
+2026-07-22 13:48:00.506 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 35: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_5"), "testing")
+2026-07-22 13:48:01.155 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 36: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_6-K"), "0", false)
+2026-07-22 13:48:01.966 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 37: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_6-K_1"), "0", false)
+2026-07-22 13:48:02.580 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 38: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_6"), "testing")
+2026-07-22 13:48:03.277 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 39: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_7-K"), "0", false)
+2026-07-22 13:48:04.108 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 40: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_7-K_1"), "0", false)
+2026-07-22 13:48:04.677 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 41: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_7"), "testing")
+2026-07-22 13:48:05.310 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 42: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_8-K"), "0", false)
+2026-07-22 13:48:06.060 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 43: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/select_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_8-K_1"), "0", false)
+2026-07-22 13:48:06.616 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 44: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_b3-l2-88_3-b8-b1-l1-172_0-b1-l4_0-173_8"), "testing")
+2026-07-22 13:48:07.394 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 45: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_DokumenChecking/button_Draft"))
+2026-07-22 13:48:07.914 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 46: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/button_Next_1"))
+2026-07-22 13:48:18.117 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 47: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/input_Vertel_b3-b18-RadioButton2-input"))
+2026-07-22 13:48:18.850 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 48: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/textarea_Catatan"), "Saya akan survey")
+2026-07-22 13:48:19.447 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 49: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/input_b3-b18-Checkbox2"))
+2026-07-22 13:48:19.447 WARN  testcase.Staff-RBU-Dokumen-Perjanjian    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/input_b3-b18-Checkbox2"))
+2026-07-22 13:48:19.447 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 50: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/button_Submit_popup_final"))
+2026-07-22 13:48:19.977 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 51: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian/Page_DokumenChecking/button_Submit"))
+2026-07-22 13:48:20.527 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 52: delay(5)
+2026-07-22 13:48:25.542 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 53: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/select_b3-b2-b1-Dropdown3"), "2", false)
+2026-07-22 13:48:27.837 DEBUG testcase.Staff-RBU-Dokumen-Perjanjian    - 54: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-CBU-Submit-Task/Dokumen-Persyaratan-Kredit/Page_KelengkapanKredit/button_Cari"))
+2026-07-22 13:48:28.122 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-RBU-Dokumen-Perjanjian
+2026-07-22 13:48:28.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:48:28.128 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Persetujuan-Before-Survey
+2026-07-22 13:48:28.197 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:48:28.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:48:28.260 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:48:28.271 DEBUG testcase.SPV-RBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:48:28.280 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:48:28.649 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:48:28.651 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:48:29.681 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 39426a45693888532d6a95651bc7eb1b
+2026-07-22 13:48:29.681 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:48:29.681 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:48:29.682 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:48:29.682 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:48:30.359 DEBUG testcase.SPV-RBU                         - 2: maximizeWindow()
+2026-07-22 13:48:30.447 DEBUG testcase.SPV-RBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:48:34.095 DEBUG testcase.SPV-RBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga")
+2026-07-22 13:48:34.755 DEBUG testcase.SPV-RBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:48:35.299 DEBUG testcase.SPV-RBU                         - 6: delay(20)
+2026-07-22 13:48:55.317 DEBUG testcase.SPV-RBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:48:55.614 DEBUG testcase.SPV-RBU                         - 8: delay(5)
+2026-07-22 13:49:00.623 DEBUG testcase.SPV-RBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:49:01.401 DEBUG testcase.SPV-RBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:49:02.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:49:02.459 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:49:02.461 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader"))
+2026-07-22 13:49:06.921 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader"))
+2026-07-22 13:49:07.457 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:49:07.748 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/input_b3-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:49:09.836 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/input_b3-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:49:10.441 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown1"), "4", false)
+2026-07-22 13:49:10.962 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown3"), "0", false)
+2026-07-22 13:49:11.463 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_search"))
+2026-07-22 13:49:11.755 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_Persetujuan"))
+2026-07-22 13:49:12.504 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:49:14.597 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:49:15.460 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 13: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:49:16.389 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next_GoToTAB_Survey"))
+2026-07-22 13:49:16.393 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next_GoToTAB_Survey"))
+2026-07-22 13:49:16.395 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/input_CheckboxSurvey"))
+2026-07-22 13:49:17.152 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Status"), "0", false)
+2026-07-22 13:49:17.913 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 17: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Action"), "0", false)
+2026-07-22 13:49:18.441 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 18: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_b3-l2-316_3-b10-TextArea_Catatan"), "testing")
+2026-07-22 13:49:19.051 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 19: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Submit"))
+2026-07-22 13:49:19.581 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 20: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_Status_TAB_Survey"), "0", false)
+2026-07-22 13:49:19.581 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_Status_TAB_Survey"), "0", false)
+2026-07-22 13:49:19.581 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 21: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_Catatan_TAB_Survey"), "Okay survei sudah dilakukan, saya approved dan akan tindak lanjut")
+2026-07-22 13:49:19.581 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_Catatan_TAB_Survey"), "Okay survei sudah dilakukan, saya approved dan akan tindak lanjut")
+2026-07-22 13:49:19.581 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 22: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_SubmitTAB_SurveyWeb"))
+2026-07-22 13:49:19.586 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_SubmitTAB_SurveyWeb"))
+2026-07-22 13:49:19.586 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 23: delay(5)
+2026-07-22 13:49:24.603 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 24: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown3"), "1", false)
+2026-07-22 13:49:24.603 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown3"), "1", false)
+2026-07-22 13:49:24.605 DEBUG t.SPV-RBU-Persetujuan-Before-Survey      - 25: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_search"))
+2026-07-22 13:49:24.605 WARN  t.SPV-RBU-Persetujuan-Before-Survey      - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_search"))
+2026-07-22 13:49:24.606 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Persetujuan-Before-Survey
+2026-07-22 13:49:24.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:49:24.608 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-MRBU-Survey-Submit-Task
+2026-07-22 13:49:24.679 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/Mobile/Staff-MRBU - Pandu"), [:], STOP_ON_FAILURE)
+2026-07-22 13:49:24.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:49:24.742 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MRBU - Pandu
+2026-07-22 13:49:24.789 DEBUG testcase.Staff-MRBU - Pandu              - 1: openBrowser("https://sakti-test.csulfinance.com/CSUL_RCU_MOBILE/Login")
+2026-07-22 13:49:24.789 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:49:25.243 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:49:25.245 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:49:26.147 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 89359add0af5ba4f791fbcc0e9a69823
+2026-07-22 13:49:26.149 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:49:26.150 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:49:26.151 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:49:26.152 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:49:26.662 DEBUG testcase.Staff-MRBU - Pandu              - 2: setText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Username"), "pandu.sastra")
+2026-07-22 13:49:32.882 DEBUG testcase.Staff-MRBU - Pandu              - 3: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:49:33.220 DEBUG testcase.Staff-MRBU - Pandu              - 4: delay(10)
+2026-07-22 13:49:43.229 DEBUG testcase.Staff-MRBU - Pandu              - 5: click(findTestObject("Pilar 1/Login/UAT/Mobile/Page_Login/button_Log In"))
+2026-07-22 13:49:43.535 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/Mobile/Staff-MRBU - Pandu
+2026-07-22 13:49:43.535 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:49:43.537 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 2: waitForElementVisible(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_Home/div_HomeStaff"), 5)
+2026-07-22 13:49:48.789 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_Home/span_Survey Kunjungan"))
+2026-07-22 13:49:51.015 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 4: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjungan/input_Input_TextSearch"), "11102003346")
+2026-07-22 13:49:53.468 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 5: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjungan/i_icon_Search"))
+2026-07-22 13:49:53.785 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 6: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjungan/div_SURVEY KUNJUNGANCBU_P1.1_07_26_007"))
+2026-07-22 13:49:56.063 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 7: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjunganDetail/button_Start Survey"))
+2026-07-22 13:49:57.535 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 8: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjunganDetail/button_Lanjutkan Survey"))
+2026-07-22 13:49:57.536 WARN  testcase.Staff-MRBU-Survey-Submit-Task   - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjunganDetail/button_Lanjutkan Survey"))
+2026-07-22 13:49:57.536 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyAppointment/input_Checklist_Data_Confins"))
+2026-07-22 13:50:01.927 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyAppointment/button_Survey"))
+2026-07-22 13:50:02.430 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Accordion_SumberInformasi"))
+2026-07-22 13:50:04.289 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 12: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Nama Sumber Informasi 1 __1"), "Aurel")
+2026-07-22 13:50:04.936 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 13: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Hubungan sumber informasi 1 dengan custom"), "0", false)
+2026-07-22 13:50:05.515 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Ya"))
+2026-07-22 13:50:06.132 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 15: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Nama Sumber Informasi 2 _"), "Mira")
+2026-07-22 13:50:06.834 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Hubungan sumber informasi 2 dengan custom"), "1", false)
+2026-07-22 13:50:07.362 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 17: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Ya_1"))
+2026-07-22 13:50:07.813 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 18: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Nama Sumber Informasi 3 _"), "Tio")
+2026-07-22 13:50:08.710 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 19: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Hubungan sumber informasi 3 dengan custom"), "9", false)
+2026-07-22 13:50:09.234 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 20: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Ya_2"))
+2026-07-22 13:50:09.970 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 21: delay(3)
+2026-07-22 13:50:12.983 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 22: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Accordion_FotoKunjungan"))
+2026-07-22 13:50:13.283 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 23: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Ambil Foto_1"))
+2026-07-22 13:50:13.619 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 24: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Kamera1"))
+2026-07-22 13:50:13.944 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 25: switchToWindowTitle("SurveyQuestionAnswer")
+2026-07-22 13:50:13.992 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 26: delay(5)
+2026-07-22 13:50:19.007 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 27: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Sesuai"))
+2026-07-22 13:50:20.191 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 28: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Ambil Foto_2"))
+2026-07-22 13:50:20.810 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 29: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Kamera2"))
+2026-07-22 13:50:21.262 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 30: delay(5)
+2026-07-22 13:50:26.268 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 31: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Tidak Sesuai"))
+2026-07-22 13:50:26.604 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 32: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Ambil Foto_3"))
+2026-07-22 13:50:27.264 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 33: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Kamera3"))
+2026-07-22 13:50:27.617 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 34: delay(5)
+2026-07-22 13:50:32.630 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 35: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Sesuai_1"))
+2026-07-22 13:50:32.950 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 36: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Ambil Foto_4"))
+2026-07-22 13:50:33.598 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 37: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Kamera4"))
+2026-07-22 13:50:33.928 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 38: delay(5)
+2026-07-22 13:50:38.941 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 39: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Tidak Sesuai_1"))
+2026-07-22 13:50:39.269 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 40: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Ambil Foto_5"))
+2026-07-22 13:50:39.977 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 41: delay(5)
+2026-07-22 13:50:44.981 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 42: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Sesuai_2"))
+2026-07-22 13:50:45.295 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 43: delay(3)
+2026-07-22 13:50:48.304 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 44: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/div_Accordion_HasilKunjungan"))
+2026-07-22 13:50:48.609 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 45: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Sesuai_Alamat"))
+2026-07-22 13:50:48.966 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 46: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Sesuai_Telepon"))
+2026-07-22 13:50:49.612 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 47: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Jumlah Karyawan_Pekerja"), "2", false)
+2026-07-22 13:50:50.379 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 48: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Kondisi_Aktivitas"), "0", false)
+2026-07-22 13:50:51.128 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 49: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Kondisi Jalan"), "0", false)
+2026-07-22 13:50:51.877 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 50: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Akses Jalan_1"), "1", false)
+2026-07-22 13:50:52.634 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 51: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Bentuk Bangunan_1"), "4", false)
+2026-07-22 13:50:53.502 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 52: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/input_Lama Usaha_Kerja - RBU"), "5 tahun")
+2026-07-22 13:50:54.442 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 53: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Status Kepemilikan __1"), "1", false)
+2026-07-22 13:50:54.985 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 54: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/textarea_Catatan Hasil Survey_1"), "Tidak sesuai")
+2026-07-22 13:50:56.074 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 55: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/select_Kategori Temuan_1"), "1", false)
+2026-07-22 13:50:56.824 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 56: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/button_Draft_RBU"))
+2026-07-22 13:50:56.825 WARN  testcase.Staff-MRBU-Survey-Submit-Task   - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/button_Draft_RBU"))
+2026-07-22 13:50:56.826 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 57: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/button_Submit_RBU"))
+2026-07-22 13:50:57.351 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 58: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyQuestionAnswer/button_Submit_PopUpRBU"))
+2026-07-22 13:50:57.737 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 59: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjunganDetail/button_SubmitAfter_AllTask"))
+2026-07-22 13:51:00.603 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 60: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjungan/input_Input_TextSearch"), "11102003346")
+2026-07-22 13:51:02.466 DEBUG testcase.Staff-MRBU-Survey-Submit-Task   - 61: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/Staff-MCBU-Survey-Submit-Task/Page_SurveyKunjungan/i_icon_Search"))
+2026-07-22 13:51:02.757 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/Staff-MRBU-Survey-Submit-Task
+2026-07-22 13:51:02.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:51:02.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Persetujuan-After-Survey
+2026-07-22 13:51:02.834 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:51:02.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:51:02.896 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:51:02.908 DEBUG testcase.SPV-RBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:51:02.908 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:51:03.404 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:51:03.406 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:51:04.410 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4d14c337b7d4a5476f0adca3bdf7e2e0
+2026-07-22 13:51:04.410 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:51:04.410 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:51:04.411 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:51:04.411 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:51:05.501 DEBUG testcase.SPV-RBU                         - 2: maximizeWindow()
+2026-07-22 13:51:05.574 DEBUG testcase.SPV-RBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:51:09.410 DEBUG testcase.SPV-RBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga")
+2026-07-22 13:51:10.064 DEBUG testcase.SPV-RBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:51:10.601 DEBUG testcase.SPV-RBU                         - 6: delay(20)
+2026-07-22 13:51:30.614 DEBUG testcase.SPV-RBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:51:30.940 DEBUG testcase.SPV-RBU                         - 8: delay(5)
+2026-07-22 13:51:35.958 DEBUG testcase.SPV-RBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:51:36.564 DEBUG testcase.SPV-RBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:51:36.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:51:36.952 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:51:36.955 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b3-SubMenuHeader"))
+2026-07-22 13:51:40.652 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/div_b2-l1-17_9-b4-l1-35_4-b1-SubMenuHeader"))
+2026-07-22 13:51:41.224 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:51:41.512 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/input_b3-b1-Input_StartDate"), "22-07-2026")
+2026-07-22 13:51:44.697 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/input_b3-b1-Input_StartDate2"), "22-07-2026")
+2026-07-22 13:51:45.259 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown1"), "4", false)
+2026-07-22 13:51:45.788 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown3"), "0", false)
+2026-07-22 13:51:46.301 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_search"))
+2026-07-22 13:51:46.622 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_Persetujuan"))
+2026-07-22 13:51:47.360 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:51:54.853 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:51:55.679 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 13: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next"))
+2026-07-22 13:51:56.635 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 14: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Next_GoToTAB_Survey"))
+2026-07-22 13:51:57.530 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/input_CheckboxSurvey"))
+2026-07-22 13:51:57.530 WARN  t.SPV-RBU-Persetujuan-After-Survey       - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/input_CheckboxSurvey"))
+2026-07-22 13:51:57.534 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 16: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Status"), "0", false)
+2026-07-22 13:51:57.534 WARN  t.SPV-RBU-Persetujuan-After-Survey       - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Status"), "0", false)
+2026-07-22 13:51:57.534 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 17: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Action"), "0", false)
+2026-07-22 13:51:57.534 WARN  t.SPV-RBU-Persetujuan-After-Survey       - SKIPPED NOT_RUN: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_b3-l2-316_3-b10-Action"), "0", false)
+2026-07-22 13:51:57.534 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 18: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_b3-l2-316_3-b10-TextArea_Catatan"), "testing")
+2026-07-22 13:51:57.534 WARN  t.SPV-RBU-Persetujuan-After-Survey       - SKIPPED NOT_RUN: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_b3-l2-316_3-b10-TextArea_Catatan"), "testing")
+2026-07-22 13:51:57.534 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 19: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Submit"))
+2026-07-22 13:51:57.538 WARN  t.SPV-RBU-Persetujuan-After-Survey       - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_Submit"))
+2026-07-22 13:51:57.540 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 20: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/select_Status_TAB_Survey"), "0", false)
+2026-07-22 13:51:58.426 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 21: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/textarea_Catatan_TAB_Survey"), "Okay survei sudah dilakukan, saya approved dan akan tindak lanjut")
+2026-07-22 13:51:59.143 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 22: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKreditDetail/button_SubmitTAB_SurveyWeb"))
+2026-07-22 13:51:59.725 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 23: delay(5)
+2026-07-22 13:52:04.745 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 24: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/select_b3-b1-Dropdown3"), "1", false)
+2026-07-22 13:52:07.255 DEBUG t.SPV-RBU-Persetujuan-After-Survey       - 25: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Persetujuan/Page_ApprovalKelengkapanKredit/button_search"))
+2026-07-22 13:52:07.558 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Persetujuan-After-Survey
+2026-07-22 13:52:07.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:52:07.564 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Assign-PIC
+2026-07-22 13:52:07.656 DEBUG testcase.SPV-RBU-Assign-PIC              - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:52:07.718 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:52:07.718 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:52:07.729 DEBUG testcase.SPV-RBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:52:07.729 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:52:08.102 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:52:08.103 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:52:08.989 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7c69709f599c99f97080a3c3c3df1cb0
+2026-07-22 13:52:08.990 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:52:08.991 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:52:08.991 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:52:08.991 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:52:10.133 DEBUG testcase.SPV-RBU                         - 2: maximizeWindow()
+2026-07-22 13:52:10.214 DEBUG testcase.SPV-RBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:52:13.779 DEBUG testcase.SPV-RBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga")
+2026-07-22 13:52:14.427 DEBUG testcase.SPV-RBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:52:14.964 DEBUG testcase.SPV-RBU                         - 6: delay(20)
+2026-07-22 13:52:34.981 DEBUG testcase.SPV-RBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:52:35.278 DEBUG testcase.SPV-RBU                         - 8: delay(5)
+2026-07-22 13:52:40.286 DEBUG testcase.SPV-RBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:52:42.699 DEBUG testcase.SPV-RBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:52:43.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:52:43.412 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:52:43.412 DEBUG testcase.SPV-RBU-Assign-PIC              - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-16_10-b3-SubMenuHeader"))
+2026-07-22 13:52:47.464 DEBUG testcase.SPV-RBU-Assign-PIC              - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-16_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-22 13:52:48.002 DEBUG testcase.SPV-RBU-Assign-PIC              - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:52:48.321 DEBUG testcase.SPV-RBU-Assign-PIC              - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate3"), "22-07-2026")
+2026-07-22 13:52:51.791 DEBUG testcase.SPV-RBU-Assign-PIC              - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate4"), "22-07-2026")
+2026-07-22 13:52:52.374 DEBUG testcase.SPV-RBU-Assign-PIC              - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/select_b3-b2-b1-Dropdown2"), "4", false)
+2026-07-22 13:52:52.912 DEBUG testcase.SPV-RBU-Assign-PIC              - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/select_b3-b2-b1-Dropdown5"), "0", false)
+2026-07-22 13:52:53.437 DEBUG testcase.SPV-RBU-Assign-PIC              - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/button_Cari"))
+2026-07-22 13:52:53.728 DEBUG testcase.SPV-RBU-Assign-PIC              - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/button_Tindak Lanjut"))
+2026-07-22 13:52:54.476 DEBUG testcase.SPV-RBU-Assign-PIC              - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/checkbox_1"))
+2026-07-22 13:52:57.375 DEBUG testcase.SPV-RBU-Assign-PIC              - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/button_Kirim Tindak Lanjut"))
+2026-07-22 13:52:57.919 DEBUG testcase.SPV-RBU-Assign-PIC              - 13: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/input_b3-b1-b8-b2-NamaKaryawan"), "Fatimah AZ")
+2026-07-22 13:52:58.836 DEBUG testcase.SPV-RBU-Assign-PIC              - 14: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/input_b3-b1-b8-b2-Jabatan"), "IT Business Partner")
+2026-07-22 13:52:59.450 DEBUG testcase.SPV-RBU-Assign-PIC              - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/button_Cari"))
+2026-07-22 13:52:59.767 DEBUG testcase.SPV-RBU-Assign-PIC              - 16: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/input_b3-b1-b8-l1_0-491_0-IsPICUtama"))
+2026-07-22 13:53:00.626 DEBUG testcase.SPV-RBU-Assign-PIC              - 17: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/button_Kirim Tindak Lanjut_After_Check_PICUTAMA"))
+2026-07-22 13:53:01.150 DEBUG testcase.SPV-RBU-Assign-PIC              - 18: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjutDetail/button_Kirim Tindak Lanjut_Popup"))
+2026-07-22 13:53:01.697 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Assign-PIC
+2026-07-22 13:53:01.704 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:53:01.704 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut
+2026-07-22 13:53:01.710 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Lorem = C:\Users\PPU\Downloads\Tester File\Lorem1_PDF.pdf
+2026-07-22 13:53:01.791 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/PIC-Fatimah"), [:], STOP_ON_FAILURE)
+2026-07-22 13:53:01.884 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:53:01.884 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/PIC-Fatimah
+2026-07-22 13:53:01.943 DEBUG testcase.PIC-Fatimah                     - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:53:01.945 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:53:02.417 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:53:02.421 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:53:03.328 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8c3a19403a934908feb4d9824fc9d701
+2026-07-22 13:53:03.329 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:53:03.329 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:53:03.329 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:53:03.330 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:53:04.137 DEBUG testcase.PIC-Fatimah                     - 2: maximizeWindow()
+2026-07-22 13:53:04.217 DEBUG testcase.PIC-Fatimah                     - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:53:07.527 DEBUG testcase.PIC-Fatimah                     - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "fatimah.zahra")
+2026-07-22 13:53:08.170 DEBUG testcase.PIC-Fatimah                     - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:53:08.712 DEBUG testcase.PIC-Fatimah                     - 6: delay(20)
+2026-07-22 13:53:28.715 DEBUG testcase.PIC-Fatimah                     - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:53:29.014 DEBUG testcase.PIC-Fatimah                     - 8: delay(5)
+2026-07-22 13:53:34.026 DEBUG testcase.PIC-Fatimah                     - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:53:34.733 DEBUG testcase.PIC-Fatimah                     - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:53:35.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/PIC-Fatimah
+2026-07-22 13:53:35.117 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:53:35.117 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_1-b3-SubMenuHeader"))
+2026-07-22 13:53:38.069 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_Dashboard/div_b2-l1-16_1-b4-l1-22_4-b1-SubMenuHeader"))
+2026-07-22 13:53:38.613 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:53:38.920 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 5: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/select_b3-b1-b1-BisnisUnit"), "1", false)
+2026-07-22 13:53:41.643 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 6: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/select_b3-b1-b1-Dropdown1"), "4", false)
+2026-07-22 13:53:42.748 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/select_b3-b1-b1-Dropdown3"), "0", false)
+2026-07-22 13:53:43.276 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 8: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/button_Cari"))
+2026-07-22 13:53:43.596 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/button_Tindak Lanjut"))
+2026-07-22 13:53:44.458 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 10: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/input_b3-b2-l3-187_0-l3-188_0-b5-l5_0-189_0-Input"), "31-07-2026")
+2026-07-22 13:53:47.957 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 11: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/textarea_b3-b2-l3-187_0-l3-188_0-b5-l5_0-189_0-T"), "testing")
+2026-07-22 13:53:48.566 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Unggah"))
+2026-07-22 13:53:49.087 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 13: delay(7)
+2026-07-22 13:53:56.093 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 14: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/div_b3-b2-l3-187_0-l3-188_0-b5-b3-dropzone"), Lorem)
+2026-07-22 13:53:56.093 WARN  testcase.PIC-RBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: uploadFile(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/div_b3-b2-l3-187_0-l3-188_0-b5-b3-dropzone"), Lorem)
+2026-07-22 13:53:56.093 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Upload"))
+2026-07-22 13:53:56.093 WARN  testcase.PIC-RBU-Submit-Tindak-Lanjut    - SKIPPED NOT_RUN: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Upload"))
+2026-07-22 13:53:56.093 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 16: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjutDetail/button_Submit"))
+2026-07-22 13:53:56.398 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 17: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/select_b3-b1-b1-Dropdown3"), "2", false)
+2026-07-22 13:53:58.287 DEBUG testcase.PIC-RBU-Submit-Tindak-Lanjut    - 18: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/PIC-CBU-Submit-Task/Page_TindakLanjut/button_Cari"))
+2026-07-22 13:53:58.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/PIC-RBU-Submit-Tindak-Lanjut
+2026-07-22 13:53:58.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:53:58.565 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut
+2026-07-22 13:53:58.628 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 1: callTestCase(findTestCase("Pilar 1/Login/UAT/SPV-RBU"), [:], STOP_ON_FAILURE)
+2026-07-22 13:53:58.689 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:53:58.689 INFO  c.k.katalon.core.main.TestCaseExecutor   - CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:53:58.698 DEBUG testcase.SPV-RBU                         - 1: openBrowser("https://sakti-test.csulfinance.com/CSULFoundation_Login/Login")
+2026-07-22 13:53:58.698 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-07-22 13:53:59.136 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-07-22 13:53:59.138 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+2026-07-22 13:54:00.103 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7837351d2bb4ed639574c8ef9c578829
+2026-07-22 13:54:00.103 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 150.0.7871.129
+2026-07-22 13:54:00.104 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-07-22 13:54:00.104 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-07-22 13:54:00.104 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-07-22 13:54:01.401 DEBUG testcase.SPV-RBU                         - 2: maximizeWindow()
+2026-07-22 13:54:01.462 DEBUG testcase.SPV-RBU                         - 3: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), 10)
+2026-07-22 13:54:05.188 DEBUG testcase.SPV-RBU                         - 4: setText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Username"), "taufan.minangga")
+2026-07-22 13:54:05.837 DEBUG testcase.SPV-RBU                         - 5: setEncryptedText(findTestObject("Pilar 1/Login/UAT/Page_Login/input_Password"), "DKZg8gTnVzw=")
+2026-07-22 13:54:06.391 DEBUG testcase.SPV-RBU                         - 6: delay(20)
+2026-07-22 13:54:26.405 DEBUG testcase.SPV-RBU                         - 7: click(findTestObject("Pilar 1/Login/UAT/Page_Login/button_Login"))
+2026-07-22 13:54:26.714 DEBUG testcase.SPV-RBU                         - 8: delay(5)
+2026-07-22 13:54:31.718 DEBUG testcase.SPV-RBU                         - 9: waitForElementVisible(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"), 10)
+2026-07-22 13:54:33.311 DEBUG testcase.SPV-RBU                         - 10: doubleClick(findTestObject("Pilar 1/Login/UAT/Page_Login/Page_ApplicationsCatalog/span_Risk Control Unit Application"))
+2026-07-22 13:54:33.715 INFO  c.k.katalon.core.main.TestCaseExecutor   - END CALL Test Cases/Pilar 1/Login/UAT/SPV-RBU
+2026-07-22 13:54:33.715 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-07-22 13:54:33.719 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 2: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-16_10-b3-SubMenuHeader"))
+2026-07-22 13:54:37.820 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 3: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/div_b2-l1-16_10-b4-l1-44_4-b1-SubMenuHeader"))
+2026-07-22 13:54:38.350 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 4: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_Dashboard/a_Dokumen Golive"))
+2026-07-22 13:54:38.646 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 5: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate3"), "22-07-2026")
+2026-07-22 13:54:41.692 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 6: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/input_b3-b2-b1-Input_StartDate4"), "22-07-2026")
+2026-07-22 13:54:42.246 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 7: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/select_b3-b2-b1-Dropdown2"), "4", false)
+2026-07-22 13:54:42.764 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 8: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/select_b3-b2-b1-Dropdown5"), "2", false)
+2026-07-22 13:54:43.260 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 9: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/button_Cari"))
+2026-07-22 13:54:43.568 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 10: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Assign-PIC/Page_TindakLanjut/button_Tindak Lanjut"))
+2026-07-22 13:54:44.460 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 11: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDetail/button_Tindak Lanjut"))
+2026-07-22 13:54:47.338 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 12: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetail/button_Lihat Dokumen"))
+2026-07-22 13:54:49.647 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 13: selectOptionByValue(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetail/select_b3-l1-787_0-b2-TindakLanjutStatus"), "0", false)
+2026-07-22 13:54:50.712 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 14: setText(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetail/textarea_b3-l1-787_0-b2-TextArea_HasilCatatan"), "testing")
+2026-07-22 13:54:51.296 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 15: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDocumentDetail/button_Submit"))
+2026-07-22 13:54:51.824 DEBUG testcase.SPV-RBU-Submit-Tindak-Lanjut    - 16: click(findTestObject("Pilar 1/Dokumen Go Live/UAT/CBU/SPV-CBU-Submit-Tindak-Lanjut/Page_TindakLanjutDetail/button_Tindak Lanjut"))
+2026-07-22 13:54:57.710 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Pilar 1/Dokumen Go Live/UAT/RBU/SPV-RBU-Submit-Tindak-Lanjut
+2026-07-22 13:54:58.161 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-07-22 13:54:58.161 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/Pilar 1/UAT/Dokumen Go Live/Dokumen Go Live - RBU
+2026-07-22 13:54:58.163 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

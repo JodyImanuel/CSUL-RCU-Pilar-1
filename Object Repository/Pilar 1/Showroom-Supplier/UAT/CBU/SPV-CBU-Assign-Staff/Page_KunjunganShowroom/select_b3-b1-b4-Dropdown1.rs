@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-b1-b4-Dropdown1</name>
+   <tag></tag>
+   <elementGuidId>215b189f-edbf-4311-84d5-e2a0c8458a5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[2]/div/div/div/div/div/div/div[2]/div/select</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.margin-bottom-m:nth-child(2) .dropdown</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5dd2f35c-acf8-4653-b86a-8a6ecf139020</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>c1444473-27c4-4a7d-b5bc-1023a8aa3171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>bef4808d-1908-4c22-bb7a-f3bfaf7e0187</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-b4-Dropdown1</value>
+      <webElementGuid>e0e452ec-e85a-41ce-8281-68e8ce1dc9b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY</value>
+      <webElementGuid>3481cf67-6e08-417d-ab07-dc4e73b03a99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-006ca02121f0f96b4928de069c9fde03</value>
+      <webElementGuid>17cee2ea-1ee0-4a15-951a-2490a175c3c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-m ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ')]</value>
+      <webElementGuid>77d8db3e-3951-4fd1-999e-f55433162a60</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' margin-bottom-m ') and (position() = 2)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' dropdown ')]</value>
+      <webElementGuid>b69393aa-c525-4519-887c-d24116aa0f2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-b1-b4-Dropdown1' and (text() = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY' or . = 'Select StaffIQBAL PUTRA TAWAKALGIANDI EGHY GILRANDY')]</value>
+      <webElementGuid>28308aea-6246-4717-b0dc-3c3d894e6d8f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

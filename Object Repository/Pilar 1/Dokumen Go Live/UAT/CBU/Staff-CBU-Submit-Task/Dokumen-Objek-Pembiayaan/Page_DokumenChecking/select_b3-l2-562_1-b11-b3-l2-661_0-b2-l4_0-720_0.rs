@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720_0</name>
+   <tag></tag>
+   <elementGuidId>ba06b1f5-4f7a-470a-87dc-ca7d5fc55dbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Keberadaan')]//*[@required = '']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.table-row-m[data-header=&quot;Keberadaan&quot;] [required=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>3e38adec-0086-4f5a-b743-07faa9b494b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-display dropdown</value>
+      <webElementGuid>fa2cf590-89c5-44cf-864b-76909500f3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-disabled</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>511328d8-328f-4d94-ad4d-5cee9d86d465</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720_0-Keberadaan</value>
+      <webElementGuid>65c7b372-2618-49f6-8fea-8d1f47481473</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select a categoryAdaTidak Ada</value>
+      <webElementGuid>1a01ecf0-0032-40cf-b059-db564daa0329</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c65b98fd4926344b33e5146d5d483e97</value>
+      <webElementGuid>73f2b73c-038b-41ee-9711-310d1a676097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Keberadaan')]//*[@required = '']</value>
+      <webElementGuid>efe73e41-b91a-4ab1-af59-852fc29f71cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' table-row-m ') and (@data-header = 'Keberadaan')]//*[@required = '']</value>
+      <webElementGuid>a81c8510-4948-4704-b954-6c4b61c8c1aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'b3-l2-562_1-b11-b3-l2-661_0-b2-l4_0-720_0-Keberadaan' and (text() = 'Select a categoryAdaTidak Ada' or . = 'Select a categoryAdaTidak Ada')]</value>
+      <webElementGuid>17c130e2-6af0-4126-a2f1-97bda0b5680b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

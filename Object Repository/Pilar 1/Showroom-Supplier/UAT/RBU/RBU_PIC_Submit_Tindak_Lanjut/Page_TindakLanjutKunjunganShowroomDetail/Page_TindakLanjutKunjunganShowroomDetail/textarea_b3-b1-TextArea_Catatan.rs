@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>textarea_b3-b1-TextArea_Catatan</name>
+   <tag></tag>
+   <elementGuidId>07b953d0-9798-4738-bb7b-2369608ee046</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ') and (@required = '')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>textarea.form-control.text-area-custom[required=&quot;&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>textarea</value>
+      <webElementGuid>f67efb7f-cd72-4e4d-9576-3689566e0869</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-area-custom ThemeGrid_Width6</value>
+      <webElementGuid>453da45d-4bf1-4cba-b5f6-abd5efbac69c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>3a9ee2cd-8712-40c6-b6ae-668850474d7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>500</value>
+      <webElementGuid>0ffe09ec-0565-42b3-81b5-e68939823884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>b3-b1-TextArea_Catatan</value>
+      <webElementGuid>44726ba4-c734-4eb4-9c8d-a37eb38ea149</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-cffb579df34f70ee33e590d94a47dbb2</value>
+      <webElementGuid>cb7c474a-0859-4849-81ad-7570b44175c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ') and (@required = '')]</value>
+      <webElementGuid>2f2ac035-f19f-4fff-8e27-1e6adc839a17</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//textarea[@class and contains(concat(' ', normalize-space(@class), ' '), ' form-control ') and contains(concat(' ', normalize-space(@class), ' '), ' text-area-custom ') and (@required = '')]</value>
+      <webElementGuid>dfb62bf3-09c1-4dea-b942-b8d5e186f5bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//textarea[@id = 'b3-b1-TextArea_Catatan']</value>
+      <webElementGuid>b3714433-c721-4448-9427-d143d3174151</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
